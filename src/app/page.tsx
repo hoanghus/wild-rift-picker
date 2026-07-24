@@ -1,168 +1,137 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useState, useMemo, useRef, useEffect, useCallback } from "react"
 import championsData from "@/data/champions.json"
 import tiersData from "@/data/tiers.json"
 import countersData from "@/data/counters.json"
 import synergiesData from "@/data/synergies.json"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
-import { Search, Shield, Swords, Users, Zap, ArrowUpDown, ChevronRight } from "lucide-react"
+import { ScrollArea } from "@/components/ui/scroll-area"
+import { Search, Swords, Users, Zap, ArrowUpDown, X, Shield, ChevronRight, ExternalLink } from "lucide-react"
 
-type Champion = {
-  id: string | number
-  name: string
-  slug: string
-  icon: string
-  tier: string
-  lanes: string[]
-  roles: string[]
-}
+type Champion = { id: string | number; name: string; slug: string; icon: string; tier: string; lanes: string[]; roles: string[]; win_rate?: number }
+type TierInfo = { overall: string; by_role: Record<string, string>; win_rate?: number }
+type CounterInfo = { strong_against: string[]; weak_against: string[] }
+type SynergyInfo = { with: string; description: string; type: string }
+type ViewMode = "tierlist" | "counter" | "synergy" | "draft"
 
-type TierInfo = {
-  overall: string
-  by_role: Record<string, string>
+const LANES = ["baron", "jungle", "mid", "adc", "support"] as const
+const LANE_CONFIG: Record<string, { label: string; icon: string }> = {
+  baron: { label: "Baron", icon: "🛡️" },
+  jungle: { label: "Jungle", icon: "🌿" },
+  mid: { label: "Mid", icon: "⚡" },
+  adc: { label: "ADC", icon: "🎯" },
+  support: { label: "Supp", icon: "💎" },
 }
-
-type CounterInfo = {
-  strong_against: string[]
-  weak_against: string[]
-}
-
-type SynergyInfo = {
-  with: string
-  description: string
-  type: string
-}
-
-const LANE_CONFIG: Record<string, { label: string; color: string; icon: string }> = {
-  baron: { label: "Baron", color: "bg-red-500/10 text-red-500 border-red-500/20", icon: "🛡️" },
-  jungle: { label: "Jungle", color: "bg-green-500/10 text-green-500 border-green-500/20", icon: "🌿" },
-  mid: { label: "Mid", color: "bg-blue-500/10 text-blue-500 border-blue-500/20", icon: "⚡" },
-  adc: { label: "ADC", color: "bg-yellow-500/10 text-yellow-500 border-yellow-500/20", icon: "🎯" },
-  support: { label: "Support", color: "bg-purple-500/10 text-purple-500 border-purple-500/20", icon: "💎" },
-}
-
-const TIER_COLORS: Record<string, string> = {
-  "S+": "text-orange-400",
-  "S": "text-red-400",
-  "A": "text-green-400",
-  "B": "text-blue-400",
-  "C": "text-gray-400",
-}
+const TIER_LABELS = ["S+", "S", "A", "B", "C"] as const
+const TIER_COLORS: Record<string, string> = { "S+": "border-tier-s\\+", "S": "border-tier-s", "A": "border-tier-a", "B": "border-tier-b", "C": "border-tier-c" }
+const TIER_TEXT: Record<string, string> = { "S+": "text-red-400", "S": "text-orange-400", "A": "text-green-400", "B": "text-blue-400", "C": "text-gray-500" }
 
 const champions = championsData as Champion[]
 const tiers = tiersData as { patch: string; champions: Record<string, TierInfo> }
 const counters = countersData as Record<string, CounterInfo>
 const synergies = synergiesData as Record<string, { synergies: SynergyInfo[] }>
 
-function ChampionIcon({ champion, size = "md", showTier = true }: { champion: Champion; size?: string; showTier?: boolean }) {
-  const sizeMap: Record<string, string> = { sm: "w-12 h-12", md: "w-16 h-16", lg: "w-20 h-20" }
+function ChampionCard({ champion, size = 64, showName = true, selected = false, onClick }: { champion: Champion; size?: number; showName?: boolean; selected?: boolean; onClick?: () => void }) {
   const tierInfo = tiers.champions[champion.slug]
+  const tier = tierInfo?.overall || "B"
+  const borderClass = TIER_COLORS[tier] || "border-tier-b"
+  const imgSrc = `/champions/${champion.slug}.webp`
+
   return (
-    <div className={`relative flex flex-col items-center gap-1 group cursor-pointer`}>
-      <div className={`${sizeMap[size]} rounded-xl overflow-hidden border-2 border-zinc-700/50 group-hover:border-zinc-500 transition-all duration-200 group-hover:scale-105`}>
-        <img src={champion.icon} alt={champion.name} className="w-full h-full object-cover" onError={(e) => {
-          (e.target as HTMLImageElement).src = `https://cdn.communitydragon.org/latest/champion/${champion.slug}/tile.jpg`
-        }} />
+    <div className={`flex flex-col items-center gap-0.5 cursor-pointer transition-all duration-150 ${selected ? 'scale-110' : 'hover:scale-105'}`} onClick={onClick}>
+      <div
+        className={`rounded-lg overflow-hidden border-2 relative ${borderClass} ${selected ? 'ring-2 ring-yellow-400 ring-offset-2 ring-offset-[#0a0a0f]' : ''}`}
+        style={{ width: size, height: size }}
+      >
+        <img
+          src={imgSrc}
+          alt={champion.name}
+          className="w-full h-full object-cover"
+          onError={(e) => {
+            (e.target as HTMLImageElement).src = `https://cdn.communitydragon.org/latest/champion/${champion.slug}/tile.jpg`
+          }}
+        />
+        <div className="absolute top-0 right-0 bg-black/70 px-1 text-[9px] font-bold leading-tight" style={{ color: TIER_TEXT[tier]?.replace("text-", "") || '#999' }}>
+          {tier}
+        </div>
       </div>
-      {showTier && tierInfo && (
-        <span className={`text-xs font-bold ${TIER_COLORS[tierInfo.overall] || "text-gray-400"}`}>
-          {tierInfo.overall}
-        </span>
-      )}
-      <span className="text-[10px] text-zinc-400 text-center leading-tight max-w-[72px] truncate">{champion.name}</span>
+      {showName && <span className="text-[10px] text-[#a09b8c] text-center leading-tight truncate max-w-[68px]">{champion.name}</span>}
     </div>
   )
 }
 
-function ChampionGrid({
-  champions,
-  selected,
-  onSelect,
-  tierFilter,
-  laneFilter,
-  searchQuery,
-  multiSelect = false
-}: {
-  champions: Champion[]
-  selected?: string[] | string | null
-  onSelect?: (slug: string) => void
-  tierFilter?: string
-  laneFilter?: string
-  searchQuery?: string
-  multiSelect?: boolean
-}) {
-  const filtered = useMemo(() => {
-    return champions.filter(c => {
-      if (laneFilter && laneFilter !== "all" && !c.lanes.includes(laneFilter)) return false
-      if (tierFilter && tierFilter !== "all" && tiers.champions[c.slug]?.overall !== tierFilter) return false
-      if (searchQuery) {
-        const q = searchQuery.toLowerCase()
-        if (!c.name.toLowerCase().includes(q) && !c.slug.toLowerCase().includes(q)) return false
-      }
-      return true
-    })
-  }, [champions, laneFilter, tierFilter, searchQuery])
-
-  const isSelected = (slug: string) => {
-    if (multiSelect && Array.isArray(selected)) return selected.includes(slug)
-    return selected === slug
-  }
-
+function LaneButton({ lane, active, onClick }: { lane: string; active: boolean; onClick: () => void }) {
+  const cfg = LANE_CONFIG[lane]
   return (
-    <div className="grid grid-cols-6 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-12 gap-2">
-      {filtered.map(c => (
-        <div key={c.slug} onClick={() => onSelect?.(c.slug)}>
-          <div className={`relative ${isSelected(c.slug) ? 'ring-2 ring-yellow-400 rounded-xl' : ''}`}>
-            <ChampionIcon champion={c} size="sm" />
-            {isSelected(c.slug) && (
-              <div className="absolute -top-1 -right-1 w-4 h-4 bg-yellow-400 rounded-full flex items-center justify-center">
-                <span className="text-black text-[8px] font-bold">✓</span>
-              </div>
-            )}
-          </div>
-        </div>
-      ))}
-      {filtered.length === 0 && (
-        <div className="col-span-full text-center py-8 text-zinc-500">
-          Không tìm thấy tướng nào
-        </div>
-      )}
-    </div>
+    <button
+      onClick={onClick}
+      className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all border ${
+        active
+          ? 'bg-[#c8aa6e]/20 border-[#c8aa6e] text-[#f0e6d2] shadow-[0_0_8px_rgba(200,170,110,0.15)]'
+          : 'bg-[#1a1a2e] border-[#2a2a3e] text-[#7a7568] hover:border-[#c8aa6e]/50 hover:text-[#a09b8c]'
+      }`}
+    >
+      {cfg.icon} {cfg.label}
+    </button>
   )
-}
-
-function pickRandom<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)]
 }
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState("tierlist")
   const [searchQuery, setSearchQuery] = useState("")
-  const [laneFilter, setLaneFilter] = useState("all")
-  const [tierFilter, setTierFilter] = useState("all")
-  
+  const [selectedLane, setSelectedLane] = useState<string | null>(null)
+  const [viewMode, setViewMode] = useState<ViewMode>("tierlist")
+  const searchRef = useRef<HTMLInputElement>(null)
+
   // Counter pick state
   const [enemyChampion, setEnemyChampion] = useState<string | null>(null)
-  const [enemyLane, setEnemyLane] = useState("all")
-  
+  const [enemyLane, setEnemyLane] = useState<string>("all")
+
   // Synergy state
   const [teamPicks, setTeamPicks] = useState<string[]>([])
-  
-  // Draft assistant state
+  const [activeTab, setActiveTab] = useState("tierlist")
+
+  // Draft state
   const [myRole, setMyRole] = useState("mid")
   const [allyPicks, setAllyPicks] = useState<string[]>([])
   const [enemyPicks, setEnemyPicks] = useState<string[]>([])
 
+  // Auto-focus search
+  useEffect(() => { searchRef.current?.focus() }, [viewMode])
+
   const getChampion = (slug: string): Champion | undefined => champions.find(c => c.slug === slug)
 
-  // Get counter suggestions for a champion
+  const filteredChampions = useMemo(() => {
+    return champions.filter(c => {
+      if (selectedLane && !c.lanes.includes(selectedLane)) return false
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase().trim()
+        if (!c.name.toLowerCase().includes(q) && !c.slug.toLowerCase().includes(q)) return false
+      }
+      return true
+    })
+  }, [selectedLane, searchQuery])
+
+  const getTier = (slug: string): string => {
+    const info = tiers.champions[slug]
+    if (!info) return "B"
+    if (selectedLane && info.by_role[selectedLane]) return info.by_role[selectedLane]
+    return info.overall || "B"
+  }
+
+  const sortedByTier = useMemo(() => {
+    const order = ["S+", "S", "A", "B", "C"]
+    return [...filteredChampions].sort((a, b) => {
+      const tA = order.indexOf(getTier(a.slug))
+      const tB = order.indexOf(getTier(b.slug))
+      return tA - tB
+    })
+  }, [filteredChampions])
+
   const getCounters = (slug: string): { strong: Champion[]; weak: Champion[] } => {
     const c = counters[slug]
     if (!c) return { strong: [], weak: [] }
@@ -172,220 +141,226 @@ export default function Home() {
     }
   }
 
-  // Get synergy suggestions
   const getSynergies = (slugs: string[]): { champion: Champion; score: number; reasons: string[] }[] => {
     const scores: Record<string, { champion: Champion; score: number; reasons: string[] }> = {}
-    
-    // Check pair synergies
     for (let i = 0; i < slugs.length; i++) {
       for (let j = i + 1; j < slugs.length; j++) {
         const s1 = slugs[i], s2 = slugs[j]
-        const syn1 = synergies[s1]?.synergies || []
-        const syn2 = synergies[s2]?.synergies || []
-        
-        const match1 = syn1.find(s => s.with === s2)
-        const match2 = syn2.find(s => s.with === s1)
-        
-        if (match1 || match2) {
-          const desc = match1?.description || match2?.description || "Synergy pair"
-          if (!scores[s1]) {
-            const c = getChampion(s1)
-            if (c) scores[s1] = { champion: c, score: 0, reasons: [] }
-          }
-          if (!scores[s2]) {
-            const c = getChampion(s2)
-            if (c) scores[s2] = { champion: c, score: 0, reasons: [] }
-          }
-          if (scores[s1]) { scores[s1].score += 3; scores[s1].reasons.push(desc) }
-          if (scores[s2]) { scores[s2].score += 3; scores[s2].reasons.push(desc) }
+        const match = (synergies[s1]?.synergies || []).find(s => s.with === s2)
+        if (match) {
+          const c1 = getChampion(s1); const c2 = getChampion(s2)
+          if (c1 && !scores[s1]) scores[s1] = { champion: c1, score: 0, reasons: [] }
+          if (c2 && !scores[s2]) scores[s2] = { champion: c2, score: 0, reasons: [] }
+          if (scores[s1]) { scores[s1].score += 3; scores[s1].reasons.push(match.description) }
+          if (scores[s2]) { scores[s2].score += 3; scores[s2].reasons.push(match.description) }
         }
       }
     }
-    
-    // Score champions not yet picked
     const results: { champion: Champion; score: number; reasons: string[] }[] = []
     for (const c of champions) {
       if (slugs.includes(c.slug)) continue
-      
-      let score = 0
-      const reasons: string[] = []
-      
-      // Tier bonus
+      let score = 0; const reasons: string[] = []
       const tierInfo = tiers.champions[c.slug]
       if (tierInfo) {
-        if (tierInfo.overall === "S+") { score += 5; reasons.push("S+ tier pick") }
+        if (tierInfo.overall === "S+") { score += 5; reasons.push("S+ tier") }
         else if (tierInfo.overall === "S") { score += 3 }
       }
-      
-      // Synergy with existing picks
       for (const slug of slugs) {
         const syn = synergies[c.slug]?.synergies || []
-        const match = syn.find(s => s.with === slug)
-        if (match) {
-          score += 3
-          reasons.push(match.description)
-        }
+        const m = syn.find(s => s.with === slug)
+        if (m) { score += 3; reasons.push(m.description.split(" — ")[0].slice(0, 40)) }
       }
-      
-      // Counter potential - check if this champ counters any enemy picks
       results.push({ champion: c, score, reasons })
     }
-    
-    return results.sort((a, b) => b.score - a.score).slice(0, 10)
+    return results.sort((a, b) => b.score - a.score).slice(0, 8)
   }
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100">
-      {/* Header */}
-      <header className="border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-yellow-400 to-orange-600 flex items-center justify-center text-sm font-bold">
+    <div className="min-h-screen bg-[#0a0a0f] text-[#f0e6d2]">
+      {/* Header - LoL style */}
+      <header className="border-b border-[#c8aa6e]/20 bg-gradient-to-b from-[#0f0f1a] to-[#0a0a0f] sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 py-2.5 flex items-center gap-4">
+          <div className="flex items-center gap-3 shrink-0">
+            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#c8aa6e] to-[#8a6d2b] flex items-center justify-center text-sm font-bold text-[#010101] shadow-[0_0_12px_rgba(200,170,110,0.3)]">
               WR
             </div>
-            <div>
-              <h1 className="text-lg font-bold">Wild Rift Picker</h1>
-              <p className="text-[10px] text-zinc-500">Patch {tiers.patch} — 140 champions</p>
+            <div className="hidden sm:block">
+              <h1 className="text-base font-bold tracking-wider" style={{ fontFamily: 'Georgia, serif' }}>WILD RIFT PICKER</h1>
+              <p className="text-[10px] text-[#7a7568] tracking-wider">PATCH {tiers.patch} · {champions.length} CHAMPIONS</p>
             </div>
           </div>
-          <div className="flex items-center gap-2 text-xs text-zinc-500">
-            <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-green-400"></span>Data ready</span>
+
+          {/* Search - typeahead */}
+          <div className="flex-1 max-w-md relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#c8aa6e]/60" />
+            <input
+              ref={searchRef}
+              type="text"
+              placeholder="Tìm tướng..."
+              value={searchQuery}
+              onChange={e => setSearchQuery(e.target.value)}
+              className="w-full bg-[#1a1a2e] border border-[#2a2a3e] rounded-lg pl-10 pr-8 py-2 text-sm text-[#f0e6d2] placeholder:text-[#7a7568] focus:outline-none focus:border-[#c8aa6e]/50 focus:shadow-[0_0_8px_rgba(200,170,110,0.1)] transition-all"
+            />
+            {searchQuery && (
+              <button className="absolute right-3 top-1/2 -translate-y-1/2 text-[#7a7568] hover:text-[#f0e6d2]" onClick={() => setSearchQuery("")}>
+                <X className="w-3.5 h-3.5" />
+              </button>
+            )}
           </div>
         </div>
       </header>
 
-      <div className="max-w-6xl mx-auto px-4 py-4">
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-4">
-          <TabsList className="bg-zinc-900 border border-zinc-800 w-full justify-start overflow-x-auto">
-            <TabsTrigger value="tierlist" className="gap-2 data-[state=active]:bg-zinc-800">
-              <ArrowUpDown className="w-4 h-4" /> Tier List
-            </TabsTrigger>
-            <TabsTrigger value="counter" className="gap-2 data-[state=active]:bg-zinc-800">
-              <Swords className="w-4 h-4" /> Counter Pick
-            </TabsTrigger>
-            <TabsTrigger value="synergy" className="gap-2 data-[state=active]:bg-zinc-800">
-              <Users className="w-4 h-4" /> Team Synergy
-            </TabsTrigger>
-            <TabsTrigger value="draft" className="gap-2 data-[state=active]:bg-zinc-800">
-              <Zap className="w-4 h-4" /> Draft Assistant
-            </TabsTrigger>
-          </TabsList>
+      {/* Lane selector - buttons! */}
+      <div className="max-w-7xl mx-auto px-4 py-3">
+        <div className="flex items-center gap-2 overflow-x-auto pb-1">
+          <button
+            onClick={() => setSelectedLane(null)}
+            className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all border shrink-0 ${
+              !selectedLane
+                ? 'bg-[#c8aa6e]/20 border-[#c8aa6e] text-[#f0e6d2]'
+                : 'bg-[#1a1a2e] border-[#2a2a3e] text-[#7a7568] hover:border-[#c8aa6e]/50'
+            }`}
+          >
+            All
+          </button>
+          {LANES.map(lane => (
+            <LaneButton key={lane} lane={lane} active={selectedLane === lane} onClick={() => setSelectedLane(selectedLane === lane ? null : lane)} />
+          ))}
+          <div className="flex-1" />
+          <div className="hidden sm:flex items-center gap-1">
+            {(["S+","S","A","B","C"] as const).map(t => (
+              <span key={t} className={`text-[10px] font-bold px-1.5 ${TIER_TEXT[t]}`}>{t}</span>
+            ))}
+          </div>
+        </div>
+      </div>
 
-          {/* ===== TIER LIST ===== */}
-          <TabsContent value="tierlist" className="space-y-4">
-            <Card className="bg-zinc-900/50 border-zinc-800">
-              <CardHeader className="pb-2">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <CardTitle className="text-lg">Tier List — Patch {tiers.patch}</CardTitle>
-                    <CardDescription>Xếp hạng tướng theo từng vai trò và sức mạnh hiện tại</CardDescription>
+      {/* Champion grid */}
+      <div className="max-w-7xl mx-auto px-4 pb-3">
+        <div className="grid grid-cols-7 sm:grid-cols-10 md:grid-cols-12 lg:grid-cols-16 xl:grid-cols-18 gap-1.5">
+          {sortedByTier.map(c => (
+            <ChampionCard
+              key={c.slug}
+              champion={c}
+              size={54}
+              onClick={() => {
+                setEnemyChampion(c.slug)
+                setViewMode("counter")
+                setActiveTab("counter")
+              }}
+            />
+          ))}
+          {sortedByTier.length === 0 && (
+            <div className="col-span-full text-center py-12 text-[#7a7568] text-sm">
+              Không tìm thấy tướng nào
+            </div>
+          )}
+        </div>
+        {sortedByTier.length > 0 && (
+          <p className="text-[10px] text-[#7a7568] mt-2 text-center">
+            {sortedByTier.length} tướng · click để xem counter
+          </p>
+        )}
+      </div>
+
+      {/* Action tabs */}
+      <div className="max-w-7xl mx-auto px-4 pb-6">
+        <div className="flex gap-1 bg-[#1a1a2e] rounded-lg p-1 border border-[#2a2a3e] mb-4 overflow-x-auto">
+          {([
+            { id: "tierlist", label: "Tier List", icon: ArrowUpDown },
+            { id: "counter", label: "Counter Pick", icon: Swords },
+            { id: "synergy", label: "Synergy", icon: Users },
+            { id: "draft", label: "Draft", icon: Zap },
+          ] as const).map(tab => (
+            <button
+              key={tab.id}
+              onClick={() => { setActiveTab(tab.id); setViewMode(tab.id as ViewMode) }}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-all shrink-0 ${
+                activeTab === tab.id
+                  ? 'bg-[#c8aa6e]/15 text-[#c8aa6e] shadow-sm'
+                  : 'text-[#7a7568] hover:text-[#a09b8c]'
+              }`}
+            >
+              <tab.icon className="w-3.5 h-3.5" />
+              {tab.label}
+            </button>
+          ))}
+        </div>
+
+        {/* TIER LIST */}
+        {activeTab === "tierlist" && (
+          <div className="space-y-3">
+            {(["S+","S","A","B","C"] as const).map(tier => {
+              const champs = sortedByTier.filter(c => getTier(c.slug) === tier)
+              if (champs.length === 0) return null
+              return (
+                <div key={tier}>
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <span className={`text-sm font-bold ${TIER_TEXT[tier]}`}>{tier}</span>
+                    <span className="text-[10px] text-[#7a7568]">({champs.length})</span>
+                    <div className="flex-1 h-px bg-gradient-to-r from-[#2a2a3e] to-transparent" />
                   </div>
-                  <div className="flex gap-2">
-                    <select
-                      className="bg-zinc-800 text-xs px-2 py-1 rounded border border-zinc-700"
-                      value={laneFilter}
-                      onChange={e => setLaneFilter(e.target.value)}
+                  <div className="flex flex-wrap gap-1.5">
+                    {champs.map(c => (
+                      <ChampionCard key={c.slug} champion={c} size={48} onClick={() => { setEnemyChampion(c.slug); setActiveTab("counter") }} />
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        )}
+
+        {/* COUNTER PICK */}
+        {activeTab === "counter" && (
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            {/* Champion selector */}
+            <Card className="bg-[#1a1a2e] border-[#2a2a3e]">
+              <CardContent className="p-3 space-y-2">
+                <h3 className="text-xs font-bold text-[#c8aa6e] tracking-wider">CHỌN TƯỚNG ĐỊCH</h3>
+                <div className="flex gap-1">
+                  {LANES.map(l => (
+                    <button key={l}
+                      onClick={() => setEnemyLane(enemyLane === l ? "all" : l)}
+                      className={`px-2 py-1 rounded text-[10px] font-medium transition-all ${
+                        enemyLane === l ? 'bg-[#c8aa6e]/20 text-[#c8aa6e]' : 'bg-[#0a0a0f] text-[#7a7568]'
+                      }`}
                     >
-                      <option value="all">All lanes</option>
-                      <option value="baron">Baron</option>
-                      <option value="jungle">Jungle</option>
-                      <option value="mid">Mid</option>
-                      <option value="adc">ADC</option>
-                      <option value="support">Support</option>
-                    </select>
+                      {LANE_CONFIG[l].icon}
+                    </button>
+                  ))}
+                </div>
+                <ScrollArea className="h-48">
+                  <div className="flex flex-wrap gap-1.5">
+                    {champions.filter(c => enemyLane === "all" || c.lanes.includes(enemyLane)).map(c => (
+                      <ChampionCard key={c.slug} champion={c} size={40} showName={false}
+                        selected={enemyChampion === c.slug}
+                        onClick={() => setEnemyChampion(c.slug)}
+                      />
+                    ))}
                   </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <div className="relative mb-4">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
-                  <Input
-                    placeholder="Tìm tướng..."
-                    className="pl-9 bg-zinc-800 border-zinc-700"
-                    value={searchQuery}
-                    onChange={e => setSearchQuery(e.target.value)}
-                  />
-                </div>
-
-                {["S+", "S", "A", "B", "C"].map(tier => {
-                  const filtered = champions.filter(c => {
-                    const cTier = tiers.champions[c.slug]?.overall
-                    if (cTier !== tier) return false
-                    if (laneFilter !== "all" && !c.lanes.includes(laneFilter)) return false
-                    if (searchQuery && !c.name.toLowerCase().includes(searchQuery.toLowerCase())) return false
-                    return true
-                  })
-                  if (filtered.length === 0) return null
-                  return (
-                    <div key={tier} className="mb-4">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className={`text-lg font-bold ${TIER_COLORS[tier]}`}>{tier}</span>
-                        <span className="text-xs text-zinc-600">({filtered.length})</span>
-                      </div>
-                      <div className="flex flex-wrap gap-2">
-                        {filtered.map(c => (
-                          <ChampionIcon key={c.slug} champion={c} size="sm" />
-                        ))}
-                      </div>
-                    </div>
-                  )
-                })}
+                </ScrollArea>
               </CardContent>
             </Card>
-          </TabsContent>
 
-          {/* ===== COUNTER PICK ===== */}
-          <TabsContent value="counter" className="space-y-4">
-            <Card className="bg-zinc-900/50 border-zinc-800">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <Swords className="w-5 h-5 text-red-400" />
-                  Counter Pick
-                </CardTitle>
-                <CardDescription>Chọn tướng địch để xem tướng nào khắc chế và bị khắc chế</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex gap-3">
-                  <select
-                    className="bg-zinc-800 text-sm px-3 py-2 rounded border border-zinc-700 w-40"
-                    value={enemyLane}
-                    onChange={e => setEnemyLane(e.target.value)}
-                  >
-                    <option value="all">All lanes</option>
-                    <option value="baron">Baron</option>
-                    <option value="jungle">Jungle</option>
-                    <option value="mid">Mid</option>
-                    <option value="adc">ADC</option>
-                    <option value="support">Support</option>
-                  </select>
-                </div>
-
-                <div>
-                  <p className="text-sm text-zinc-400 mb-2">Chọn tướng địch:</p>
-                  <ScrollArea className="h-40">
-                    <ChampionGrid
-                      champions={champions.filter(c => enemyLane === "all" || c.lanes.includes(enemyLane))}
-                      selected={enemyChampion}
-                      onSelect={setEnemyChampion}
-                    />
-                  </ScrollArea>
-                </div>
-
-                {enemyChampion && (() => {
+            {/* Counter results */}
+            <Card className="bg-[#1a1a2e] border-[#2a2a3e] lg:col-span-2">
+              <CardContent className="p-3">
+                {!enemyChampion ? (
+                  <div className="text-center py-8 text-[#7a7568] text-xs">Click vào tướng địch để xem counter</div>
+                ) : (() => {
                   const enemy = getChampion(enemyChampion)
                   const counter = getCounters(enemyChampion)
                   return (
-                    <div className="space-y-4 pt-2">
-                      <Separator className="bg-zinc-800" />
-                      
+                    <div className="space-y-3">
                       {enemy && (
-                        <div className="flex items-center gap-3 p-3 bg-zinc-800/50 rounded-lg">
-                          <ChampionIcon champion={enemy} size="sm" showTier={false} />
+                        <div className="flex items-center gap-3 p-2 bg-[#0a0a0f] rounded-lg border border-[#2a2a3e]">
+                          <ChampionCard champion={enemy} size={48} showName={false} />
                           <div>
-                            <p className="font-bold">{enemy.name}</p>
-                            <div className="flex gap-1 mt-1">
+                            <p className="font-bold text-sm">{enemy.name}</p>
+                            <div className="flex gap-1 mt-0.5">
                               {enemy.lanes.map(l => (
-                                <Badge key={l} variant="outline" className={`text-[10px] ${LANE_CONFIG[l]?.color || ''}`}>
+                                <Badge key={l} variant="outline" className="text-[9px] px-1 py-0 bg-[#1a1a2e] border-[#2a2a3e] text-[#7a7568]">
                                   {LANE_CONFIG[l]?.icon} {LANE_CONFIG[l]?.label}
                                 </Badge>
                               ))}
@@ -395,32 +370,32 @@ export default function Home() {
                       )}
 
                       <div>
-                        <h4 className="text-sm font-semibold text-green-400 mb-2 flex items-center gap-2">
-                          <Shield className="w-4 h-4" /> Mạnh hơn — nên chọn để counter
+                        <h4 className="text-xs font-semibold text-green-400 mb-1.5 flex items-center gap-1.5">
+                          <Shield className="w-3 h-3" /> NÊN CHỌN ĐỂ COUNTER
                         </h4>
                         {counter.strong.length > 0 ? (
-                          <div className="flex flex-wrap gap-2">
+                          <div className="flex flex-wrap gap-1.5">
                             {counter.strong.map(c => (
-                              <ChampionIcon key={c.slug} champion={c} size="sm" />
+                              <ChampionCard key={c.slug} champion={c} size={48} />
                             ))}
                           </div>
                         ) : (
-                          <p className="text-xs text-zinc-500">Chưa có dữ liệu counter cho tướng này</p>
+                          <p className="text-xs text-[#7a7568]">Chưa có dữ liệu</p>
                         )}
                       </div>
 
                       <div>
-                        <h4 className="text-sm font-semibold text-red-400 mb-2 flex items-center gap-2">
-                          <Swords className="w-4 h-4" /> Yếu hơn — nên tránh khi pick
+                        <h4 className="text-xs font-semibold text-red-400 mb-1.5 flex items-center gap-1.5">
+                          <Swords className="w-3 h-3" /> NÊN TRÁNH
                         </h4>
                         {counter.weak.length > 0 ? (
-                          <div className="flex flex-wrap gap-2">
+                          <div className="flex flex-wrap gap-1.5">
                             {counter.weak.map(c => (
-                              <ChampionIcon key={c.slug} champion={c} size="sm" />
+                              <ChampionCard key={c.slug} champion={c} size={48} />
                             ))}
                           </div>
                         ) : (
-                          <p className="text-xs text-zinc-500">Chưa có dữ liệu counter cho tướng này</p>
+                          <p className="text-xs text-[#7a7568]">Chưa có dữ liệu</p>
                         )}
                       </div>
                     </div>
@@ -428,247 +403,176 @@ export default function Home() {
                 })()}
               </CardContent>
             </Card>
-          </TabsContent>
+          </div>
+        )}
 
-          {/* ===== SYNERGY ===== */}
-          <TabsContent value="synergy" className="space-y-4">
-            <Card className="bg-zinc-900/50 border-zinc-800">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <Users className="w-5 h-5 text-blue-400" />
-                  Team Synergy
-                </CardTitle>
-                <CardDescription>Chọn đội hình của bạn, xem gợi ý pick tiếp theo dựa trên synergy</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div>
-                  <p className="text-sm text-zinc-400 mb-2">Đội hình hiện tại ({teamPicks.length}/5):</p>
-                  <div className="flex flex-wrap gap-2 min-h-[72px] p-2 bg-zinc-800/30 rounded-lg mb-3">
-                    {teamPicks.map(slug => {
-                      const c = getChampion(slug)
-                      return c ? (
-                        <div key={slug} className="relative" onClick={() => setTeamPicks(teamPicks.filter(s => s !== slug))}>
-                          <ChampionIcon champion={c} size="sm" showTier={false} />
-                          <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center cursor-pointer">
-                            <span className="text-white text-[8px]">×</span>
-                          </div>
-                        </div>
-                      ) : null
-                    })}
-                    {teamPicks.length === 0 && (
-                      <p className="text-xs text-zinc-500 p-4">Chưa chọn tướng nào. Click để thêm vào team.</p>
-                    )}
-                  </div>
-                </div>
-
-                {teamPicks.length < 5 && (
-                  <div>
-                    <p className="text-sm text-zinc-400 mb-2">Chọn thêm tướng cho team:</p>
-                    <ScrollArea className="h-32">
-                      <ChampionGrid
-                        champions={champions.filter(c => !teamPicks.includes(c.slug))}
-                        multiSelect
-                        selected={teamPicks}
-                        onSelect={(slug) => {
-                          if (teamPicks.length < 5) setTeamPicks([...teamPicks, slug])
-                        }}
+        {/* SYNERGY */}
+        {activeTab === "synergy" && (
+          <Card className="bg-[#1a1a2e] border-[#2a2a3e]">
+            <CardContent className="p-3 space-y-3">
+              <p className="text-xs text-[#7a7568]">Chọn 2-5 tướng team bạn:</p>
+              <div className="flex flex-wrap gap-2 min-h-[60px] p-2 bg-[#0a0a0f] rounded-lg border border-[#2a2a3e]">
+                {teamPicks.map(slug => {
+                  const c = getChampion(slug)
+                  return c ? (
+                    <div key={slug} className="relative" onClick={() => setTeamPicks(teamPicks.filter(s => s !== slug))}>
+                      <ChampionCard champion={c} size={48} showName={false} />
+                      <div className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-red-500/80 rounded-full flex items-center justify-center cursor-pointer hover:bg-red-500">
+                        <span className="text-white text-[7px]">×</span>
+                      </div>
+                    </div>
+                  ) : null
+                })}
+                {teamPicks.length === 0 && <p className="text-xs text-[#7a7568] p-3">Chưa chọn</p>}
+              </div>
+              {teamPicks.length < 5 && (
+                <ScrollArea className="h-28">
+                  <div className="flex flex-wrap gap-1.5">
+                    {champions.filter(c => !teamPicks.includes(c.slug)).map(c => (
+                      <ChampionCard key={c.slug} champion={c} size={40} showName={false}
+                        onClick={() => { if (teamPicks.length < 5) setTeamPicks([...teamPicks, c.slug]) }}
                       />
-                    </ScrollArea>
+                    ))}
                   </div>
-                )}
-
-                {teamPicks.length >= 2 && (
-                  <>
-                    <Separator className="bg-zinc-800" />
-                    <div>
-                      <h4 className="text-sm font-semibold text-blue-400 mb-2">Gợi ý pick dựa trên synergy:</h4>
-                      <div className="space-y-2">
-                        {getSynergies(teamPicks).filter(r => r.score > 0).slice(0, 6).map((rec, i) => (
-                          <div key={i} className="flex items-center gap-3 p-2 bg-zinc-800/50 rounded-lg">
-                            <span className="text-xs text-zinc-500 w-5">#{i + 1}</span>
-                            <ChampionIcon champion={rec.champion} size="sm" showTier={false} />
-                            <div className="flex-1">
-                              <p className="text-sm font-medium">{rec.champion.name}</p>
-                              <p className="text-xs text-zinc-400">{rec.reasons.slice(0, 2).join(", ")}</p>
-                            </div>
-                            <span className="text-xs font-bold text-yellow-400">+{rec.score}</span>
-                          </div>
-                        ))}
-                      </div>
+                </ScrollArea>
+              )}
+              {teamPicks.length >= 2 && (
+                <>
+                  <Separator className="bg-[#2a2a3e]" />
+                  <div>
+                    <h4 className="text-xs font-bold text-[#c8aa6e] mb-2">GỢI Ý PICK TIẾP THEO</h4>
+                    <div className="space-y-1.5">
+                      {getSynergies(teamPicks).filter(r => r.score > 0).slice(0, 6).map((rec, i) => (
+                        <div key={i} className="flex items-center gap-2 p-1.5 bg-[#0a0a0f] rounded-lg">
+                          <span className={`text-[10px] font-bold w-4 text-center ${i === 0 ? 'text-[#c8aa6e]' : 'text-[#7a7568]'}`}>
+                            #{i + 1}
+                          </span>
+                          <ChampionCard champion={rec.champion} size={36} showName={false} />
+                          <span className="text-xs text-[#a09b8c] truncate flex-1">{rec.reasons.slice(0, 1).join(", ")}</span>
+                          <span className="text-[10px] font-bold text-[#c8aa6e]">+{rec.score}</span>
+                        </div>
+                      ))}
                     </div>
-                  </>
-                )}
+                  </div>
+                </>
+              )}
+            </CardContent>
+          </Card>
+        )}
+
+        {/* DRAFT ASSISTANT */}
+        {activeTab === "draft" && (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <Card className="bg-[#1a1a2e] border-[#2a2a3e]">
+              <CardContent className="p-3 space-y-2">
+                <h3 className="text-xs font-bold text-blue-400 tracking-wider">TEAM BẠN</h3>
+                <div className="flex flex-wrap gap-1.5 min-h-[48px] p-2 bg-[#0a0a0f] rounded-lg border border-[#2a2a3e]">
+                  {allyPicks.length === 0 && <p className="text-[10px] text-[#7a7568] p-1">Chưa chọn</p>}
+                  {allyPicks.map(slug => {
+                    const c = getChampion(slug)
+                    return c ? <div key={slug} className="relative cursor-pointer" onClick={() => setAllyPicks(allyPicks.filter(s => s !== slug))}>
+                      <ChampionCard champion={c} size={40} showName={false} />
+                      <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500/80 rounded-full flex items-center justify-center cursor-pointer"><span className="text-white text-[6px]">×</span></div>
+                    </div> : null
+                  })}
+                </div>
+                <p className="text-[10px] text-[#7a7568]">Vai trò bạn:</p>
+                <div className="flex gap-1">
+                  {LANES.map(l => (
+                    <button key={l} onClick={() => setMyRole(l)}
+                      className={`px-2 py-1 rounded text-[10px] font-medium transition-all ${myRole === l ? 'bg-[#c8aa6e]/20 text-[#c8aa6e] border border-[#c8aa6e]/50' : 'bg-[#0a0a0f] text-[#7a7568] border border-transparent'}`}>
+                      {LANE_CONFIG[l].icon} {LANE_CONFIG[l].label}
+                    </button>
+                  ))}
+                </div>
               </CardContent>
             </Card>
-          </TabsContent>
-
-          {/* ===== DRAFT ASSISTANT ===== */}
-          <TabsContent value="draft" className="space-y-4">
-            <Card className="bg-zinc-900/50 border-zinc-800">
-              <CardHeader>
-                <CardTitle className="text-lg flex items-center gap-2">
-                  <Zap className="w-5 h-5 text-yellow-400" />
-                  Draft Assistant
-                </CardTitle>
-                <CardDescription>
-                  Nhập tướng team bạn và team địch đã pick → xem gợi ý pick tối ưu cho lượt tiếp theo
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <p className="text-sm font-medium text-blue-400 mb-2">Team mình ({allyPicks.length}/5):</p>
-                    <div className="flex flex-wrap gap-2 min-h-[60px] p-2 bg-zinc-800/30 rounded-lg mb-2">
-                      {allyPicks.map(slug => {
-                        const c = getChampion(slug)
-                        return c ? (
-                          <div key={slug} className="relative" onClick={() => setAllyPicks(allyPicks.filter(s => s !== slug))}>
-                            <ChampionIcon champion={c} size="sm" showTier={false} />
-                            <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full flex items-center justify-center cursor-pointer">
-                              <span className="text-white text-[6px]">×</span>
-                            </div>
-                          </div>
-                        ) : null
-                      })}
-                    </div>
-                    <p className="text-xs text-zinc-500 mb-1">Vai trò của bạn:</p>
-                    <select
-                      className="bg-zinc-800 text-xs px-2 py-1 rounded border border-zinc-700 w-full"
-                      value={myRole}
-                      onChange={e => setMyRole(e.target.value)}
-                    >
-                      <option value="baron">Baron</option>
-                      <option value="jungle">Jungle</option>
-                      <option value="mid">Mid</option>
-                      <option value="adc">ADC</option>
-                      <option value="support">Support</option>
-                    </select>
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium text-red-400 mb-2">Team địch ({enemyPicks.length}/5):</p>
-                    <div className="flex flex-wrap gap-2 min-h-[60px] p-2 bg-zinc-800/30 rounded-lg mb-2">
-                      {enemyPicks.map(slug => {
-                        const c = getChampion(slug)
-                        return c ? (
-                          <div key={slug} className="relative" onClick={() => setEnemyPicks(enemyPicks.filter(s => s !== slug))}>
-                            <ChampionIcon champion={c} size="sm" showTier={false} />
-                            <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full flex items-center justify-center cursor-pointer">
-                              <span className="text-white text-[6px]">×</span>
-                            </div>
-                          </div>
-                        ) : null
-                      })}
-                    </div>
-                  </div>
+            <Card className="bg-[#1a1a2e] border-[#2a2a3e]">
+              <CardContent className="p-3 space-y-2">
+                <h3 className="text-xs font-bold text-red-400 tracking-wider">TEAM ĐỊCH</h3>
+                <div className="flex flex-wrap gap-1.5 min-h-[48px] p-2 bg-[#0a0a0f] rounded-lg border border-[#2a2a3e]">
+                  {enemyPicks.length === 0 && <p className="text-[10px] text-[#7a7568] p-1">Chưa chọn</p>}
+                  {enemyPicks.map(slug => {
+                    const c = getChampion(slug)
+                    return c ? <div key={slug} className="relative cursor-pointer" onClick={() => setEnemyPicks(enemyPicks.filter(s => s !== slug))}>
+                      <ChampionCard champion={c} size={40} showName={false} />
+                      <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500/80 rounded-full flex items-center justify-center cursor-pointer"><span className="text-white text-[6px]">×</span></div>
+                    </div> : null
+                  })}
                 </div>
-
-                <div className="flex gap-2">
-                  <ScrollArea className="h-32 flex-1">
-                    <ChampionGrid
-                      champions={champions.filter(c => {
-                        const current = [...allyPicks, ...enemyPicks]
-                        return !current.includes(c.slug) && c.lanes.includes(myRole)
-                      })}
-                      selected={null}
-                      onSelect={(slug) => {
-                        if (allyPicks.length < 5) setAllyPicks([...allyPicks, slug])
-                      }}
+              </CardContent>
+            </Card>
+            {/* Champion selector for draft */}
+            <div className="lg:col-span-2">
+              <ScrollArea className="h-24">
+                <div className="flex flex-wrap gap-1.5">
+                  {champions.filter(c => c.lanes.includes(myRole) && !allyPicks.includes(c.slug) && !enemyPicks.includes(c.slug)).map(c => (
+                    <ChampionCard key={c.slug} champion={c} size={40} showName={false}
+                      onClick={() => { if (allyPicks.length < 5) setAllyPicks([...allyPicks, c.slug]) }}
                     />
-                  </ScrollArea>
+                  ))}
                 </div>
-
-                {(allyPicks.length > 0 || enemyPicks.length > 0) && (
-                  <>
-                    <Separator className="bg-zinc-800" />
-                    <div>
-                      <h4 className="text-sm font-semibold text-yellow-400 mb-2">
-                        ✨ Gợi ý pick cho bạn ({myRole})
-                      </h4>
-                      <div className="space-y-2">
-                        {(() => {
-                          const allPicked = [...allyPicks, ...enemyPicks]
-                          const available = champions.filter(c => {
-                            if (allPicked.includes(c.slug)) return false
-                            return c.lanes.includes(myRole)
-                          })
-                          
-                          // Score available champs
-                          const scored = available.map(c => {
-                            let score = 0
-                            const reasons: string[] = []
-                            
-                            // Tier score
-                            const tierInfo = tiers.champions[c.slug]
-                            if (tierInfo) {
-                              const roleTier = tierInfo.by_role[myRole] || tierInfo.overall
-                              if (roleTier === "S+") { score += 10; reasons.push(`S+ ${myRole}`) }
-                              else if (roleTier === "S") { score += 5; reasons.push(`S ${myRole}`) }
-                              else if (roleTier === "A") { score += 2 }
-                            }
-                            
-                            // Counter score - good against enemy picks
-                            const counterInfo = counters[c.slug]
-                            if (counterInfo) {
-                              for (const es of enemyPicks) {
-                                if (counterInfo.strong_against.includes(es)) {
-                                  score += 5
-                                  const eChamp = getChampion(es)
-                                  reasons.push(`Counter ${eChamp?.name || es}`)
-                                }
-                              }
-                            }
-                            
-                            // Synergy with ally picks
-                            const syn = synergies[c.slug]?.synergies || []
-                            for (const s of syn) {
-                              if (allyPicks.includes(s.with)) {
-                                score += 3
-                                reasons.push(s.description.split(" — ")[0].slice(0, 40))
-                              }
-                            }
-                            
-                            return { champion: c, score, reasons }
-                          }).sort((a, b) => b.score - a.score).slice(0, 8)
-                          
-                          return scored.map((rec, i) => (
-                            <div key={i} className="flex items-center gap-3 p-2 bg-zinc-800/50 rounded-lg">
-                              <span className={`text-xs font-bold w-6 ${i === 0 ? 'text-yellow-400' : 'text-zinc-500'}`}>
-                                #{i + 1}
-                              </span>
-                              <ChampionIcon champion={rec.champion} size="sm" showTier={false} />
-                              <div className="flex-1">
-                                <p className="text-sm font-medium">{rec.champion.name}</p>
-                                <p className="text-xs text-zinc-400 truncate max-w-[300px]">
-                                  {rec.reasons.slice(0, 2).join(" · ") || "Chưa có dữ liệu"}
-                                </p>
-                              </div>
-                              <span className="text-xs font-bold text-yellow-400">+{rec.score}</span>
-                              <Button
-                                size="sm"
-                                variant="ghost"
-                                className="text-xs h-7"
-                                onClick={() => setAllyPicks([...allyPicks, rec.champion.slug])}
-                              >
-                                Pick
-                              </Button>
+              </ScrollArea>
+            </div>
+            {/* Suggestions */}
+            {(allyPicks.length > 0 || enemyPicks.length > 0) && (
+              <div className="lg:col-span-2">
+                <Card className="bg-[#1a1a2e] border-[#2a2a3e]">
+                  <CardContent className="p-3">
+                    <h4 className="text-xs font-bold text-[#c8aa6e] mb-2">✨ GỢI Ý PICK ({myRole.toUpperCase()})</h4>
+                    <div className="space-y-1.5">
+                      {(() => {
+                        const allPicked = [...allyPicks, ...enemyPicks]
+                        const available = champions.filter(c => !allPicked.includes(c.slug) && c.lanes.includes(myRole))
+                        const scored = available.map(c => {
+                          let score = 0; const reasons: string[] = []
+                          const tierInfo = tiers.champions[c.slug]
+                          if (tierInfo) {
+                            const roleTier = tierInfo.by_role[myRole] || tierInfo.overall
+                            if (roleTier === "S+") { score += 10; reasons.push(`S+ ${myRole}`) }
+                            else if (roleTier === "S") { score += 5; reasons.push(`S ${myRole}`) }
+                          }
+                          const ci = counters[c.slug]
+                          if (ci) { for (const es of enemyPicks) { if (ci.strong_against.includes(es)) { score += 5; const ec = getChampion(es); reasons.push(`Counter ${ec?.name || es}`) } } }
+                          const syn = synergies[c.slug]?.synergies || []
+                          for (const s of syn) { if (allyPicks.includes(s.with)) { score += 3; reasons.push(s.description.slice(0, 35)) } }
+                          return { champion: c, score, reasons }
+                        }).sort((a, b) => b.score - a.score).slice(0, 6)
+                        return scored.map((rec, i) => (
+                          <div key={i} className="flex items-center gap-2 p-1.5 bg-[#0a0a0f] rounded-lg">
+                            <span className={`text-[10px] font-bold w-5 text-center ${i === 0 ? 'text-[#c8aa6e]' : 'text-[#7a7568]'}`}>
+                              #{i + 1}
+                            </span>
+                            <ChampionCard champion={rec.champion} size={36} showName={false} />
+                            <div className="flex-1 min-w-0">
+                              <span className="text-xs font-medium">{rec.champion.name}</span>
+                              <p className="text-[9px] text-[#7a7568] truncate">{rec.reasons.slice(0, 2).join(" · ")}</p>
                             </div>
-                          ))
-                        })()}
-                      </div>
+                            <span className="text-[10px] font-bold text-[#c8aa6e]">+{rec.score}</span>
+                          </div>
+                        ))
+                      })()}
                     </div>
-                  </>
-                )}
-              </CardContent>
-            </Card>
-          </TabsContent>
-        </Tabs>
+                  </CardContent>
+                </Card>
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-800 mt-8">
-        <div className="max-w-6xl mx-auto px-4 py-4 text-xs text-zinc-600 text-center">
-          Wild Rift Picker — Patch {tiers.patch} | Dữ liệu tham khảo từ wildriftcore.com & wildriftcounter.com |
-          <span className="block mt-1">Cập nhật dữ liệu: sửa file trong <code className="bg-zinc-800 px-1 rounded">data/</code> + deploy lại</span>
+      <footer className="border-t border-[#2a2a3e] mt-4">
+        <div className="max-w-7xl mx-auto px-4 py-3 text-[9px] text-[#7a7568] text-center space-y-1">
+          <p>Wild Rift Picker — Patch {tiers.patch} · 140 champions</p>
+          <p>Dữ liệu: wildriftcore.com, wildriftcounter.com · Ảnh: CommunityDragon</p>
+          <p>Sửa file <code className="bg-[#1a1a2e] px-1 rounded">data/*.json</code> để cập nhật mỗi patch</p>
+          <p>
+            <a href="https://github.com/hoanghus/wild-rift-picker" target="_blank" rel="noopener noreferrer"
+              className="text-[#c8aa6e]/60 hover:text-[#c8aa6e] inline-flex items-center gap-1">
+              GitHub <ExternalLink className="w-2.5 h-2.5" />
+            </a>
+          </p>
         </div>
       </footer>
     </div>

@@ -5,13 +5,21 @@
   },
   "ahri": {
     "strong_against": [
-      "veigar",
-      "lux",
+      "gragas",
+      "akali",
+      "katarina",
+      "brand",
       "orianna",
-      "xerath",
-      "ziggs"
+      "lux"
     ],
-    "weak_against": []
+    "weak_against": [
+      "ekko",
+      "irelia",
+      "kassadin",
+      "diana",
+      "zed",
+      "yasuo"
+    ]
   },
   "bard": {
     "strong_against": [],
@@ -41,15 +49,20 @@
   },
   "ezreal": {
     "strong_against": [
-      "draven",
-      "tristana",
+      "kaisa",
+      "varus",
+      "zeri",
       "lucian",
-      "caitlyn"
+      "miss-fortune",
+      "ashe"
     ],
     "weak_against": [
-      "jhin",
-      "lucian",
-      "caitlyn"
+      "kalista",
+      "draven",
+      "aphelios",
+      "vayne",
+      "nilah",
+      "tristana"
     ]
   },
   "fiora": {
@@ -84,14 +97,21 @@
   },
   "zed": {
     "strong_against": [
-      "veigar",
+      "corki",
+      "ziggs",
+      "aurelion-sol",
+      "kassadin",
       "orianna",
-      "lux",
-      "seraphine",
-      "jhin",
-      "xayah"
+      "veigar"
     ],
-    "weak_against": []
+    "weak_against": [
+      "ekko",
+      "kayle",
+      "galio",
+      "fizz",
+      "vladimir",
+      "ahri"
+    ]
   },
   "zilean": {
     "strong_against": [],
@@ -482,13 +502,21 @@
   },
   "yasuo": {
     "strong_against": [
-      "lux",
-      "orianna",
-      "veigar",
-      "ziggs",
-      "brand"
+      "akali",
+      "corki",
+      "twisted-fate",
+      "katarina",
+      "ahri",
+      "veigar"
     ],
-    "weak_against": []
+    "weak_against": [
+      "vex",
+      "fizz",
+      "swain",
+      "vladimir",
+      "renekton",
+      "annie"
+    ]
   },
   "zyra": {
     "strong_against": [],
@@ -518,21 +546,20 @@
   },
   "darius": {
     "strong_against": [
-      "garen",
+      "sion",
+      "akali",
       "fiora",
-      "kennen",
-      "vayne",
-      "teemo"
+      "garen",
+      "renekton",
+      "yasuo"
     ],
     "weak_against": [
-      "camille",
-      "malphite",
-      "riven",
-      "garen",
-      "irelia",
-      "renekton",
-      "sett",
-      "nasus"
+      "jayce",
+      "ornn",
+      "kayle",
+      "dr-mundo",
+      "urgot",
+      "vayne"
     ]
   },
   "diana": {
@@ -772,16 +799,20 @@
   },
   "thresh": {
     "strong_against": [
-      "alistar",
-      "braum",
-      "morgana",
-      "blitzcrank"
+      "nautilus",
+      "rakan",
+      "blitzcrank",
+      "soraka",
+      "leona",
+      "sona"
     ],
     "weak_against": [
-      "braum",
+      "janna",
       "lulu",
-      "nami",
-      "sona"
+      "morgana",
+      "zyra",
+      "seraphine",
+      "nami"
     ]
   },
   "tristana": {

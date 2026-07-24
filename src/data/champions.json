@@ -10,7 +10,8 @@
     ],
     "roles": [
       "fighter"
-    ]
+    ],
+    "win_rate": 48.7
   },
   {
     "id": "ahri",
@@ -24,7 +25,8 @@
     "roles": [
       "mage",
       "assassin"
-    ]
+    ],
+    "win_rate": 50.9
   },
   {
     "id": "bard",
@@ -52,7 +54,8 @@
     "roles": [
       "tank",
       "support"
-    ]
+    ],
+    "win_rate": 49.9
   },
   {
     "id": "camille",
@@ -67,7 +70,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 51.3
   },
   {
     "id": "ezreal",
@@ -81,7 +85,8 @@
     "roles": [
       "marksman",
       "mage"
-    ]
+    ],
+    "win_rate": 51.6
   },
   {
     "id": "fiora",
@@ -95,7 +100,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 47.9
   },
   {
     "id": "milio",
@@ -109,7 +115,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 50.4
   },
   {
     "id": "nautilus",
@@ -123,7 +130,8 @@
     "roles": [
       "tank",
       "support"
-    ]
+    ],
+    "win_rate": 48.0
   },
   {
     "id": "senna",
@@ -138,7 +146,8 @@
     "roles": [
       "support",
       "marksman"
-    ]
+    ],
+    "win_rate": 52.0
   },
   {
     "id": "zed",
@@ -151,7 +160,8 @@
     ],
     "roles": [
       "assassin"
-    ]
+    ],
+    "win_rate": 50.4
   },
   {
     "id": "zilean",
@@ -166,7 +176,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 53.0
   },
   {
     "id": "akali",
@@ -180,7 +191,8 @@
     ],
     "roles": [
       "assassin"
-    ]
+    ],
+    "win_rate": 44.4
   },
   {
     "id": "alistar",
@@ -194,7 +206,8 @@
     "roles": [
       "tank",
       "support"
-    ]
+    ],
+    "win_rate": 50.6
   },
   {
     "id": "ambessa",
@@ -208,7 +221,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 51.6
   },
   {
     "id": "amumu",
@@ -223,7 +237,8 @@
     "roles": [
       "tank",
       "support"
-    ]
+    ],
+    "win_rate": 54.5
   },
   {
     "id": "annie",
@@ -252,7 +267,8 @@
     "roles": [
       "marksman",
       "support"
-    ]
+    ],
+    "win_rate": 50.8
   },
   {
     "id": "aurelion-sol",
@@ -265,7 +281,8 @@
     ],
     "roles": [
       "mage"
-    ]
+    ],
+    "win_rate": 51.5
   },
   {
     "id": "aurora",
@@ -294,7 +311,8 @@
     "roles": [
       "tank",
       "support"
-    ]
+    ],
+    "win_rate": 49.5
   },
   {
     "id": "evelynn",
@@ -308,7 +326,8 @@
     "roles": [
       "assassin",
       "mage"
-    ]
+    ],
+    "win_rate": 49.2
   },
   {
     "id": "gnar",
@@ -322,7 +341,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 50.2
   },
   {
     "id": "gwen",
@@ -336,7 +356,8 @@
     ],
     "roles": [
       "fighter"
-    ]
+    ],
+    "win_rate": 51.2
   },
   {
     "id": "hecarim",
@@ -350,7 +371,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 51.1
   },
   {
     "id": "jarvan-iv",
@@ -365,7 +387,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 51.4
   },
   {
     "id": "jax",
@@ -379,7 +402,8 @@
     ],
     "roles": [
       "fighter"
-    ]
+    ],
+    "win_rate": 51.2
   },
   {
     "id": "jayce",
@@ -394,7 +418,8 @@
     "roles": [
       "fighter",
       "marksman"
-    ]
+    ],
+    "win_rate": 50.8
   },
   {
     "id": "jhin",
@@ -408,7 +433,8 @@
     "roles": [
       "marksman",
       "mage"
-    ]
+    ],
+    "win_rate": 50.6
   },
   {
     "id": "karma",
@@ -423,7 +449,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 50.4
   },
   {
     "id": "kassadin",
@@ -437,7 +464,8 @@
     "roles": [
       "assassin",
       "mage"
-    ]
+    ],
+    "win_rate": 51.7
   },
   {
     "id": "kayn",
@@ -465,7 +493,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 50.5
   },
   {
     "id": "kog-maw",
@@ -494,7 +523,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 46.5
   },
   {
     "id": "leona",
@@ -508,7 +538,8 @@
     "roles": [
       "tank",
       "support"
-    ]
+    ],
+    "win_rate": 51.2
   },
   {
     "id": "lillia",
@@ -523,7 +554,8 @@
     "roles": [
       "fighter",
       "mage"
-    ]
+    ],
+    "win_rate": 51.0
   },
   {
     "id": "lucian",
@@ -538,7 +570,8 @@
     "roles": [
       "marksman",
       "assassin"
-    ]
+    ],
+    "win_rate": 49.4
   },
   {
     "id": "lulu",
@@ -552,7 +585,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 49.3
   },
   {
     "id": "malphite",
@@ -567,7 +601,8 @@
     "roles": [
       "tank",
       "mage"
-    ]
+    ],
+    "win_rate": 50.8
   },
   {
     "id": "maokai",
@@ -596,7 +631,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 47.9
   },
   {
     "id": "mordekaiser",
@@ -610,7 +646,8 @@
     "roles": [
       "fighter",
       "mage"
-    ]
+    ],
+    "win_rate": 49.1
   },
   {
     "id": "nami",
@@ -624,7 +661,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 51.4
   },
   {
     "id": "nunu-willump",
@@ -638,7 +676,8 @@
     "roles": [
       "tank",
       "mage"
-    ]
+    ],
+    "win_rate": 53.4
   },
   {
     "id": "orianna",
@@ -652,7 +691,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 51.7
   },
   {
     "id": "ornn",
@@ -665,7 +705,8 @@
     ],
     "roles": [
       "tank"
-    ]
+    ],
+    "win_rate": 50.3
   },
   {
     "id": "poppy",
@@ -695,7 +736,8 @@
     "roles": [
       "support",
       "assassin"
-    ]
+    ],
+    "win_rate": 52.1
   },
   {
     "id": "rakan",
@@ -708,7 +750,8 @@
     ],
     "roles": [
       "support"
-    ]
+    ],
+    "win_rate": 50.8
   },
   {
     "id": "rammus",
@@ -721,7 +764,8 @@
     ],
     "roles": [
       "tank"
-    ]
+    ],
+    "win_rate": 54.2
   },
   {
     "id": "rengar",
@@ -736,7 +780,8 @@
     "roles": [
       "assassin",
       "fighter"
-    ]
+    ],
+    "win_rate": 48.1
   },
   {
     "id": "riven",
@@ -750,7 +795,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 48.8
   },
   {
     "id": "rumble",
@@ -795,7 +841,8 @@
     "roles": [
       "marksman",
       "assassin"
-    ]
+    ],
+    "win_rate": 50.0
   },
   {
     "id": "shen",
@@ -809,7 +856,8 @@
     ],
     "roles": [
       "tank"
-    ]
+    ],
+    "win_rate": 51.3
   },
   {
     "id": "shyvana",
@@ -824,7 +872,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 50.1
   },
   {
     "id": "swain",
@@ -840,7 +889,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 52.4
   },
   {
     "id": "syndra",
@@ -853,7 +903,8 @@
     ],
     "roles": [
       "mage"
-    ]
+    ],
+    "win_rate": 47.2
   },
   {
     "id": "taliyah",
@@ -868,7 +919,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 51.3
   },
   {
     "id": "talon",
@@ -882,7 +934,8 @@
     ],
     "roles": [
       "assassin"
-    ]
+    ],
+    "win_rate": 50.8
   },
   {
     "id": "varus",
@@ -897,7 +950,8 @@
     "roles": [
       "marksman",
       "mage"
-    ]
+    ],
+    "win_rate": 51.5
   },
   {
     "id": "veigar",
@@ -910,7 +964,8 @@
     ],
     "roles": [
       "mage"
-    ]
+    ],
+    "win_rate": 47.6
   },
   {
     "id": "vex",
@@ -923,7 +978,8 @@
     ],
     "roles": [
       "mage"
-    ]
+    ],
+    "win_rate": 49.3
   },
   {
     "id": "vi",
@@ -937,7 +993,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 51.3
   },
   {
     "id": "viego",
@@ -952,7 +1009,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 47.4
   },
   {
     "id": "wukong",
@@ -967,7 +1025,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 50.0
   },
   {
     "id": "xayah",
@@ -980,7 +1039,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 49.3
   },
   {
     "id": "xin-zhao",
@@ -995,7 +1055,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 50.1
   },
   {
     "id": "yasuo",
@@ -1010,7 +1071,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 47.8
   },
   {
     "id": "zyra",
@@ -1025,7 +1087,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 50.9
   },
   {
     "id": "akshan",
@@ -1052,7 +1115,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 48.3
   },
   {
     "id": "corki",
@@ -1067,7 +1131,8 @@
     "roles": [
       "marksman",
       "mage"
-    ]
+    ],
+    "win_rate": 50.3
   },
   {
     "id": "darius",
@@ -1081,7 +1146,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 50.0
   },
   {
     "id": "diana",
@@ -1096,7 +1162,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 49.1
   },
   {
     "id": "dr-mundo",
@@ -1112,7 +1179,8 @@
     "roles": [
       "tank",
       "fighter"
-    ]
+    ],
+    "win_rate": 49.1
   },
   {
     "id": "draven",
@@ -1125,7 +1193,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 49.2
   },
   {
     "id": "ekko",
@@ -1140,7 +1209,8 @@
     "roles": [
       "assassin",
       "mage"
-    ]
+    ],
+    "win_rate": 47.3
   },
   {
     "id": "fiddlesticks",
@@ -1154,7 +1224,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 51.9
   },
   {
     "id": "galio",
@@ -1169,7 +1240,8 @@
     "roles": [
       "tank",
       "mage"
-    ]
+    ],
+    "win_rate": 52.3
   },
   {
     "id": "garen",
@@ -1183,7 +1255,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 49.9
   },
   {
     "id": "gragas",
@@ -1213,7 +1286,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 47.5
   },
   {
     "id": "heimerdinger",
@@ -1243,7 +1317,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 51.5
   },
   {
     "id": "janna",
@@ -1257,7 +1332,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 48.4
   },
   {
     "id": "jinx",
@@ -1270,7 +1346,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 48.4
   },
   {
     "id": "k-sante",
@@ -1294,7 +1371,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 50.6
   },
   {
     "id": "katarina",
@@ -1308,7 +1386,8 @@
     "roles": [
       "assassin",
       "mage"
-    ]
+    ],
+    "win_rate": 48.5
   },
   {
     "id": "kennen",
@@ -1334,7 +1413,8 @@
     ],
     "roles": [
       "assassin"
-    ]
+    ],
+    "win_rate": 49.3
   },
   {
     "id": "lissandra",
@@ -1362,7 +1442,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 49.0
   },
   {
     "id": "miss-fortune",
@@ -1376,7 +1457,8 @@
     "roles": [
       "marksman",
       "mage"
-    ]
+    ],
+    "win_rate": 51.2
   },
   {
     "id": "morgana",
@@ -1391,7 +1473,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 51.1
   },
   {
     "id": "nidalee",
@@ -1434,7 +1517,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 51.1
   },
   {
     "id": "norra",
@@ -1460,7 +1544,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 51.4
   },
   {
     "id": "pantheon",
@@ -1476,7 +1561,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 52.1
   },
   {
     "id": "renekton",
@@ -1490,7 +1576,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 48.4
   },
   {
     "id": "seraphine",
@@ -1505,7 +1592,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 50.2
   },
   {
     "id": "sett",
@@ -1519,7 +1607,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 49.2
   },
   {
     "id": "singed",
@@ -1533,7 +1622,8 @@
     "roles": [
       "tank",
       "mage"
-    ]
+    ],
+    "win_rate": 53.3
   },
   {
     "id": "sion",
@@ -1548,7 +1638,8 @@
     "roles": [
       "tank",
       "fighter"
-    ]
+    ],
+    "win_rate": 49.7
   },
   {
     "id": "sivir",
@@ -1561,7 +1652,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 49.0
   },
   {
     "id": "skarner",
@@ -1575,7 +1667,8 @@
     "roles": [
       "tank",
       "fighter"
-    ]
+    ],
+    "win_rate": 51.5
   },
   {
     "id": "smolder",
@@ -1604,7 +1697,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 55.6
   },
   {
     "id": "soraka",
@@ -1618,7 +1712,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 51.2
   },
   {
     "id": "teemo",
@@ -1633,7 +1728,8 @@
     "roles": [
       "marksman",
       "mage"
-    ]
+    ],
+    "win_rate": 52.3
   },
   {
     "id": "thresh",
@@ -1647,7 +1743,8 @@
     "roles": [
       "support",
       "tank"
-    ]
+    ],
+    "win_rate": 51.8
   },
   {
     "id": "tristana",
@@ -1661,7 +1758,8 @@
     "roles": [
       "marksman",
       "assassin"
-    ]
+    ],
+    "win_rate": 48.8
   },
   {
     "id": "twisted-fate",
@@ -1675,7 +1773,8 @@
     "roles": [
       "mage",
       "marksman"
-    ]
+    ],
+    "win_rate": 52.1
   },
   {
     "id": "urgot",
@@ -1689,7 +1788,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 49.7
   },
   {
     "id": "vayne",
@@ -1704,7 +1804,8 @@
     "roles": [
       "marksman",
       "assassin"
-    ]
+    ],
+    "win_rate": 53.2
   },
   {
     "id": "viktor",
@@ -1717,7 +1818,8 @@
     ],
     "roles": [
       "mage"
-    ]
+    ],
+    "win_rate": 50.5
   },
   {
     "id": "vladimir",
@@ -1732,7 +1834,8 @@
     "roles": [
       "mage",
       "fighter"
-    ]
+    ],
+    "win_rate": 48.2
   },
   {
     "id": "volibear",
@@ -1747,7 +1850,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 51.1
   },
   {
     "id": "warwick",
@@ -1762,7 +1866,8 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 53.8
   },
   {
     "id": "yone",
@@ -1777,7 +1882,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 51.4
   },
   {
     "id": "yunara",
@@ -1790,7 +1896,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 48.8
   },
   {
     "id": "yuumi",
@@ -1804,7 +1911,8 @@
     "roles": [
       "support",
       "mage"
-    ]
+    ],
+    "win_rate": 43.1
   },
   {
     "id": "zeri",
@@ -1817,7 +1925,8 @@
     ],
     "roles": [
       "marksman"
-    ]
+    ],
+    "win_rate": 50.3
   },
   {
     "id": "ziggs",
@@ -1846,7 +1955,8 @@
     "roles": [
       "mage",
       "support"
-    ]
+    ],
+    "win_rate": 51.0
   },
   {
     "id": "fizz",
@@ -1860,7 +1970,8 @@
     "roles": [
       "assassin",
       "fighter"
-    ]
+    ],
+    "win_rate": 49.5
   },
   {
     "id": "kai-sa",
@@ -1874,7 +1985,8 @@
     "roles": [
       "marksman",
       "mage"
-    ]
+    ],
+    "win_rate": 48.4
   },
   {
     "id": "mel",
@@ -1916,7 +2028,8 @@
     "roles": [
       "fighter",
       "assassin"
-    ]
+    ],
+    "win_rate": 49.2
   },
   {
     "id": "twitch",
@@ -1931,7 +2044,8 @@
     "roles": [
       "marksman",
       "assassin"
-    ]
+    ],
+    "win_rate": 48.1
   },
   {
     "id": "vel-koz",
@@ -1959,7 +2073,8 @@
     ],
     "roles": [
       "mage"
-    ]
+    ],
+    "win_rate": 51.5
   },
   {
     "id": "kayle",
@@ -1974,7 +2089,8 @@
     "roles": [
       "mage",
       "marksman"
-    ]
+    ],
+    "win_rate": 54.8
   },
   {
     "id": "nasus",
@@ -1988,6 +2104,7 @@
     "roles": [
       "fighter",
       "tank"
-    ]
+    ],
+    "win_rate": 50.9
   }
 ]
