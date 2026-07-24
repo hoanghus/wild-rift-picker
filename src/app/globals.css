@@ -124,9 +124,9 @@
   font-style: normal;
 }
 
-/* Tier border colors */
-.border-tier-s\\+ { border-color: #dc2626 !important; box-shadow: 0 0 8px rgba(220,38,38,0.3); }
-.border-tier-s { border-color: #ea580c !important; box-shadow: 0 0 6px rgba(234,88,12,0.25); }
-.border-tier-a { border-color: #16a34a !important; box-shadow: 0 0 4px rgba(22,163,74,0.2); }
-.border-tier-b { border-color: #2563eb !important; }
-.border-tier-c { border-color: #6b7280 !important; }
+/* Tier border colors - using data attributes instead of class names with special chars */
+.champion-card[data-tier="S+"] { --tier-color: #dc2626; --tier-glow: 0 0 8px rgba(220,38,38,0.3); }
+.champion-card[data-tier="S"] { --tier-color: #ea580c; --tier-glow: 0 0 6px rgba(234,88,12,0.25); }
+.champion-card[data-tier="A"] { --tier-color: #16a34a; --tier-glow: 0 0 4px rgba(22,163,74,0.2); }
+.champion-card[data-tier="B"] { --tier-color: #2563eb; --tier-glow: none; }
+.champion-card[data-tier="C"] { --tier-color: #6b7280; --tier-glow: none; }

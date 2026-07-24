@@ -28,7 +28,6 @@ const LANE_CONFIG: Record<string, { label: string; icon: string }> = {
   support: { label: "Supp", icon: "💎" },
 }
 const TIER_LABELS = ["S+", "S", "A", "B", "C"] as const
-const TIER_COLORS: Record<string, string> = { "S+": "border-tier-s\\+", "S": "border-tier-s", "A": "border-tier-a", "B": "border-tier-b", "C": "border-tier-c" }
 const TIER_TEXT: Record<string, string> = { "S+": "text-red-400", "S": "text-orange-400", "A": "text-green-400", "B": "text-blue-400", "C": "text-gray-500" }
 
 const champions = championsData as Champion[]
@@ -39,14 +38,14 @@ const synergies = synergiesData as Record<string, { synergies: SynergyInfo[] }>
 function ChampionCard({ champion, size = 64, showName = true, selected = false, onClick }: { champion: Champion; size?: number; showName?: boolean; selected?: boolean; onClick?: () => void }) {
   const tierInfo = tiers.champions[champion.slug]
   const tier = tierInfo?.overall || "B"
-  const borderClass = TIER_COLORS[tier] || "border-tier-b"
   const imgSrc = `/champions/${champion.slug}.webp`
 
   return (
     <div className={`flex flex-col items-center gap-0.5 cursor-pointer transition-all duration-150 ${selected ? 'scale-110' : 'hover:scale-105'}`} onClick={onClick}>
       <div
-        className={`rounded-lg overflow-hidden border-2 relative ${borderClass} ${selected ? 'ring-2 ring-yellow-400 ring-offset-2 ring-offset-[#0a0a0f]' : ''}`}
-        style={{ width: size, height: size }}
+        className={`champion-card rounded-lg overflow-hidden border-2 relative ${selected ? 'ring-2 ring-yellow-400 ring-offset-2 ring-offset-[#0a0a0f]' : ''}`}
+        data-tier={tier}
+        style={{ width: size, height: size, borderColor: 'var(--tier-color, #6b7280)', boxShadow: 'var(--tier-glow, none)' }}
       >
         <img
           src={imgSrc}
