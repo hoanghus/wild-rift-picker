@@ -4,242 +4,200 @@
     "aatrox": {
       "overall": "S+",
       "by_role": {
-        "baron": "A"
-      },
-      "win_rate": 48.7
+        "baron": "S+"
+      }
     },
     "ahri": {
       "overall": "S+",
       "by_role": {
-        "mid": "S"
-      },
-      "win_rate": 50.9
+        "mid": "S+"
+      }
     },
     "bard": {
       "overall": "S+",
       "by_role": {
-        "support": "A"
+        "support": "S+"
       }
     },
     "braum": {
       "overall": "S+",
       "by_role": {
-        "support": "A"
-      },
-      "win_rate": 49.9
+        "support": "S+"
+      }
     },
     "camille": {
       "overall": "S+",
       "by_role": {
-        "baron": "A",
-        "jungle": "B"
-      },
-      "win_rate": 51.3
+        "baron": "S+"
+      }
     },
     "ezreal": {
       "overall": "S+",
       "by_role": {
         "adc": "S+"
-      },
-      "win_rate": 51.6
+      }
     },
     "fiora": {
       "overall": "S+",
       "by_role": {
-        "baron": "A"
-      },
-      "win_rate": 47.9
+        "baron": "S+"
+      }
     },
     "milio": {
       "overall": "S+",
       "by_role": {
-        "support": "S"
-      },
-      "win_rate": 50.4
+        "support": "S+"
+      }
     },
     "nautilus": {
       "overall": "S+",
       "by_role": {
-        "support": "A"
-      },
-      "win_rate": 48.0
+        "support": "S+"
+      }
     },
     "senna": {
       "overall": "S+",
       "by_role": {
-        "adc": "S+",
-        "support": "S"
-      },
-      "win_rate": 52.0
+        "support": "S+"
+      }
     },
     "zed": {
       "overall": "S+",
       "by_role": {
-        "mid": "A"
-      },
-      "win_rate": 50.4
+        "mid": "S+"
+      }
     },
     "zilean": {
       "overall": "S+",
       "by_role": {
-        "support": "S",
-        "mid": "B"
-      },
-      "win_rate": 53.0
+        "support": "S+"
+      }
     },
     "akali": {
       "overall": "S",
       "by_role": {
-        "mid": "A",
-        "baron": "B"
-      },
-      "win_rate": 44.4
+        "mid": "S"
+      }
     },
     "alistar": {
       "overall": "S",
       "by_role": {
-        "support": "A"
-      },
-      "win_rate": 50.6
+        "support": "S"
+      }
     },
     "ambessa": {
       "overall": "S",
       "by_role": {
-        "baron": "S+"
-      },
-      "win_rate": 51.6
+        "baron": "S"
+      }
     },
     "amumu": {
       "overall": "S",
       "by_role": {
-        "jungle": "S",
-        "support": "S"
-      },
-      "win_rate": 54.5
+        "jungle": "S"
+      }
     },
     "annie": {
       "overall": "S",
       "by_role": {
-        "mid": "B",
-        "support": "B"
+        "support": "S"
       }
     },
     "ashe": {
       "overall": "S",
       "by_role": {
-        "adc": "B"
-      },
-      "win_rate": 50.8
+        "adc": "S"
+      }
     },
     "aurelion-sol": {
       "overall": "S",
       "by_role": {
         "mid": "S"
-      },
-      "win_rate": 51.5
+      }
     },
     "aurora": {
       "overall": "S",
       "by_role": {
-        "mid": "A",
-        "baron": "B"
+        "mid": "S"
       }
     },
     "blitzcrank": {
       "overall": "S",
       "by_role": {
-        "support": "A"
-      },
-      "win_rate": 49.5
+        "support": "S"
+      }
     },
     "evelynn": {
       "overall": "S",
       "by_role": {
-        "jungle": "A"
-      },
-      "win_rate": 49.2
+        "jungle": "S"
+      }
     },
     "gnar": {
       "overall": "S",
       "by_role": {
-        "baron": "B"
-      },
-      "win_rate": 50.2
+        "baron": "S"
+      }
     },
     "gwen": {
       "overall": "S",
       "by_role": {
-        "baron": "A",
-        "jungle": "A"
-      },
-      "win_rate": 51.2
+        "baron": "S"
+      }
     },
     "hecarim": {
       "overall": "S",
       "by_role": {
         "jungle": "S"
-      },
-      "win_rate": 51.1
+      }
     },
     "jarvan-iv": {
       "overall": "S",
       "by_role": {
-        "jungle": "S",
-        "baron": "S"
-      },
-      "win_rate": 51.4
+        "jungle": "S"
+      }
     },
     "jax": {
       "overall": "S",
       "by_role": {
-        "jungle": "B",
-        "baron": "A"
-      },
-      "win_rate": 51.2
+        "baron": "S"
+      }
     },
     "jayce": {
       "overall": "S",
       "by_role": {
-        "baron": "A",
-        "mid": "B"
-      },
-      "win_rate": 50.8
+        "baron": "S"
+      }
     },
     "jhin": {
       "overall": "S",
       "by_role": {
         "adc": "S"
-      },
-      "win_rate": 50.6
+      }
     },
     "karma": {
       "overall": "S",
       "by_role": {
-        "support": "A",
-        "mid": "A"
-      },
-      "win_rate": 50.4
+        "support": "S"
+      }
     },
     "kassadin": {
       "overall": "S",
       "by_role": {
         "mid": "S"
-      },
-      "win_rate": 51.7
+      }
     },
     "kayn": {
       "overall": "S",
       "by_role": {
-        "jungle": "B"
+        "jungle": "S"
       }
     },
     "kindred": {
       "overall": "S",
       "by_role": {
-        "jungle": "A",
-        "adc": "S"
-      },
-      "win_rate": 50.5
+        "jungle": "S"
+      }
     },
     "kog-maw": {
       "overall": "S",
@@ -250,288 +208,230 @@
     "lee-sin": {
       "overall": "S",
       "by_role": {
-        "jungle": "S",
-        "baron": "S"
-      },
-      "win_rate": 46.5
+        "jungle": "S"
+      }
     },
     "leona": {
       "overall": "S",
       "by_role": {
         "support": "S"
-      },
-      "win_rate": 51.2
+      }
     },
     "lillia": {
       "overall": "S",
       "by_role": {
-        "jungle": "S",
-        "baron": "S"
-      },
-      "win_rate": 51.0
+        "jungle": "S"
+      }
     },
     "lucian": {
       "overall": "S",
       "by_role": {
-        "adc": "S",
-        "mid": "A"
-      },
-      "win_rate": 49.4
+        "adc": "S"
+      }
     },
     "lulu": {
       "overall": "S",
       "by_role": {
         "support": "S"
-      },
-      "win_rate": 49.3
+      }
     },
     "malphite": {
       "overall": "S",
       "by_role": {
-        "baron": "S+",
-        "support": "S"
-      },
-      "win_rate": 50.8
+        "baron": "S"
+      }
     },
     "maokai": {
       "overall": "S",
       "by_role": {
-        "support": "A",
-        "baron": "S"
+        "support": "S"
       }
     },
     "master-yi": {
       "overall": "S",
       "by_role": {
         "jungle": "S"
-      },
-      "win_rate": 47.9
+      }
     },
     "mordekaiser": {
       "overall": "S",
       "by_role": {
-        "baron": "A"
-      },
-      "win_rate": 49.1
+        "baron": "S"
+      }
     },
     "nami": {
       "overall": "S",
       "by_role": {
-        "support": "S+"
-      },
-      "win_rate": 51.4
+        "support": "S"
+      }
     },
     "nunu-willump": {
       "overall": "S",
       "by_role": {
         "jungle": "S"
-      },
-      "win_rate": 53.4
+      }
     },
     "orianna": {
       "overall": "S",
       "by_role": {
-        "mid": "S+"
-      },
-      "win_rate": 51.7
+        "mid": "S"
+      }
     },
     "ornn": {
       "overall": "S",
       "by_role": {
-        "baron": "A"
-      },
-      "win_rate": 50.3
+        "baron": "S"
+      }
     },
     "poppy": {
       "overall": "S",
       "by_role": {
-        "support": "B",
-        "jungle": "S",
-        "baron": "A"
+        "baron": "S"
       }
     },
     "pyke": {
       "overall": "S",
       "by_role": {
         "support": "S"
-      },
-      "win_rate": 52.1
+      }
     },
     "rakan": {
       "overall": "S",
       "by_role": {
-        "support": "A"
-      },
-      "win_rate": 50.8
+        "support": "S"
+      }
     },
     "rammus": {
       "overall": "S",
       "by_role": {
-        "jungle": "S+"
-      },
-      "win_rate": 54.2
+        "jungle": "S"
+      }
     },
     "rengar": {
       "overall": "S",
       "by_role": {
-        "jungle": "B",
-        "baron": "S"
-      },
-      "win_rate": 48.1
+        "jungle": "S"
+      }
     },
     "riven": {
       "overall": "S",
       "by_role": {
-        "baron": "A"
-      },
-      "win_rate": 48.8
+        "baron": "S"
+      }
     },
     "rumble": {
       "overall": "S",
       "by_role": {
-        "baron": "S",
-        "jungle": "S",
-        "mid": "S",
-        "support": "S"
+        "baron": "S"
       }
     },
     "ryze": {
       "overall": "S",
       "by_role": {
-        "mid": "A",
-        "baron": "S"
+        "mid": "S"
       }
     },
     "samira": {
       "overall": "S",
       "by_role": {
-        "adc": "A"
-      },
-      "win_rate": 50.0
+        "adc": "S"
+      }
     },
     "shen": {
       "overall": "S",
       "by_role": {
-        "baron": "A",
-        "support": "B"
-      },
-      "win_rate": 51.3
+        "baron": "S"
+      }
     },
     "shyvana": {
       "overall": "S",
       "by_role": {
-        "jungle": "A",
-        "baron": "A"
-      },
-      "win_rate": 50.1
+        "jungle": "S"
+      }
     },
     "swain": {
       "overall": "S",
       "by_role": {
-        "mid": "S",
-        "baron": "S",
-        "support": "A"
-      },
-      "win_rate": 52.4
+        "mid": "S"
+      }
     },
     "syndra": {
       "overall": "S",
       "by_role": {
-        "mid": "A"
-      },
-      "win_rate": 47.2
+        "mid": "S"
+      }
     },
     "taliyah": {
       "overall": "S",
       "by_role": {
-        "mid": "S",
-        "jungle": "B"
-      },
-      "win_rate": 51.3
+        "mid": "S"
+      }
     },
     "talon": {
       "overall": "S",
       "by_role": {
-        "jungle": "A",
-        "mid": "B"
-      },
-      "win_rate": 50.8
+        "jungle": "S"
+      }
     },
     "varus": {
       "overall": "S",
       "by_role": {
-        "adc": "S",
-        "mid": "B"
-      },
-      "win_rate": 51.5
+        "adc": "S"
+      }
     },
     "veigar": {
       "overall": "S",
       "by_role": {
-        "mid": "A"
-      },
-      "win_rate": 47.6
+        "mid": "S"
+      }
     },
     "vex": {
       "overall": "S",
       "by_role": {
-        "mid": "A"
-      },
-      "win_rate": 49.3
+        "mid": "S"
+      }
     },
     "vi": {
       "overall": "S",
       "by_role": {
-        "jungle": "S+"
-      },
-      "win_rate": 51.3
+        "jungle": "S"
+      }
     },
     "viego": {
       "overall": "S",
       "by_role": {
-        "jungle": "A",
-        "baron": "S"
-      },
-      "win_rate": 47.4
+        "jungle": "S"
+      }
     },
     "wukong": {
       "overall": "S",
       "by_role": {
-        "baron": "S",
-        "jungle": "A"
-      },
-      "win_rate": 50.0
+        "jungle": "S"
+      }
     },
     "xayah": {
       "overall": "S",
       "by_role": {
-        "adc": "A"
-      },
-      "win_rate": 49.3
+        "adc": "S"
+      }
     },
     "xin-zhao": {
       "overall": "S",
       "by_role": {
-        "jungle": "S",
-        "baron": "S"
-      },
-      "win_rate": 50.1
+        "jungle": "S"
+      }
     },
     "yasuo": {
       "overall": "S",
       "by_role": {
-        "mid": "A",
-        "baron": "B"
-      },
-      "win_rate": 47.8
+        "mid": "S"
+      }
     },
     "zyra": {
       "overall": "S",
       "by_role": {
-        "support": "A",
-        "mid": "S"
-      },
-      "win_rate": 50.9
+        "support": "S"
+      }
     },
     "akshan": {
       "overall": "A",
@@ -543,142 +443,115 @@
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 48.3
+      }
     },
     "corki": {
       "overall": "A",
       "by_role": {
-        "mid": "A",
-        "adc": "B"
-      },
-      "win_rate": 50.3
+        "mid": "A"
+      }
     },
     "darius": {
       "overall": "A",
       "by_role": {
-        "baron": "S"
-      },
-      "win_rate": 50.0
+        "baron": "A"
+      }
     },
     "diana": {
       "overall": "A",
       "by_role": {
-        "jungle": "A",
-        "mid": "A"
-      },
-      "win_rate": 49.1
+        "jungle": "A"
+      }
     },
     "dr-mundo": {
       "overall": "A",
       "by_role": {
-        "baron": "A",
-        "jungle": "A",
-        "support": "A"
-      },
-      "win_rate": 49.1
+        "baron": "A"
+      }
     },
     "draven": {
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 49.2
+      }
     },
     "ekko": {
       "overall": "A",
       "by_role": {
-        "mid": "A",
-        "jungle": "B"
-      },
-      "win_rate": 47.3
+        "mid": "A"
+      }
     },
     "fiddlesticks": {
       "overall": "A",
       "by_role": {
         "jungle": "A"
-      },
-      "win_rate": 51.9
+      }
     },
     "galio": {
       "overall": "A",
       "by_role": {
-        "mid": "S+",
-        "support": "A"
-      },
-      "win_rate": 52.3
+        "mid": "A"
+      }
     },
     "garen": {
       "overall": "A",
       "by_role": {
         "baron": "A"
-      },
-      "win_rate": 49.9
+      }
     },
     "gragas": {
       "overall": "A",
       "by_role": {
-        "baron": "A",
-        "jungle": "A",
-        "mid": "A",
-        "support": "A"
+        "jungle": "A"
       }
     },
     "graves": {
       "overall": "A",
       "by_role": {
         "jungle": "A"
-      },
-      "win_rate": 47.5
+      }
     },
     "heimerdinger": {
       "overall": "A",
       "by_role": {
-        "mid": "A",
-        "support": "B"
+        "mid": "A"
       }
     },
     "irelia": {
       "overall": "A",
       "by_role": {
-        "baron": "A",
-        "mid": "A"
-      },
-      "win_rate": 51.5
+        "baron": "A"
+      }
     },
     "janna": {
       "overall": "A",
       "by_role": {
         "support": "A"
-      },
-      "win_rate": 48.4
+      }
     },
     "jinx": {
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 48.4
+      }
     },
     "k-sante": {
       "overall": "A",
       "by_role": {
-        "mid": "A"
+        "baron": "A"
       }
     },
     "kalista": {
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 50.6
+      }
     },
     "katarina": {
       "overall": "A",
       "by_role": {
         "mid": "A"
-      },
-      "win_rate": 48.5
+      }
     },
     "kennen": {
       "overall": "A",
@@ -690,8 +563,7 @@
       "overall": "A",
       "by_role": {
         "jungle": "A"
-      },
-      "win_rate": 49.3
+      }
     },
     "lissandra": {
       "overall": "A",
@@ -702,30 +574,25 @@
     "lux": {
       "overall": "A",
       "by_role": {
-        "support": "A",
-        "mid": "A"
-      },
-      "win_rate": 49.0
+        "support": "A"
+      }
     },
     "miss-fortune": {
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 51.2
+      }
     },
     "morgana": {
       "overall": "A",
       "by_role": {
-        "support": "A",
-        "mid": "B"
-      },
-      "win_rate": 51.1
+        "support": "A"
+      }
     },
     "nidalee": {
       "overall": "A",
       "by_role": {
-        "jungle": "B"
+        "jungle": "A"
       }
     },
     "nilah": {
@@ -737,10 +604,8 @@
     "nocturne": {
       "overall": "A",
       "by_role": {
-        "jungle": "S",
-        "baron": "A"
-      },
-      "win_rate": 51.1
+        "jungle": "A"
+      }
     },
     "norra": {
       "overall": "A",
@@ -751,280 +616,230 @@
     "olaf": {
       "overall": "A",
       "by_role": {
-        "baron": "B",
-        "jungle": "B"
-      },
-      "win_rate": 51.4
+        "jungle": "A"
+      }
     },
     "pantheon": {
       "overall": "A",
       "by_role": {
-        "mid": "A",
-        "baron": "B",
-        "support": "B"
-      },
-      "win_rate": 52.1
+        "jungle": "A"
+      }
     },
     "renekton": {
       "overall": "A",
       "by_role": {
-        "baron": "B"
-      },
-      "win_rate": 48.4
+        "baron": "A"
+      }
     },
     "seraphine": {
       "overall": "A",
       "by_role": {
-        "support": "A",
-        "mid": "A"
-      },
-      "win_rate": 50.2
+        "support": "A"
+      }
     },
     "sett": {
       "overall": "A",
       "by_role": {
         "baron": "A"
-      },
-      "win_rate": 49.2
+      }
     },
     "singed": {
       "overall": "A",
       "by_role": {
-        "baron": "S"
-      },
-      "win_rate": 53.3
+        "baron": "A"
+      }
     },
     "sion": {
       "overall": "A",
       "by_role": {
-        "baron": "A",
-        "support": "A"
-      },
-      "win_rate": 49.7
+        "baron": "A"
+      }
     },
     "sivir": {
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 49.0
+      }
     },
     "skarner": {
       "overall": "A",
       "by_role": {
         "jungle": "A"
-      },
-      "win_rate": 51.5
+      }
     },
     "smolder": {
       "overall": "A",
       "by_role": {
-        "adc": "A",
-        "mid": "B"
+        "adc": "A"
       }
     },
     "sona": {
       "overall": "A",
       "by_role": {
-        "support": "S+"
-      },
-      "win_rate": 55.6
+        "support": "A"
+      }
     },
     "soraka": {
       "overall": "A",
       "by_role": {
         "support": "A"
-      },
-      "win_rate": 51.2
+      }
     },
     "teemo": {
       "overall": "A",
       "by_role": {
-        "baron": "A",
-        "mid": "B"
-      },
-      "win_rate": 52.3
+        "baron": "A"
+      }
     },
     "thresh": {
       "overall": "A",
       "by_role": {
-        "support": "S+"
-      },
-      "win_rate": 51.8
+        "support": "A"
+      }
     },
     "tristana": {
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 48.8
+      }
     },
     "twisted-fate": {
       "overall": "A",
       "by_role": {
         "mid": "A"
-      },
-      "win_rate": 52.1
+      }
     },
     "urgot": {
       "overall": "A",
       "by_role": {
-        "baron": "B"
-      },
-      "win_rate": 49.7
+        "baron": "A"
+      }
     },
     "vayne": {
       "overall": "A",
       "by_role": {
-        "adc": "S",
-        "baron": "B"
-      },
-      "win_rate": 53.2
+        "adc": "A"
+      }
     },
     "viktor": {
       "overall": "A",
       "by_role": {
         "mid": "A"
-      },
-      "win_rate": 50.5
+      }
     },
     "vladimir": {
       "overall": "A",
       "by_role": {
-        "mid": "A",
-        "baron": "B"
-      },
-      "win_rate": 48.2
+        "mid": "A"
+      }
     },
     "volibear": {
       "overall": "A",
       "by_role": {
-        "baron": "S",
-        "jungle": "A"
-      },
-      "win_rate": 51.1
+        "baron": "A"
+      }
     },
     "warwick": {
       "overall": "A",
       "by_role": {
-        "jungle": "S+",
-        "baron": "A"
-      },
-      "win_rate": 53.8
+        "jungle": "A"
+      }
     },
     "yone": {
       "overall": "A",
       "by_role": {
-        "mid": "S",
-        "baron": "B"
-      },
-      "win_rate": 51.4
+        "mid": "A"
+      }
     },
     "yunara": {
       "overall": "A",
       "by_role": {
-        "baron": "B"
-      },
-      "win_rate": 48.8
+        "adc": "A"
+      }
     },
     "yuumi": {
       "overall": "A",
       "by_role": {
         "support": "A"
-      },
-      "win_rate": 43.1
+      }
     },
     "zeri": {
       "overall": "A",
       "by_role": {
         "adc": "A"
-      },
-      "win_rate": 50.3
+      }
     },
     "ziggs": {
       "overall": "A",
       "by_role": {
-        "mid": "A",
-        "adc": "B"
+        "mid": "A"
       }
     },
     "brand": {
       "overall": "B",
       "by_role": {
-        "mid": "S",
-        "support": "B"
-      },
-      "win_rate": 51.0
+        "mid": "B"
+      }
     },
     "fizz": {
       "overall": "B",
       "by_role": {
-        "mid": "A"
-      },
-      "win_rate": 49.5
+        "mid": "B"
+      }
     },
     "kai-sa": {
       "overall": "B",
       "by_role": {
         "adc": "B"
-      },
-      "win_rate": 48.4
+      }
     },
     "mel": {
       "overall": "B",
       "by_role": {
-        "mid": "A"
+        "mid": "B"
       }
     },
     "rell": {
       "overall": "B",
       "by_role": {
-        "support": "A"
+        "support": "B"
       }
     },
     "tryndamere": {
       "overall": "B",
       "by_role": {
         "baron": "B"
-      },
-      "win_rate": 49.2
+      }
     },
     "twitch": {
       "overall": "B",
       "by_role": {
-        "adc": "A",
-        "jungle": "B"
-      },
-      "win_rate": 48.1
+        "adc": "B"
+      }
     },
     "vel-koz": {
       "overall": "B",
       "by_role": {
-        "mid": "B",
-        "support": "B"
+        "mid": "B"
       }
     },
     "zoe": {
       "overall": "B",
       "by_role": {
-        "mid": "A"
-      },
-      "win_rate": 51.5
+        "mid": "B"
+      }
     },
     "kayle": {
       "overall": "C",
       "by_role": {
-        "baron": "B",
-        "mid": "C"
-      },
-      "win_rate": 54.8
+        "baron": "C"
+      }
     },
     "nasus": {
       "overall": "C",
       "by_role": {
-        "baron": "A"
-      },
-      "win_rate": 50.9
+        "baron": "C"
+      }
     }
   }
 }

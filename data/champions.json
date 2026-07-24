@@ -3,7 +3,7 @@
     "id": "aatrox",
     "name": "Aatrox",
     "slug": "aatrox",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_266.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png",
     "tier": "S+",
     "lanes": [
       "baron"
@@ -16,7 +16,7 @@
     "id": "ahri",
     "name": "Ahri",
     "slug": "ahri",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_103.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/103.png",
     "tier": "S+",
     "lanes": [
       "mid"
@@ -30,7 +30,7 @@
     "id": "bard",
     "name": "Bard",
     "slug": "bard",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_432.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/432.png",
     "tier": "S+",
     "lanes": [
       "support"
@@ -44,7 +44,7 @@
     "id": "braum",
     "name": "Braum",
     "slug": "braum",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_201.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/201.png",
     "tier": "S+",
     "lanes": [
       "support"
@@ -58,11 +58,10 @@
     "id": "camille",
     "name": "Camille",
     "slug": "camille",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_164.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/164.png",
     "tier": "S+",
     "lanes": [
-      "baron",
-      "jungle"
+      "baron"
     ],
     "roles": [
       "fighter",
@@ -73,7 +72,7 @@
     "id": "ezreal",
     "name": "Ezreal",
     "slug": "ezreal",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_81.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/81.png",
     "tier": "S+",
     "lanes": [
       "adc"
@@ -87,7 +86,7 @@
     "id": "fiora",
     "name": "Fiora",
     "slug": "fiora",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_114.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/114.png",
     "tier": "S+",
     "lanes": [
       "baron"
@@ -101,7 +100,7 @@
     "id": "milio",
     "name": "Milio",
     "slug": "milio",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_902.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/902.png",
     "tier": "S+",
     "lanes": [
       "support"
@@ -115,7 +114,7 @@
     "id": "nautilus",
     "name": "Nautilus",
     "slug": "nautilus",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_111.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/111.png",
     "tier": "S+",
     "lanes": [
       "support"
@@ -129,10 +128,9 @@
     "id": "senna",
     "name": "Senna",
     "slug": "senna",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_235.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/235.png",
     "tier": "S+",
     "lanes": [
-      "adc",
       "support"
     ],
     "roles": [
@@ -144,7 +142,7 @@
     "id": "zed",
     "name": "Zed",
     "slug": "zed",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_238.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/238.png",
     "tier": "S+",
     "lanes": [
       "mid"
@@ -157,11 +155,10 @@
     "id": "zilean",
     "name": "Zilean",
     "slug": "zilean",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_26.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/26.png",
     "tier": "S+",
     "lanes": [
-      "support",
-      "mid"
+      "support"
     ],
     "roles": [
       "support",
@@ -172,11 +169,10 @@
     "id": "akali",
     "name": "Akali",
     "slug": "akali",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_84.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/84.png",
     "tier": "S",
     "lanes": [
-      "mid",
-      "baron"
+      "mid"
     ],
     "roles": [
       "assassin"
@@ -186,7 +182,7 @@
     "id": "alistar",
     "name": "Alistar",
     "slug": "alistar",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_12.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/12.png",
     "tier": "S",
     "lanes": [
       "support"
@@ -200,7 +196,7 @@
     "id": "ambessa",
     "name": "Ambessa",
     "slug": "ambessa",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_799.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/799.png",
     "tier": "S",
     "lanes": [
       "baron"
@@ -214,11 +210,10 @@
     "id": "amumu",
     "name": "Amumu",
     "slug": "amumu",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_32.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/32.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "support"
+      "jungle"
     ],
     "roles": [
       "tank",
@@ -229,10 +224,9 @@
     "id": "annie",
     "name": "Annie",
     "slug": "annie",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_1.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/1.png",
     "tier": "S",
     "lanes": [
-      "mid",
       "support"
     ],
     "roles": [
@@ -244,7 +238,7 @@
     "id": "ashe",
     "name": "Ashe",
     "slug": "ashe",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_22.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/22.png",
     "tier": "S",
     "lanes": [
       "adc"
@@ -258,7 +252,7 @@
     "id": "aurelion-sol",
     "name": "Aurelion Sol",
     "slug": "aurelion-sol",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_136.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/136.png",
     "tier": "S",
     "lanes": [
       "mid"
@@ -271,11 +265,10 @@
     "id": "aurora",
     "name": "Aurora",
     "slug": "aurora",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_893.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/893.png",
     "tier": "S",
     "lanes": [
-      "mid",
-      "baron"
+      "mid"
     ],
     "roles": [
       "mage",
@@ -286,7 +279,7 @@
     "id": "blitzcrank",
     "name": "Blitzcrank",
     "slug": "blitzcrank",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_53.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/53.png",
     "tier": "S",
     "lanes": [
       "support"
@@ -300,7 +293,7 @@
     "id": "evelynn",
     "name": "Evelynn",
     "slug": "evelynn",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_28.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/28.png",
     "tier": "S",
     "lanes": [
       "jungle"
@@ -314,7 +307,7 @@
     "id": "gnar",
     "name": "Gnar",
     "slug": "gnar",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_150.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/150.png",
     "tier": "S",
     "lanes": [
       "baron"
@@ -328,11 +321,10 @@
     "id": "gwen",
     "name": "Gwen",
     "slug": "gwen",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_887.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/887.png",
     "tier": "S",
     "lanes": [
-      "baron",
-      "jungle"
+      "baron"
     ],
     "roles": [
       "fighter"
@@ -342,7 +334,7 @@
     "id": "hecarim",
     "name": "Hecarim",
     "slug": "hecarim",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_120.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/120.png",
     "tier": "S",
     "lanes": [
       "jungle"
@@ -356,11 +348,10 @@
     "id": "jarvan-iv",
     "name": "Jarvan IV",
     "slug": "jarvan-iv",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_59.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/59.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -371,10 +362,9 @@
     "id": "jax",
     "name": "Jax",
     "slug": "jax",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_24.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/24.png",
     "tier": "S",
     "lanes": [
-      "jungle",
       "baron"
     ],
     "roles": [
@@ -385,11 +375,10 @@
     "id": "jayce",
     "name": "Jayce",
     "slug": "jayce",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_126.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/126.png",
     "tier": "S",
     "lanes": [
-      "baron",
-      "mid"
+      "baron"
     ],
     "roles": [
       "fighter",
@@ -400,7 +389,7 @@
     "id": "jhin",
     "name": "Jhin",
     "slug": "jhin",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_202.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/202.png",
     "tier": "S",
     "lanes": [
       "adc"
@@ -414,11 +403,10 @@
     "id": "karma",
     "name": "Karma",
     "slug": "karma",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_43.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/43.png",
     "tier": "S",
     "lanes": [
-      "support",
-      "mid"
+      "support"
     ],
     "roles": [
       "mage",
@@ -429,7 +417,7 @@
     "id": "kassadin",
     "name": "Kassadin",
     "slug": "kassadin",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_38.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/38.png",
     "tier": "S",
     "lanes": [
       "mid"
@@ -443,7 +431,7 @@
     "id": "kayn",
     "name": "Kayn",
     "slug": "kayn",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_141.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/141.png",
     "tier": "S",
     "lanes": [
       "jungle"
@@ -457,11 +445,10 @@
     "id": "kindred",
     "name": "Kindred",
     "slug": "kindred",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_203.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/203.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "adc"
+      "jungle"
     ],
     "roles": [
       "marksman"
@@ -471,7 +458,7 @@
     "id": "kog-maw",
     "name": "Kog'Maw",
     "slug": "kog-maw",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_96.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/96.png",
     "tier": "S",
     "lanes": [
       "adc"
@@ -485,11 +472,10 @@
     "id": "lee-sin",
     "name": "Lee Sin",
     "slug": "lee-sin",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_64.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/64.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -500,7 +486,7 @@
     "id": "leona",
     "name": "Leona",
     "slug": "leona",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_89.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/89.png",
     "tier": "S",
     "lanes": [
       "support"
@@ -514,11 +500,10 @@
     "id": "lillia",
     "name": "Lillia",
     "slug": "lillia",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_876.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/876.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -529,11 +514,10 @@
     "id": "lucian",
     "name": "Lucian",
     "slug": "lucian",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_236.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/236.png",
     "tier": "S",
     "lanes": [
-      "adc",
-      "mid"
+      "adc"
     ],
     "roles": [
       "marksman",
@@ -544,7 +528,7 @@
     "id": "lulu",
     "name": "Lulu",
     "slug": "lulu",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_117.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/117.png",
     "tier": "S",
     "lanes": [
       "support"
@@ -558,11 +542,10 @@
     "id": "malphite",
     "name": "Malphite",
     "slug": "malphite",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_54.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/54.png",
     "tier": "S",
     "lanes": [
-      "baron",
-      "support"
+      "baron"
     ],
     "roles": [
       "tank",
@@ -573,11 +556,10 @@
     "id": "maokai",
     "name": "Maokai",
     "slug": "maokai",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_57.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/57.png",
     "tier": "S",
     "lanes": [
-      "support",
-      "baron"
+      "support"
     ],
     "roles": [
       "tank",
@@ -588,7 +570,7 @@
     "id": "master-yi",
     "name": "Master Yi",
     "slug": "master-yi",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_11.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/11.png",
     "tier": "S",
     "lanes": [
       "jungle"
@@ -602,7 +584,7 @@
     "id": "mordekaiser",
     "name": "Mordekaiser",
     "slug": "mordekaiser",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_82.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/82.png",
     "tier": "S",
     "lanes": [
       "baron"
@@ -616,7 +598,7 @@
     "id": "nami",
     "name": "Nami",
     "slug": "nami",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_267.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/267.png",
     "tier": "S",
     "lanes": [
       "support"
@@ -630,7 +612,7 @@
     "id": "nunu-willump",
     "name": "Nunu & Willump",
     "slug": "nunu-willump",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_20.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/20.png",
     "tier": "S",
     "lanes": [
       "jungle"
@@ -644,7 +626,7 @@
     "id": "orianna",
     "name": "Orianna",
     "slug": "orianna",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_61.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/61.png",
     "tier": "S",
     "lanes": [
       "mid"
@@ -658,7 +640,7 @@
     "id": "ornn",
     "name": "Ornn",
     "slug": "ornn",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_516.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/516.png",
     "tier": "S",
     "lanes": [
       "baron"
@@ -671,11 +653,9 @@
     "id": "poppy",
     "name": "Poppy",
     "slug": "poppy",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_78.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/78.png",
     "tier": "S",
     "lanes": [
-      "support",
-      "jungle",
       "baron"
     ],
     "roles": [
@@ -687,7 +667,7 @@
     "id": "pyke",
     "name": "Pyke",
     "slug": "pyke",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_555.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/555.png",
     "tier": "S",
     "lanes": [
       "support"
@@ -701,7 +681,7 @@
     "id": "rakan",
     "name": "Rakan",
     "slug": "rakan",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_497.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/497.png",
     "tier": "S",
     "lanes": [
       "support"
@@ -714,7 +694,7 @@
     "id": "rammus",
     "name": "Rammus",
     "slug": "rammus",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_33.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/33.png",
     "tier": "S",
     "lanes": [
       "jungle"
@@ -727,11 +707,10 @@
     "id": "rengar",
     "name": "Rengar",
     "slug": "rengar",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_107.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/107.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "assassin",
@@ -742,7 +721,7 @@
     "id": "riven",
     "name": "Riven",
     "slug": "riven",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_92.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/92.png",
     "tier": "S",
     "lanes": [
       "baron"
@@ -756,13 +735,10 @@
     "id": "rumble",
     "name": "Rumble",
     "slug": "rumble",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_68.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/68.png",
     "tier": "S",
     "lanes": [
-      "baron",
-      "jungle",
-      "mid",
-      "support"
+      "baron"
     ],
     "roles": [
       "fighter",
@@ -773,11 +749,10 @@
     "id": "ryze",
     "name": "Ryze",
     "slug": "ryze",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_13.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/13.png",
     "tier": "S",
     "lanes": [
-      "mid",
-      "baron"
+      "mid"
     ],
     "roles": [
       "mage"
@@ -787,7 +762,7 @@
     "id": "samira",
     "name": "Samira",
     "slug": "samira",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_360.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/360.png",
     "tier": "S",
     "lanes": [
       "adc"
@@ -801,11 +776,10 @@
     "id": "shen",
     "name": "Shen",
     "slug": "shen",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_98.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/98.png",
     "tier": "S",
     "lanes": [
-      "baron",
-      "support"
+      "baron"
     ],
     "roles": [
       "tank"
@@ -815,11 +789,10 @@
     "id": "shyvana",
     "name": "Shyvana",
     "slug": "shyvana",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_102.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/102.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -830,12 +803,10 @@
     "id": "swain",
     "name": "Swain",
     "slug": "swain",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_50.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/50.png",
     "tier": "S",
     "lanes": [
-      "mid",
-      "baron",
-      "support"
+      "mid"
     ],
     "roles": [
       "mage",
@@ -846,7 +817,7 @@
     "id": "syndra",
     "name": "Syndra",
     "slug": "syndra",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_134.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/134.png",
     "tier": "S",
     "lanes": [
       "mid"
@@ -859,11 +830,10 @@
     "id": "taliyah",
     "name": "Taliyah",
     "slug": "taliyah",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_163.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/163.png",
     "tier": "S",
     "lanes": [
-      "mid",
-      "jungle"
+      "mid"
     ],
     "roles": [
       "mage",
@@ -874,11 +844,10 @@
     "id": "talon",
     "name": "Talon",
     "slug": "talon",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_91.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/91.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "mid"
+      "jungle"
     ],
     "roles": [
       "assassin"
@@ -888,11 +857,10 @@
     "id": "varus",
     "name": "Varus",
     "slug": "varus",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_110.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/110.png",
     "tier": "S",
     "lanes": [
-      "adc",
-      "mid"
+      "adc"
     ],
     "roles": [
       "marksman",
@@ -903,7 +871,7 @@
     "id": "veigar",
     "name": "Veigar",
     "slug": "veigar",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_45.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/45.png",
     "tier": "S",
     "lanes": [
       "mid"
@@ -916,7 +884,7 @@
     "id": "vex",
     "name": "Vex",
     "slug": "vex",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_711.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/711.png",
     "tier": "S",
     "lanes": [
       "mid"
@@ -929,7 +897,7 @@
     "id": "vi",
     "name": "Vi",
     "slug": "vi",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_254.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/254.png",
     "tier": "S",
     "lanes": [
       "jungle"
@@ -943,11 +911,10 @@
     "id": "viego",
     "name": "Viego",
     "slug": "viego",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_234.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/234.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -958,10 +925,9 @@
     "id": "wukong",
     "name": "Wukong",
     "slug": "wukong",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_62.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/62.png",
     "tier": "S",
     "lanes": [
-      "baron",
       "jungle"
     ],
     "roles": [
@@ -973,7 +939,7 @@
     "id": "xayah",
     "name": "Xayah",
     "slug": "xayah",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_498.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/498.png",
     "tier": "S",
     "lanes": [
       "adc"
@@ -986,11 +952,10 @@
     "id": "xin-zhao",
     "name": "Xin Zhao",
     "slug": "xin-zhao",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_5.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/5.png",
     "tier": "S",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -1001,11 +966,10 @@
     "id": "yasuo",
     "name": "Yasuo",
     "slug": "yasuo",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_157.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/157.png",
     "tier": "S",
     "lanes": [
-      "mid",
-      "baron"
+      "mid"
     ],
     "roles": [
       "fighter",
@@ -1016,11 +980,10 @@
     "id": "zyra",
     "name": "Zyra",
     "slug": "zyra",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_143.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/143.png",
     "tier": "S",
     "lanes": [
-      "support",
-      "mid"
+      "support"
     ],
     "roles": [
       "mage",
@@ -1031,7 +994,7 @@
     "id": "akshan",
     "name": "Akshan",
     "slug": "akshan",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_166.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/166.png",
     "tier": "A",
     "lanes": [
       "mid"
@@ -1045,7 +1008,7 @@
     "id": "caitlyn",
     "name": "Caitlyn",
     "slug": "caitlyn",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_51.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/51.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1058,11 +1021,10 @@
     "id": "corki",
     "name": "Corki",
     "slug": "corki",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_42.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/42.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "adc"
+      "mid"
     ],
     "roles": [
       "marksman",
@@ -1073,7 +1035,7 @@
     "id": "darius",
     "name": "Darius",
     "slug": "darius",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_122.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/122.png",
     "tier": "A",
     "lanes": [
       "baron"
@@ -1087,11 +1049,10 @@
     "id": "diana",
     "name": "Diana",
     "slug": "diana",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_131.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/131.png",
     "tier": "A",
     "lanes": [
-      "jungle",
-      "mid"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -1102,12 +1063,10 @@
     "id": "dr-mundo",
     "name": "Dr. Mundo",
     "slug": "dr-mundo",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_36.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/36.png",
     "tier": "A",
     "lanes": [
-      "baron",
-      "jungle",
-      "support"
+      "baron"
     ],
     "roles": [
       "tank",
@@ -1118,7 +1077,7 @@
     "id": "draven",
     "name": "Draven",
     "slug": "draven",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_119.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/119.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1131,11 +1090,10 @@
     "id": "ekko",
     "name": "Ekko",
     "slug": "ekko",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_245.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/245.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "jungle"
+      "mid"
     ],
     "roles": [
       "assassin",
@@ -1146,7 +1104,7 @@
     "id": "fiddlesticks",
     "name": "Fiddlesticks",
     "slug": "fiddlesticks",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_9.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/9.png",
     "tier": "A",
     "lanes": [
       "jungle"
@@ -1160,11 +1118,10 @@
     "id": "galio",
     "name": "Galio",
     "slug": "galio",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_3.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/3.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "support"
+      "mid"
     ],
     "roles": [
       "tank",
@@ -1175,7 +1132,7 @@
     "id": "garen",
     "name": "Garen",
     "slug": "garen",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_86.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/86.png",
     "tier": "A",
     "lanes": [
       "baron"
@@ -1189,13 +1146,10 @@
     "id": "gragas",
     "name": "Gragas",
     "slug": "gragas",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_79.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/79.png",
     "tier": "A",
     "lanes": [
-      "baron",
-      "jungle",
-      "mid",
-      "support"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -1206,7 +1160,7 @@
     "id": "graves",
     "name": "Graves",
     "slug": "graves",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_104.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/104.png",
     "tier": "A",
     "lanes": [
       "jungle"
@@ -1219,11 +1173,10 @@
     "id": "heimerdinger",
     "name": "Heimerdinger",
     "slug": "heimerdinger",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_74.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/74.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "support"
+      "mid"
     ],
     "roles": [
       "mage",
@@ -1234,11 +1187,10 @@
     "id": "irelia",
     "name": "Irelia",
     "slug": "irelia",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_39.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/39.png",
     "tier": "A",
     "lanes": [
-      "baron",
-      "mid"
+      "baron"
     ],
     "roles": [
       "fighter",
@@ -1249,7 +1201,7 @@
     "id": "janna",
     "name": "Janna",
     "slug": "janna",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_40.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/40.png",
     "tier": "A",
     "lanes": [
       "support"
@@ -1263,7 +1215,7 @@
     "id": "jinx",
     "name": "Jinx",
     "slug": "jinx",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_222.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/222.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1276,10 +1228,10 @@
     "id": "k-sante",
     "name": "K'Santé",
     "slug": "k-sante",
-    "icon": "https://cdn.communitydragon.org/latest/champion/k-sante/tile.jpg",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/897.png",
     "tier": "A",
     "lanes": [
-      "mid"
+      "baron"
     ],
     "roles": []
   },
@@ -1287,7 +1239,7 @@
     "id": "kalista",
     "name": "Kalista",
     "slug": "kalista",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_429.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/429.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1300,7 +1252,7 @@
     "id": "katarina",
     "name": "Katarina",
     "slug": "katarina",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_55.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/55.png",
     "tier": "A",
     "lanes": [
       "mid"
@@ -1314,7 +1266,7 @@
     "id": "kennen",
     "name": "Kennen",
     "slug": "kennen",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_85.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/85.png",
     "tier": "A",
     "lanes": [
       "baron"
@@ -1327,7 +1279,7 @@
     "id": "kha-zix",
     "name": "Kha'Zix",
     "slug": "kha-zix",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_121.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/121.png",
     "tier": "A",
     "lanes": [
       "jungle"
@@ -1340,7 +1292,7 @@
     "id": "lissandra",
     "name": "Lissandra",
     "slug": "lissandra",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_127.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/127.png",
     "tier": "A",
     "lanes": [
       "mid"
@@ -1353,11 +1305,10 @@
     "id": "lux",
     "name": "Lux",
     "slug": "lux",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_99.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/99.png",
     "tier": "A",
     "lanes": [
-      "support",
-      "mid"
+      "support"
     ],
     "roles": [
       "mage",
@@ -1368,7 +1319,7 @@
     "id": "miss-fortune",
     "name": "Miss Fortune",
     "slug": "miss-fortune",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_21.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/21.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1382,11 +1333,10 @@
     "id": "morgana",
     "name": "Morgana",
     "slug": "morgana",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_25.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/25.png",
     "tier": "A",
     "lanes": [
-      "support",
-      "mid"
+      "support"
     ],
     "roles": [
       "support",
@@ -1397,7 +1347,7 @@
     "id": "nidalee",
     "name": "Nidalee",
     "slug": "nidalee",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_76.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/76.png",
     "tier": "A",
     "lanes": [
       "jungle"
@@ -1411,7 +1361,7 @@
     "id": "nilah",
     "name": "Nilah",
     "slug": "nilah",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_895.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/895.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1425,11 +1375,10 @@
     "id": "nocturne",
     "name": "Nocturne",
     "slug": "nocturne",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_56.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/56.png",
     "tier": "A",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -1451,10 +1400,9 @@
     "id": "olaf",
     "name": "Olaf",
     "slug": "olaf",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_2.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/2.png",
     "tier": "A",
     "lanes": [
-      "baron",
       "jungle"
     ],
     "roles": [
@@ -1466,12 +1414,10 @@
     "id": "pantheon",
     "name": "Pantheon",
     "slug": "pantheon",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_80.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/80.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "baron",
-      "support"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -1482,7 +1428,7 @@
     "id": "renekton",
     "name": "Renekton",
     "slug": "renekton",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_58.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/58.png",
     "tier": "A",
     "lanes": [
       "baron"
@@ -1496,11 +1442,10 @@
     "id": "seraphine",
     "name": "Seraphine",
     "slug": "seraphine",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_147.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/147.png",
     "tier": "A",
     "lanes": [
-      "support",
-      "mid"
+      "support"
     ],
     "roles": [
       "support",
@@ -1511,7 +1456,7 @@
     "id": "sett",
     "name": "Sett",
     "slug": "sett",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_875.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/875.png",
     "tier": "A",
     "lanes": [
       "baron"
@@ -1525,7 +1470,7 @@
     "id": "singed",
     "name": "Singed",
     "slug": "singed",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_27.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/27.png",
     "tier": "A",
     "lanes": [
       "baron"
@@ -1539,11 +1484,10 @@
     "id": "sion",
     "name": "Sion",
     "slug": "sion",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_14.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/14.png",
     "tier": "A",
     "lanes": [
-      "baron",
-      "support"
+      "baron"
     ],
     "roles": [
       "tank",
@@ -1554,7 +1498,7 @@
     "id": "sivir",
     "name": "Sivir",
     "slug": "sivir",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_15.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/15.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1567,7 +1511,7 @@
     "id": "skarner",
     "name": "Skarner",
     "slug": "skarner",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_72.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/72.png",
     "tier": "A",
     "lanes": [
       "jungle"
@@ -1581,11 +1525,10 @@
     "id": "smolder",
     "name": "Smolder",
     "slug": "smolder",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_901.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/901.png",
     "tier": "A",
     "lanes": [
-      "adc",
-      "mid"
+      "adc"
     ],
     "roles": [
       "marksman",
@@ -1596,7 +1539,7 @@
     "id": "sona",
     "name": "Sona",
     "slug": "sona",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_37.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/37.png",
     "tier": "A",
     "lanes": [
       "support"
@@ -1610,7 +1553,7 @@
     "id": "soraka",
     "name": "Soraka",
     "slug": "soraka",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_16.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/16.png",
     "tier": "A",
     "lanes": [
       "support"
@@ -1624,11 +1567,10 @@
     "id": "teemo",
     "name": "Teemo",
     "slug": "teemo",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_17.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/17.png",
     "tier": "A",
     "lanes": [
-      "baron",
-      "mid"
+      "baron"
     ],
     "roles": [
       "marksman",
@@ -1639,7 +1581,7 @@
     "id": "thresh",
     "name": "Thresh",
     "slug": "thresh",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_412.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/412.png",
     "tier": "A",
     "lanes": [
       "support"
@@ -1653,7 +1595,7 @@
     "id": "tristana",
     "name": "Tristana",
     "slug": "tristana",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_18.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/18.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1667,7 +1609,7 @@
     "id": "twisted-fate",
     "name": "Twisted Fate",
     "slug": "twisted-fate",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_4.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/4.png",
     "tier": "A",
     "lanes": [
       "mid"
@@ -1681,7 +1623,7 @@
     "id": "urgot",
     "name": "Urgot",
     "slug": "urgot",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_6.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/6.png",
     "tier": "A",
     "lanes": [
       "baron"
@@ -1695,11 +1637,10 @@
     "id": "vayne",
     "name": "Vayne",
     "slug": "vayne",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_67.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/67.png",
     "tier": "A",
     "lanes": [
-      "adc",
-      "baron"
+      "adc"
     ],
     "roles": [
       "marksman",
@@ -1710,7 +1651,7 @@
     "id": "viktor",
     "name": "Viktor",
     "slug": "viktor",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_112.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/112.png",
     "tier": "A",
     "lanes": [
       "mid"
@@ -1723,11 +1664,10 @@
     "id": "vladimir",
     "name": "Vladimir",
     "slug": "vladimir",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_8.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/8.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "baron"
+      "mid"
     ],
     "roles": [
       "mage",
@@ -1738,11 +1678,10 @@
     "id": "volibear",
     "name": "Volibear",
     "slug": "volibear",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_106.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/106.png",
     "tier": "A",
     "lanes": [
-      "baron",
-      "jungle"
+      "baron"
     ],
     "roles": [
       "fighter",
@@ -1753,11 +1692,10 @@
     "id": "warwick",
     "name": "Warwick",
     "slug": "warwick",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_19.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/19.png",
     "tier": "A",
     "lanes": [
-      "jungle",
-      "baron"
+      "jungle"
     ],
     "roles": [
       "fighter",
@@ -1768,11 +1706,10 @@
     "id": "yone",
     "name": "Yone",
     "slug": "yone",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_777.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/777.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "baron"
+      "mid"
     ],
     "roles": [
       "fighter",
@@ -1783,10 +1720,10 @@
     "id": "yunara",
     "name": "Yunara",
     "slug": "yunara",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_804.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/804.png",
     "tier": "A",
     "lanes": [
-      "baron"
+      "adc"
     ],
     "roles": [
       "marksman"
@@ -1796,7 +1733,7 @@
     "id": "yuumi",
     "name": "Yuumi",
     "slug": "yuumi",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_350.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/350.png",
     "tier": "A",
     "lanes": [
       "support"
@@ -1810,7 +1747,7 @@
     "id": "zeri",
     "name": "Zeri",
     "slug": "zeri",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_221.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/221.png",
     "tier": "A",
     "lanes": [
       "adc"
@@ -1823,11 +1760,10 @@
     "id": "ziggs",
     "name": "Ziggs",
     "slug": "ziggs",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_115.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/115.png",
     "tier": "A",
     "lanes": [
-      "mid",
-      "adc"
+      "mid"
     ],
     "roles": [
       "mage"
@@ -1837,11 +1773,10 @@
     "id": "brand",
     "name": "Brand",
     "slug": "brand",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_63.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/63.png",
     "tier": "B",
     "lanes": [
-      "mid",
-      "support"
+      "mid"
     ],
     "roles": [
       "mage",
@@ -1852,7 +1787,7 @@
     "id": "fizz",
     "name": "Fizz",
     "slug": "fizz",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_105.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/105.png",
     "tier": "B",
     "lanes": [
       "mid"
@@ -1866,7 +1801,7 @@
     "id": "kai-sa",
     "name": "Kai'Sa",
     "slug": "kai-sa",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_145.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/145.png",
     "tier": "B",
     "lanes": [
       "adc"
@@ -1880,7 +1815,7 @@
     "id": "mel",
     "name": "Mel",
     "slug": "mel",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_800.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/800.png",
     "tier": "B",
     "lanes": [
       "mid"
@@ -1894,7 +1829,7 @@
     "id": "rell",
     "name": "Rell",
     "slug": "rell",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_526.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/526.png",
     "tier": "B",
     "lanes": [
       "support"
@@ -1908,7 +1843,7 @@
     "id": "tryndamere",
     "name": "Tryndamere",
     "slug": "tryndamere",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_23.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/23.png",
     "tier": "B",
     "lanes": [
       "baron"
@@ -1922,11 +1857,10 @@
     "id": "twitch",
     "name": "Twitch",
     "slug": "twitch",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_29.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/29.png",
     "tier": "B",
     "lanes": [
-      "adc",
-      "jungle"
+      "adc"
     ],
     "roles": [
       "marksman",
@@ -1937,11 +1871,10 @@
     "id": "vel-koz",
     "name": "Vel'Koz",
     "slug": "vel-koz",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_161.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/161.png",
     "tier": "B",
     "lanes": [
-      "mid",
-      "support"
+      "mid"
     ],
     "roles": [
       "mage",
@@ -1952,7 +1885,7 @@
     "id": "zoe",
     "name": "Zoe",
     "slug": "zoe",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_142.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/142.png",
     "tier": "B",
     "lanes": [
       "mid"
@@ -1965,11 +1898,10 @@
     "id": "kayle",
     "name": "Kayle",
     "slug": "kayle",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_10.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/10.png",
     "tier": "C",
     "lanes": [
-      "baron",
-      "mid"
+      "baron"
     ],
     "roles": [
       "mage",
@@ -1980,7 +1912,7 @@
     "id": "nasus",
     "name": "Nasus",
     "slug": "nasus",
-    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_75.png",
+    "icon": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/75.png",
     "tier": "C",
     "lanes": [
       "baron"
