@@ -1,0 +1,913 @@
+{
+  "patch": "7.2a",
+  "champions": {
+    "aatrox": {
+      "overall": "S+",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "ahri": {
+      "overall": "S+",
+      "by_role": {
+        "mid": "S"
+      }
+    },
+    "bard": {
+      "overall": "S+",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "braum": {
+      "overall": "S+",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "camille": {
+      "overall": "S+",
+      "by_role": {
+        "baron": "A",
+        "jungle": "B"
+      }
+    },
+    "ezreal": {
+      "overall": "S+",
+      "by_role": {
+        "adc": "S+"
+      }
+    },
+    "fiora": {
+      "overall": "S+",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "milio": {
+      "overall": "S+",
+      "by_role": {
+        "support": "S"
+      }
+    },
+    "nautilus": {
+      "overall": "S+",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "senna": {
+      "overall": "S+",
+      "by_role": {
+        "adc": "S+",
+        "support": "S"
+      }
+    },
+    "zed": {
+      "overall": "S+",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "zilean": {
+      "overall": "S+",
+      "by_role": {
+        "support": "S",
+        "mid": "B"
+      }
+    },
+    "akali": {
+      "overall": "S",
+      "by_role": {
+        "mid": "A",
+        "baron": "B"
+      }
+    },
+    "alistar": {
+      "overall": "S",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "ambessa": {
+      "overall": "S",
+      "by_role": {
+        "baron": "S+"
+      }
+    },
+    "amumu": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S",
+        "support": "S"
+      }
+    },
+    "annie": {
+      "overall": "S",
+      "by_role": {
+        "mid": "B",
+        "support": "B"
+      }
+    },
+    "ashe": {
+      "overall": "S",
+      "by_role": {
+        "adc": "B"
+      }
+    },
+    "aurelion-sol": {
+      "overall": "S",
+      "by_role": {
+        "mid": "S"
+      }
+    },
+    "aurora": {
+      "overall": "S",
+      "by_role": {
+        "mid": "A",
+        "baron": "B"
+      }
+    },
+    "blitzcrank": {
+      "overall": "S",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "evelynn": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "A"
+      }
+    },
+    "gnar": {
+      "overall": "S",
+      "by_role": {
+        "baron": "B"
+      }
+    },
+    "gwen": {
+      "overall": "S",
+      "by_role": {
+        "baron": "A",
+        "jungle": "A"
+      }
+    },
+    "hecarim": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S"
+      }
+    },
+    "jarvan-iv": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S",
+        "baron": "S"
+      }
+    },
+    "jax": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "B",
+        "baron": "A"
+      }
+    },
+    "jayce": {
+      "overall": "S",
+      "by_role": {
+        "baron": "A",
+        "mid": "B"
+      }
+    },
+    "jhin": {
+      "overall": "S",
+      "by_role": {
+        "adc": "S"
+      }
+    },
+    "karma": {
+      "overall": "S",
+      "by_role": {
+        "support": "A",
+        "mid": "A"
+      }
+    },
+    "kassadin": {
+      "overall": "S",
+      "by_role": {
+        "mid": "S"
+      }
+    },
+    "kayn": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "B"
+      }
+    },
+    "kindred": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "A",
+        "adc": "S"
+      }
+    },
+    "kog-maw": {
+      "overall": "S",
+      "by_role": {
+        "adc": "S"
+      }
+    },
+    "lee-sin": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S",
+        "baron": "S"
+      }
+    },
+    "leona": {
+      "overall": "S",
+      "by_role": {
+        "support": "S"
+      }
+    },
+    "lillia": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S",
+        "baron": "S"
+      }
+    },
+    "lucian": {
+      "overall": "S",
+      "by_role": {
+        "adc": "S",
+        "mid": "A"
+      }
+    },
+    "lulu": {
+      "overall": "S",
+      "by_role": {
+        "support": "S"
+      }
+    },
+    "malphite": {
+      "overall": "S",
+      "by_role": {
+        "baron": "S+",
+        "support": "S"
+      }
+    },
+    "maokai": {
+      "overall": "S",
+      "by_role": {
+        "support": "A",
+        "baron": "S"
+      }
+    },
+    "master-yi": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S"
+      }
+    },
+    "mordekaiser": {
+      "overall": "S",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "nami": {
+      "overall": "S",
+      "by_role": {
+        "support": "S+"
+      }
+    },
+    "nunu-willump": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S"
+      }
+    },
+    "orianna": {
+      "overall": "S",
+      "by_role": {
+        "mid": "S+"
+      }
+    },
+    "ornn": {
+      "overall": "S",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "poppy": {
+      "overall": "S",
+      "by_role": {
+        "support": "B",
+        "jungle": "S",
+        "baron": "A"
+      }
+    },
+    "pyke": {
+      "overall": "S",
+      "by_role": {
+        "support": "S"
+      }
+    },
+    "rakan": {
+      "overall": "S",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "rammus": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S+"
+      }
+    },
+    "rengar": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "B",
+        "baron": "S"
+      }
+    },
+    "riven": {
+      "overall": "S",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "rumble": {
+      "overall": "S",
+      "by_role": {
+        "baron": "S",
+        "jungle": "S",
+        "mid": "S",
+        "support": "S"
+      }
+    },
+    "ryze": {
+      "overall": "S",
+      "by_role": {
+        "mid": "A",
+        "baron": "S"
+      }
+    },
+    "samira": {
+      "overall": "S",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "shen": {
+      "overall": "S",
+      "by_role": {
+        "baron": "A",
+        "support": "B"
+      }
+    },
+    "shyvana": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "A",
+        "baron": "A"
+      }
+    },
+    "swain": {
+      "overall": "S",
+      "by_role": {
+        "mid": "S",
+        "baron": "S",
+        "support": "A"
+      }
+    },
+    "syndra": {
+      "overall": "S",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "taliyah": {
+      "overall": "S",
+      "by_role": {
+        "mid": "S",
+        "jungle": "B"
+      }
+    },
+    "talon": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "A",
+        "mid": "B"
+      }
+    },
+    "varus": {
+      "overall": "S",
+      "by_role": {
+        "adc": "S",
+        "mid": "B"
+      }
+    },
+    "veigar": {
+      "overall": "S",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "vex": {
+      "overall": "S",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "vi": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S+"
+      }
+    },
+    "viego": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "A",
+        "baron": "S"
+      }
+    },
+    "wukong": {
+      "overall": "S",
+      "by_role": {
+        "baron": "S",
+        "jungle": "A"
+      }
+    },
+    "xayah": {
+      "overall": "S",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "xin-zhao": {
+      "overall": "S",
+      "by_role": {
+        "jungle": "S",
+        "baron": "S"
+      }
+    },
+    "yasuo": {
+      "overall": "S",
+      "by_role": {
+        "mid": "A",
+        "baron": "B"
+      }
+    },
+    "zyra": {
+      "overall": "S",
+      "by_role": {
+        "support": "A",
+        "mid": "S"
+      }
+    },
+    "akshan": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "caitlyn": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "corki": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A",
+        "adc": "B"
+      }
+    },
+    "darius": {
+      "overall": "A",
+      "by_role": {
+        "baron": "S"
+      }
+    },
+    "diana": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "A",
+        "mid": "A"
+      }
+    },
+    "dr-mundo": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A",
+        "jungle": "A",
+        "support": "A"
+      }
+    },
+    "draven": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "ekko": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A",
+        "jungle": "B"
+      }
+    },
+    "fiddlesticks": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "A"
+      }
+    },
+    "galio": {
+      "overall": "A",
+      "by_role": {
+        "mid": "S+",
+        "support": "A"
+      }
+    },
+    "garen": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "gragas": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A",
+        "jungle": "A",
+        "mid": "A",
+        "support": "A"
+      }
+    },
+    "graves": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "A"
+      }
+    },
+    "heimerdinger": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A",
+        "support": "B"
+      }
+    },
+    "irelia": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A",
+        "mid": "A"
+      }
+    },
+    "janna": {
+      "overall": "A",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "jinx": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "k-sante": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "kalista": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "katarina": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "kennen": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "kha-zix": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "A"
+      }
+    },
+    "lissandra": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "lux": {
+      "overall": "A",
+      "by_role": {
+        "support": "A",
+        "mid": "A"
+      }
+    },
+    "miss-fortune": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "morgana": {
+      "overall": "A",
+      "by_role": {
+        "support": "A",
+        "mid": "B"
+      }
+    },
+    "nidalee": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "B"
+      }
+    },
+    "nilah": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "nocturne": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "S",
+        "baron": "A"
+      }
+    },
+    "norra": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "olaf": {
+      "overall": "A",
+      "by_role": {
+        "baron": "B",
+        "jungle": "B"
+      }
+    },
+    "pantheon": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A",
+        "baron": "B",
+        "support": "B"
+      }
+    },
+    "renekton": {
+      "overall": "A",
+      "by_role": {
+        "baron": "B"
+      }
+    },
+    "seraphine": {
+      "overall": "A",
+      "by_role": {
+        "support": "A",
+        "mid": "A"
+      }
+    },
+    "sett": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A"
+      }
+    },
+    "singed": {
+      "overall": "A",
+      "by_role": {
+        "baron": "S"
+      }
+    },
+    "sion": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A",
+        "support": "A"
+      }
+    },
+    "sivir": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "skarner": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "A"
+      }
+    },
+    "smolder": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A",
+        "mid": "B"
+      }
+    },
+    "sona": {
+      "overall": "A",
+      "by_role": {
+        "support": "S+"
+      }
+    },
+    "soraka": {
+      "overall": "A",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "teemo": {
+      "overall": "A",
+      "by_role": {
+        "baron": "A",
+        "mid": "B"
+      }
+    },
+    "thresh": {
+      "overall": "A",
+      "by_role": {
+        "support": "S+"
+      }
+    },
+    "tristana": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "twisted-fate": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "urgot": {
+      "overall": "A",
+      "by_role": {
+        "baron": "B"
+      }
+    },
+    "vayne": {
+      "overall": "A",
+      "by_role": {
+        "adc": "S",
+        "baron": "B"
+      }
+    },
+    "viktor": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "vladimir": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A",
+        "baron": "B"
+      }
+    },
+    "volibear": {
+      "overall": "A",
+      "by_role": {
+        "baron": "S",
+        "jungle": "A"
+      }
+    },
+    "warwick": {
+      "overall": "A",
+      "by_role": {
+        "jungle": "S+",
+        "baron": "A"
+      }
+    },
+    "yone": {
+      "overall": "A",
+      "by_role": {
+        "mid": "S",
+        "baron": "B"
+      }
+    },
+    "yunara": {
+      "overall": "A",
+      "by_role": {
+        "baron": "B"
+      }
+    },
+    "yuumi": {
+      "overall": "A",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "zeri": {
+      "overall": "A",
+      "by_role": {
+        "adc": "A"
+      }
+    },
+    "ziggs": {
+      "overall": "A",
+      "by_role": {
+        "mid": "A",
+        "adc": "B"
+      }
+    },
+    "brand": {
+      "overall": "B",
+      "by_role": {
+        "mid": "S",
+        "support": "B"
+      }
+    },
+    "fizz": {
+      "overall": "B",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "kai-sa": {
+      "overall": "B",
+      "by_role": {
+        "adc": "B"
+      }
+    },
+    "mel": {
+      "overall": "B",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "rell": {
+      "overall": "B",
+      "by_role": {
+        "support": "A"
+      }
+    },
+    "tryndamere": {
+      "overall": "B",
+      "by_role": {
+        "baron": "B"
+      }
+    },
+    "twitch": {
+      "overall": "B",
+      "by_role": {
+        "adc": "A",
+        "jungle": "B"
+      }
+    },
+    "vel-koz": {
+      "overall": "B",
+      "by_role": {
+        "mid": "B",
+        "support": "B"
+      }
+    },
+    "zoe": {
+      "overall": "B",
+      "by_role": {
+        "mid": "A"
+      }
+    },
+    "kayle": {
+      "overall": "C",
+      "by_role": {
+        "baron": "B",
+        "mid": "C"
+      }
+    },
+    "nasus": {
+      "overall": "C",
+      "by_role": {
+        "baron": "A"
+      }
+    }
+  }
+}

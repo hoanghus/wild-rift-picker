@@ -1,0 +1,763 @@
+{
+  "aatrox": {
+    "synergies": []
+  },
+  "ahri": {
+    "synergies": [
+      {
+        "with": "lee sin",
+        "description": "High early gank pressure + Ahri charm setup",
+        "type": "pair"
+      }
+    ]
+  },
+  "bard": {
+    "synergies": []
+  },
+  "braum": {
+    "synergies": [
+      {
+        "with": "lucian",
+        "description": "Lucian passive procs off Braum's stun",
+        "type": "pair"
+      },
+      {
+        "with": "varus",
+        "description": "Varus W + Braum stun combo",
+        "type": "pair"
+      }
+    ]
+  },
+  "camille": {
+    "synergies": [
+      {
+        "with": "vi",
+        "description": "Point-and-click CC from both = free picks",
+        "type": "pair"
+      }
+    ]
+  },
+  "ezreal": {
+    "synergies": [
+      {
+        "with": "karma",
+        "description": "Karma shield + Ezreal poke = oppressive lane",
+        "type": "pair"
+      }
+    ]
+  },
+  "fiora": {
+    "synergies": [
+      {
+        "with": "warwick",
+        "description": "Split-push pressure + Warwick objective control",
+        "type": "pair"
+      }
+    ]
+  },
+  "milio": {
+    "synergies": []
+  },
+  "nautilus": {
+    "synergies": [
+      {
+        "with": "kai'sa",
+        "description": "Nautilus CC enables Kai'Sa plasma stacks",
+        "type": "pair"
+      },
+      {
+        "with": "miss fortune",
+        "description": "MF ult + Nautilus CC lockdown",
+        "type": "pair"
+      }
+    ]
+  },
+  "senna": {
+    "synergies": []
+  },
+  "zed": {
+    "synergies": [
+      {
+        "with": "vi",
+        "description": "Vi point-and-click R into Zed's damage",
+        "type": "pair"
+      }
+    ]
+  },
+  "zilean": {
+    "synergies": []
+  },
+  "akali": {
+    "synergies": [
+      {
+        "with": "nunu & willump",
+        "description": "Nunu snowball + Akali shroud engage",
+        "type": "pair"
+      }
+    ]
+  },
+  "alistar": {
+    "synergies": []
+  },
+  "ambessa": {
+    "synergies": []
+  },
+  "amumu": {
+    "synergies": [
+      {
+        "with": "katarina",
+        "description": "Amumu ult into Katarina ult = team wipe",
+        "type": "pair"
+      },
+      {
+        "with": "fiddlesticks",
+        "description": "Double AoE fear + ult wombo",
+        "type": "pair"
+      }
+    ]
+  },
+  "annie": {
+    "synergies": []
+  },
+  "ashe": {
+    "synergies": [
+      {
+        "with": "leona",
+        "description": "Perma-stun chain from range",
+        "type": "pair"
+      }
+    ]
+  },
+  "aurelion-sol": {
+    "synergies": []
+  },
+  "aurora": {
+    "synergies": []
+  },
+  "blitzcrank": {
+    "synergies": []
+  },
+  "evelynn": {
+    "synergies": []
+  },
+  "gnar": {
+    "synergies": [
+      {
+        "with": "nunu & willump",
+        "description": "Gnar mega into Nunu snowball",
+        "type": "pair"
+      }
+    ]
+  },
+  "gwen": {
+    "synergies": []
+  },
+  "hecarim": {
+    "synergies": []
+  },
+  "jarvan-iv": {
+    "synergies": []
+  },
+  "jax": {
+    "synergies": [
+      {
+        "with": "master yi",
+        "description": "Hypercarries, strong mid-late scaling",
+        "type": "pair"
+      }
+    ]
+  },
+  "jayce": {
+    "synergies": []
+  },
+  "jhin": {
+    "synergies": [
+      {
+        "with": "nami",
+        "description": "Nami's speed boost + Jhin's 4th shot",
+        "type": "pair"
+      }
+    ]
+  },
+  "karma": {
+    "synergies": [
+      {
+        "with": "ezreal",
+        "description": "Karma shield + Ezreal poke = oppressive lane",
+        "type": "pair"
+      }
+    ]
+  },
+  "kassadin": {
+    "synergies": []
+  },
+  "kayn": {
+    "synergies": [
+      {
+        "with": "diana",
+        "description": "Fast clear duo, both dive backline",
+        "type": "pair"
+      }
+    ]
+  },
+  "kindred": {
+    "synergies": []
+  },
+  "kog-maw": {
+    "synergies": []
+  },
+  "lee-sin": {
+    "synergies": []
+  },
+  "leona": {
+    "synergies": [
+      {
+        "with": "tristana",
+        "description": "Leona's lockdown gives Tristana free jump resets",
+        "type": "pair"
+      },
+      {
+        "with": "ashe",
+        "description": "Perma-stun chain from range",
+        "type": "pair"
+      }
+    ]
+  },
+  "lillia": {
+    "synergies": []
+  },
+  "lucian": {
+    "synergies": [
+      {
+        "with": "braum",
+        "description": "Lucian passive procs off Braum's stun",
+        "type": "pair"
+      }
+    ]
+  },
+  "lulu": {
+    "synergies": [
+      {
+        "with": "vayne",
+        "description": "Lulu's peel + Vayne hypercarry scaling",
+        "type": "pair"
+      },
+      {
+        "with": "kog'maw",
+        "description": "Hypercarry + hyperpeel = teamfight win",
+        "type": "pair"
+      }
+    ]
+  },
+  "malphite": {
+    "synergies": [
+      {
+        "with": "yasuo",
+        "description": "Malphite ult into Yasuo ult = wombo combo",
+        "type": "pair"
+      },
+      {
+        "with": "wukong",
+        "description": "Double knockup teamfight monsters",
+        "type": "pair"
+      }
+    ]
+  },
+  "maokai": {
+    "synergies": []
+  },
+  "master-yi": {
+    "synergies": []
+  },
+  "mordekaiser": {
+    "synergies": []
+  },
+  "nami": {
+    "synergies": [
+      {
+        "with": "jhin",
+        "description": "Nami's speed boost + Jhin's 4th shot",
+        "type": "pair"
+      }
+    ]
+  },
+  "nunu-willump": {
+    "synergies": []
+  },
+  "orianna": {
+    "synergies": [
+      {
+        "with": "wukong",
+        "description": "Wukong knockup + Orianna ultimate wombo",
+        "type": "pair"
+      }
+    ]
+  },
+  "ornn": {
+    "synergies": []
+  },
+  "poppy": {
+    "synergies": []
+  },
+  "pyke": {
+    "synergies": []
+  },
+  "rakan": {
+    "synergies": [
+      {
+        "with": "xayah",
+        "description": "LORE BUFF + Xayah's feathers + Rakan's engage",
+        "type": "pair"
+      },
+      {
+        "with": "samira",
+        "description": "Samira's passive knockup + Rakan engage",
+        "type": "pair"
+      }
+    ]
+  },
+  "rammus": {
+    "synergies": [
+      {
+        "with": "veigar",
+        "description": "Ramus taunt lines up Veigar's cage + burst",
+        "type": "pair"
+      }
+    ]
+  },
+  "rengar": {
+    "synergies": []
+  },
+  "riven": {
+    "synergies": []
+  },
+  "rumble": {
+    "synergies": []
+  },
+  "ryze": {
+    "synergies": []
+  },
+  "samira": {
+    "synergies": [
+      {
+        "with": "rakan",
+        "description": "Samira's passive knockup + Rakan engage",
+        "type": "pair"
+      }
+    ]
+  },
+  "shen": {
+    "synergies": [
+      {
+        "with": "twisted fate",
+        "description": "Global pressure from both sides",
+        "type": "pair"
+      }
+    ]
+  },
+  "shyvana": {
+    "synergies": []
+  },
+  "swain": {
+    "synergies": []
+  },
+  "syndra": {
+    "synergies": []
+  },
+  "taliyah": {
+    "synergies": []
+  },
+  "talon": {
+    "synergies": []
+  },
+  "varus": {
+    "synergies": [
+      {
+        "with": "braum",
+        "description": "Varus W + Braum stun combo",
+        "type": "pair"
+      }
+    ]
+  },
+  "veigar": {
+    "synergies": [
+      {
+        "with": "rammus",
+        "description": "Ramus taunt lines up Veigar's cage + burst",
+        "type": "pair"
+      }
+    ]
+  },
+  "vex": {
+    "synergies": []
+  },
+  "vi": {
+    "synergies": [
+      {
+        "with": "zed",
+        "description": "Vi point-and-click R into Zed's damage",
+        "type": "pair"
+      },
+      {
+        "with": "camille",
+        "description": "Point-and-click CC from both = free picks",
+        "type": "pair"
+      }
+    ]
+  },
+  "viego": {
+    "synergies": []
+  },
+  "wukong": {
+    "synergies": [
+      {
+        "with": "orianna",
+        "description": "Wukong knockup + Orianna ultimate wombo",
+        "type": "pair"
+      },
+      {
+        "with": "malphite",
+        "description": "Double knockup teamfight monsters",
+        "type": "pair"
+      },
+      {
+        "with": "katarina",
+        "description": "Wukong R knockup into Katarina R",
+        "type": "pair"
+      }
+    ]
+  },
+  "xayah": {
+    "synergies": [
+      {
+        "with": "rakan",
+        "description": "LORE BUFF + Xayah's feathers + Rakan's engage",
+        "type": "pair"
+      }
+    ]
+  },
+  "xin-zhao": {
+    "synergies": []
+  },
+  "yasuo": {
+    "synergies": [
+      {
+        "with": "malphite",
+        "description": "Malphite ult into Yasuo ult = wombo combo",
+        "type": "pair"
+      }
+    ]
+  },
+  "zyra": {
+    "synergies": []
+  },
+  "akshan": {
+    "synergies": []
+  },
+  "caitlyn": {
+    "synergies": [
+      {
+        "with": "morgana",
+        "description": "Cait trap + Morgana binding = guaranteed root",
+        "type": "pair"
+      }
+    ]
+  },
+  "corki": {
+    "synergies": []
+  },
+  "darius": {
+    "synergies": [
+      {
+        "with": "lee sin",
+        "description": "Lee Sin early ganks enable Darius snowball",
+        "type": "pair"
+      }
+    ]
+  },
+  "diana": {
+    "synergies": [
+      {
+        "with": "kayn",
+        "description": "Fast clear duo, both dive backline",
+        "type": "pair"
+      }
+    ]
+  },
+  "dr-mundo": {
+    "synergies": []
+  },
+  "draven": {
+    "synergies": [
+      {
+        "with": "thresh",
+        "description": "Thresh lantern + Draven axe resets",
+        "type": "pair"
+      }
+    ]
+  },
+  "ekko": {
+    "synergies": []
+  },
+  "fiddlesticks": {
+    "synergies": [
+      {
+        "with": "amumu",
+        "description": "Double AoE fear + ult wombo",
+        "type": "pair"
+      }
+    ]
+  },
+  "galio": {
+    "synergies": [
+      {
+        "with": "jarvan iv",
+        "description": "Cataclysm + Hero's Entrance = AoE wombo",
+        "type": "pair"
+      }
+    ]
+  },
+  "garen": {
+    "synergies": []
+  },
+  "gragas": {
+    "synergies": []
+  },
+  "graves": {
+    "synergies": []
+  },
+  "heimerdinger": {
+    "synergies": []
+  },
+  "irelia": {
+    "synergies": []
+  },
+  "janna": {
+    "synergies": []
+  },
+  "jinx": {
+    "synergies": [
+      {
+        "with": "thresh",
+        "description": "Thresh hooks set up Jinx's traps and passive resets",
+        "type": "pair"
+      }
+    ]
+  },
+  "k-sante": {
+    "synergies": []
+  },
+  "kalista": {
+    "synergies": []
+  },
+  "katarina": {
+    "synergies": [
+      {
+        "with": "amumu",
+        "description": "Amumu ult into Katarina ult = team wipe",
+        "type": "pair"
+      },
+      {
+        "with": "wukong",
+        "description": "Wukong R knockup into Katarina R",
+        "type": "pair"
+      }
+    ]
+  },
+  "kennen": {
+    "synergies": []
+  },
+  "kha-zix": {
+    "synergies": []
+  },
+  "lissandra": {
+    "synergies": []
+  },
+  "lux": {
+    "synergies": []
+  },
+  "miss-fortune": {
+    "synergies": []
+  },
+  "morgana": {
+    "synergies": [
+      {
+        "with": "caitlyn",
+        "description": "Cait trap + Morgana binding = guaranteed root",
+        "type": "pair"
+      }
+    ]
+  },
+  "nidalee": {
+    "synergies": []
+  },
+  "nilah": {
+    "synergies": []
+  },
+  "nocturne": {
+    "synergies": []
+  },
+  "norra": {
+    "synergies": []
+  },
+  "olaf": {
+    "synergies": []
+  },
+  "pantheon": {
+    "synergies": []
+  },
+  "renekton": {
+    "synergies": [
+      {
+        "with": "xin zhao",
+        "description": "Strong early game duo, dive synergy",
+        "type": "pair"
+      }
+    ]
+  },
+  "seraphine": {
+    "synergies": []
+  },
+  "sett": {
+    "synergies": []
+  },
+  "singed": {
+    "synergies": []
+  },
+  "sion": {
+    "synergies": []
+  },
+  "sivir": {
+    "synergies": []
+  },
+  "skarner": {
+    "synergies": []
+  },
+  "smolder": {
+    "synergies": []
+  },
+  "sona": {
+    "synergies": []
+  },
+  "soraka": {
+    "synergies": []
+  },
+  "teemo": {
+    "synergies": []
+  },
+  "thresh": {
+    "synergies": [
+      {
+        "with": "jinx",
+        "description": "Thresh hooks set up Jinx's traps and passive resets",
+        "type": "pair"
+      },
+      {
+        "with": "draven",
+        "description": "Thresh lantern + Draven axe resets",
+        "type": "pair"
+      }
+    ]
+  },
+  "tristana": {
+    "synergies": [
+      {
+        "with": "leona",
+        "description": "Leona's lockdown gives Tristana free jump resets",
+        "type": "pair"
+      }
+    ]
+  },
+  "twisted-fate": {
+    "synergies": []
+  },
+  "urgot": {
+    "synergies": []
+  },
+  "vayne": {
+    "synergies": [
+      {
+        "with": "lulu",
+        "description": "Lulu's peel + Vayne hypercarry scaling",
+        "type": "pair"
+      }
+    ]
+  },
+  "viktor": {
+    "synergies": []
+  },
+  "vladimir": {
+    "synergies": []
+  },
+  "volibear": {
+    "synergies": []
+  },
+  "warwick": {
+    "synergies": [
+      {
+        "with": "fizz",
+        "description": "Warwick E fear sets up Fizz's playmaking",
+        "type": "pair"
+      },
+      {
+        "with": "fiora",
+        "description": "Split-push pressure + Warwick objective control",
+        "type": "pair"
+      }
+    ]
+  },
+  "yone": {
+    "synergies": []
+  },
+  "yunara": {
+    "synergies": []
+  },
+  "yuumi": {
+    "synergies": []
+  },
+  "zeri": {
+    "synergies": []
+  },
+  "ziggs": {
+    "synergies": []
+  },
+  "brand": {
+    "synergies": []
+  },
+  "fizz": {
+    "synergies": [
+      {
+        "with": "warwick",
+        "description": "Warwick E fear sets up Fizz's playmaking",
+        "type": "pair"
+      }
+    ]
+  },
+  "kai-sa": {
+    "synergies": []
+  },
+  "mel": {
+    "synergies": []
+  },
+  "rell": {
+    "synergies": []
+  },
+  "tryndamere": {
+    "synergies": []
+  },
+  "twitch": {
+    "synergies": []
+  },
+  "vel-koz": {
+    "synergies": []
+  },
+  "zoe": {
+    "synergies": []
+  },
+  "kayle": {
+    "synergies": []
+  },
+  "nasus": {
+    "synergies": []
+  }
+}

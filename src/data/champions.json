@@ -1,0 +1,1993 @@
+[
+  {
+    "id": "aatrox",
+    "name": "Aatrox",
+    "slug": "aatrox",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_266.png",
+    "tier": "S+",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter"
+    ]
+  },
+  {
+    "id": "ahri",
+    "name": "Ahri",
+    "slug": "ahri",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_103.png",
+    "tier": "S+",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "assassin"
+    ]
+  },
+  {
+    "id": "bard",
+    "name": "Bard",
+    "slug": "bard",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_432.png",
+    "tier": "S+",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "braum",
+    "name": "Braum",
+    "slug": "braum",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_201.png",
+    "tier": "S+",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "camille",
+    "name": "Camille",
+    "slug": "camille",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_164.png",
+    "tier": "S+",
+    "lanes": [
+      "baron",
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "ezreal",
+    "name": "Ezreal",
+    "slug": "ezreal",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_81.png",
+    "tier": "S+",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "fiora",
+    "name": "Fiora",
+    "slug": "fiora",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_114.png",
+    "tier": "S+",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "milio",
+    "name": "Milio",
+    "slug": "milio",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_902.png",
+    "tier": "S+",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "nautilus",
+    "name": "Nautilus",
+    "slug": "nautilus",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_111.png",
+    "tier": "S+",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "senna",
+    "name": "Senna",
+    "slug": "senna",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_235.png",
+    "tier": "S+",
+    "lanes": [
+      "adc",
+      "support"
+    ],
+    "roles": [
+      "support",
+      "marksman"
+    ]
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "slug": "zed",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_238.png",
+    "tier": "S+",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "assassin"
+    ]
+  },
+  {
+    "id": "zilean",
+    "name": "Zilean",
+    "slug": "zilean",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_26.png",
+    "tier": "S+",
+    "lanes": [
+      "support",
+      "mid"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "akali",
+    "name": "Akali",
+    "slug": "akali",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_84.png",
+    "tier": "S",
+    "lanes": [
+      "mid",
+      "baron"
+    ],
+    "roles": [
+      "assassin"
+    ]
+  },
+  {
+    "id": "alistar",
+    "name": "Alistar",
+    "slug": "alistar",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_12.png",
+    "tier": "S",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "ambessa",
+    "name": "Ambessa",
+    "slug": "ambessa",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_799.png",
+    "tier": "S",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "amumu",
+    "name": "Amumu",
+    "slug": "amumu",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_32.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "annie",
+    "name": "Annie",
+    "slug": "annie",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_1.png",
+    "tier": "S",
+    "lanes": [
+      "mid",
+      "support"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "ashe",
+    "name": "Ashe",
+    "slug": "ashe",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_22.png",
+    "tier": "S",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "support"
+    ]
+  },
+  {
+    "id": "aurelion-sol",
+    "name": "Aurelion Sol",
+    "slug": "aurelion-sol",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_136.png",
+    "tier": "S",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "slug": "aurora",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_893.png",
+    "tier": "S",
+    "lanes": [
+      "mid",
+      "baron"
+    ],
+    "roles": [
+      "mage",
+      "assassin"
+    ]
+  },
+  {
+    "id": "blitzcrank",
+    "name": "Blitzcrank",
+    "slug": "blitzcrank",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_53.png",
+    "tier": "S",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "evelynn",
+    "name": "Evelynn",
+    "slug": "evelynn",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_28.png",
+    "tier": "S",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "assassin",
+      "mage"
+    ]
+  },
+  {
+    "id": "gnar",
+    "name": "Gnar",
+    "slug": "gnar",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_150.png",
+    "tier": "S",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "gwen",
+    "name": "Gwen",
+    "slug": "gwen",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_887.png",
+    "tier": "S",
+    "lanes": [
+      "baron",
+      "jungle"
+    ],
+    "roles": [
+      "fighter"
+    ]
+  },
+  {
+    "id": "hecarim",
+    "name": "Hecarim",
+    "slug": "hecarim",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_120.png",
+    "tier": "S",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "jarvan-iv",
+    "name": "Jarvan IV",
+    "slug": "jarvan-iv",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_59.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "jax",
+    "name": "Jax",
+    "slug": "jax",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_24.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter"
+    ]
+  },
+  {
+    "id": "jayce",
+    "name": "Jayce",
+    "slug": "jayce",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_126.png",
+    "tier": "S",
+    "lanes": [
+      "baron",
+      "mid"
+    ],
+    "roles": [
+      "fighter",
+      "marksman"
+    ]
+  },
+  {
+    "id": "jhin",
+    "name": "Jhin",
+    "slug": "jhin",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_202.png",
+    "tier": "S",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "karma",
+    "name": "Karma",
+    "slug": "karma",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_43.png",
+    "tier": "S",
+    "lanes": [
+      "support",
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "kassadin",
+    "name": "Kassadin",
+    "slug": "kassadin",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_38.png",
+    "tier": "S",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "assassin",
+      "mage"
+    ]
+  },
+  {
+    "id": "kayn",
+    "name": "Kayn",
+    "slug": "kayn",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_141.png",
+    "tier": "S",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "kindred",
+    "name": "Kindred",
+    "slug": "kindred",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_203.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "kog-maw",
+    "name": "Kog'Maw",
+    "slug": "kog-maw",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_96.png",
+    "tier": "S",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "lee-sin",
+    "name": "Lee Sin",
+    "slug": "lee-sin",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_64.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "leona",
+    "name": "Leona",
+    "slug": "leona",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_89.png",
+    "tier": "S",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "lillia",
+    "name": "Lillia",
+    "slug": "lillia",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_876.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "mage"
+    ]
+  },
+  {
+    "id": "lucian",
+    "name": "Lucian",
+    "slug": "lucian",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_236.png",
+    "tier": "S",
+    "lanes": [
+      "adc",
+      "mid"
+    ],
+    "roles": [
+      "marksman",
+      "assassin"
+    ]
+  },
+  {
+    "id": "lulu",
+    "name": "Lulu",
+    "slug": "lulu",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_117.png",
+    "tier": "S",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "malphite",
+    "name": "Malphite",
+    "slug": "malphite",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_54.png",
+    "tier": "S",
+    "lanes": [
+      "baron",
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "mage"
+    ]
+  },
+  {
+    "id": "maokai",
+    "name": "Maokai",
+    "slug": "maokai",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_57.png",
+    "tier": "S",
+    "lanes": [
+      "support",
+      "baron"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "master-yi",
+    "name": "Master Yi",
+    "slug": "master-yi",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_11.png",
+    "tier": "S",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "mordekaiser",
+    "name": "Mordekaiser",
+    "slug": "mordekaiser",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_82.png",
+    "tier": "S",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "mage"
+    ]
+  },
+  {
+    "id": "nami",
+    "name": "Nami",
+    "slug": "nami",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_267.png",
+    "tier": "S",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "nunu-willump",
+    "name": "Nunu & Willump",
+    "slug": "nunu-willump",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_20.png",
+    "tier": "S",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "tank",
+      "mage"
+    ]
+  },
+  {
+    "id": "orianna",
+    "name": "Orianna",
+    "slug": "orianna",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_61.png",
+    "tier": "S",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "ornn",
+    "name": "Ornn",
+    "slug": "ornn",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_516.png",
+    "tier": "S",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "tank"
+    ]
+  },
+  {
+    "id": "poppy",
+    "name": "Poppy",
+    "slug": "poppy",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_78.png",
+    "tier": "S",
+    "lanes": [
+      "support",
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "tank",
+      "fighter"
+    ]
+  },
+  {
+    "id": "pyke",
+    "name": "Pyke",
+    "slug": "pyke",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_555.png",
+    "tier": "S",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "assassin"
+    ]
+  },
+  {
+    "id": "rakan",
+    "name": "Rakan",
+    "slug": "rakan",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_497.png",
+    "tier": "S",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support"
+    ]
+  },
+  {
+    "id": "rammus",
+    "name": "Rammus",
+    "slug": "rammus",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_33.png",
+    "tier": "S",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "tank"
+    ]
+  },
+  {
+    "id": "rengar",
+    "name": "Rengar",
+    "slug": "rengar",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_107.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "assassin",
+      "fighter"
+    ]
+  },
+  {
+    "id": "riven",
+    "name": "Riven",
+    "slug": "riven",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_92.png",
+    "tier": "S",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "rumble",
+    "name": "Rumble",
+    "slug": "rumble",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_68.png",
+    "tier": "S",
+    "lanes": [
+      "baron",
+      "jungle",
+      "mid",
+      "support"
+    ],
+    "roles": [
+      "fighter",
+      "mage"
+    ]
+  },
+  {
+    "id": "ryze",
+    "name": "Ryze",
+    "slug": "ryze",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_13.png",
+    "tier": "S",
+    "lanes": [
+      "mid",
+      "baron"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "samira",
+    "name": "Samira",
+    "slug": "samira",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_360.png",
+    "tier": "S",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "assassin"
+    ]
+  },
+  {
+    "id": "shen",
+    "name": "Shen",
+    "slug": "shen",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_98.png",
+    "tier": "S",
+    "lanes": [
+      "baron",
+      "support"
+    ],
+    "roles": [
+      "tank"
+    ]
+  },
+  {
+    "id": "shyvana",
+    "name": "Shyvana",
+    "slug": "shyvana",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_102.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "swain",
+    "name": "Swain",
+    "slug": "swain",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_50.png",
+    "tier": "S",
+    "lanes": [
+      "mid",
+      "baron",
+      "support"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "syndra",
+    "name": "Syndra",
+    "slug": "syndra",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_134.png",
+    "tier": "S",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "taliyah",
+    "name": "Taliyah",
+    "slug": "taliyah",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_163.png",
+    "tier": "S",
+    "lanes": [
+      "mid",
+      "jungle"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "talon",
+    "name": "Talon",
+    "slug": "talon",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_91.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "mid"
+    ],
+    "roles": [
+      "assassin"
+    ]
+  },
+  {
+    "id": "varus",
+    "name": "Varus",
+    "slug": "varus",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_110.png",
+    "tier": "S",
+    "lanes": [
+      "adc",
+      "mid"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "veigar",
+    "name": "Veigar",
+    "slug": "veigar",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_45.png",
+    "tier": "S",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "vex",
+    "name": "Vex",
+    "slug": "vex",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_711.png",
+    "tier": "S",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "vi",
+    "name": "Vi",
+    "slug": "vi",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_254.png",
+    "tier": "S",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "viego",
+    "name": "Viego",
+    "slug": "viego",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_234.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "wukong",
+    "name": "Wukong",
+    "slug": "wukong",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_62.png",
+    "tier": "S",
+    "lanes": [
+      "baron",
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "xayah",
+    "name": "Xayah",
+    "slug": "xayah",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_498.png",
+    "tier": "S",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "xin-zhao",
+    "name": "Xin Zhao",
+    "slug": "xin-zhao",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_5.png",
+    "tier": "S",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "yasuo",
+    "name": "Yasuo",
+    "slug": "yasuo",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_157.png",
+    "tier": "S",
+    "lanes": [
+      "mid",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "zyra",
+    "name": "Zyra",
+    "slug": "zyra",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_143.png",
+    "tier": "S",
+    "lanes": [
+      "support",
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "akshan",
+    "name": "Akshan",
+    "slug": "akshan",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_166.png",
+    "tier": "A",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "marksman",
+      "assassin"
+    ]
+  },
+  {
+    "id": "caitlyn",
+    "name": "Caitlyn",
+    "slug": "caitlyn",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_51.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "corki",
+    "name": "Corki",
+    "slug": "corki",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_42.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "darius",
+    "name": "Darius",
+    "slug": "darius",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_122.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "diana",
+    "name": "Diana",
+    "slug": "diana",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_131.png",
+    "tier": "A",
+    "lanes": [
+      "jungle",
+      "mid"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "dr-mundo",
+    "name": "Dr. Mundo",
+    "slug": "dr-mundo",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_36.png",
+    "tier": "A",
+    "lanes": [
+      "baron",
+      "jungle",
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "fighter"
+    ]
+  },
+  {
+    "id": "draven",
+    "name": "Draven",
+    "slug": "draven",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_119.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "ekko",
+    "name": "Ekko",
+    "slug": "ekko",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_245.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "jungle"
+    ],
+    "roles": [
+      "assassin",
+      "mage"
+    ]
+  },
+  {
+    "id": "fiddlesticks",
+    "name": "Fiddlesticks",
+    "slug": "fiddlesticks",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_9.png",
+    "tier": "A",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "galio",
+    "name": "Galio",
+    "slug": "galio",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_3.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "mage"
+    ]
+  },
+  {
+    "id": "garen",
+    "name": "Garen",
+    "slug": "garen",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_86.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "gragas",
+    "name": "Gragas",
+    "slug": "gragas",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_79.png",
+    "tier": "A",
+    "lanes": [
+      "baron",
+      "jungle",
+      "mid",
+      "support"
+    ],
+    "roles": [
+      "fighter",
+      "mage"
+    ]
+  },
+  {
+    "id": "graves",
+    "name": "Graves",
+    "slug": "graves",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_104.png",
+    "tier": "A",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "heimerdinger",
+    "name": "Heimerdinger",
+    "slug": "heimerdinger",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_74.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "support"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "irelia",
+    "name": "Irelia",
+    "slug": "irelia",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_39.png",
+    "tier": "A",
+    "lanes": [
+      "baron",
+      "mid"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "janna",
+    "name": "Janna",
+    "slug": "janna",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_40.png",
+    "tier": "A",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "jinx",
+    "name": "Jinx",
+    "slug": "jinx",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_222.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "k-sante",
+    "name": "K'Santé",
+    "slug": "k-sante",
+    "icon": "https://cdn.communitydragon.org/latest/champion/k-sante/tile.jpg",
+    "tier": "A",
+    "lanes": [
+      "mid"
+    ],
+    "roles": []
+  },
+  {
+    "id": "kalista",
+    "name": "Kalista",
+    "slug": "kalista",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_429.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "katarina",
+    "name": "Katarina",
+    "slug": "katarina",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_55.png",
+    "tier": "A",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "assassin",
+      "mage"
+    ]
+  },
+  {
+    "id": "kennen",
+    "name": "Kennen",
+    "slug": "kennen",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_85.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "kha-zix",
+    "name": "Kha'Zix",
+    "slug": "kha-zix",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_121.png",
+    "tier": "A",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "assassin"
+    ]
+  },
+  {
+    "id": "lissandra",
+    "name": "Lissandra",
+    "slug": "lissandra",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_127.png",
+    "tier": "A",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "lux",
+    "name": "Lux",
+    "slug": "lux",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_99.png",
+    "tier": "A",
+    "lanes": [
+      "support",
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "miss-fortune",
+    "name": "Miss Fortune",
+    "slug": "miss-fortune",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_21.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "morgana",
+    "name": "Morgana",
+    "slug": "morgana",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_25.png",
+    "tier": "A",
+    "lanes": [
+      "support",
+      "mid"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "nidalee",
+    "name": "Nidalee",
+    "slug": "nidalee",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_76.png",
+    "tier": "A",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "assassin",
+      "mage"
+    ]
+  },
+  {
+    "id": "nilah",
+    "name": "Nilah",
+    "slug": "nilah",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_895.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "nocturne",
+    "name": "Nocturne",
+    "slug": "nocturne",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_56.png",
+    "tier": "A",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "norra",
+    "name": "Norra",
+    "slug": "norra",
+    "icon": "https://cdn.communitydragon.org/latest/champion/norra/tile.jpg",
+    "tier": "A",
+    "lanes": [
+      "mid"
+    ],
+    "roles": []
+  },
+  {
+    "id": "olaf",
+    "name": "Olaf",
+    "slug": "olaf",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_2.png",
+    "tier": "A",
+    "lanes": [
+      "baron",
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "pantheon",
+    "name": "Pantheon",
+    "slug": "pantheon",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_80.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "baron",
+      "support"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "renekton",
+    "name": "Renekton",
+    "slug": "renekton",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_58.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "seraphine",
+    "name": "Seraphine",
+    "slug": "seraphine",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_147.png",
+    "tier": "A",
+    "lanes": [
+      "support",
+      "mid"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "sett",
+    "name": "Sett",
+    "slug": "sett",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_875.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "singed",
+    "name": "Singed",
+    "slug": "singed",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_27.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "tank",
+      "mage"
+    ]
+  },
+  {
+    "id": "sion",
+    "name": "Sion",
+    "slug": "sion",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_14.png",
+    "tier": "A",
+    "lanes": [
+      "baron",
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "fighter"
+    ]
+  },
+  {
+    "id": "sivir",
+    "name": "Sivir",
+    "slug": "sivir",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_15.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "skarner",
+    "name": "Skarner",
+    "slug": "skarner",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_72.png",
+    "tier": "A",
+    "lanes": [
+      "jungle"
+    ],
+    "roles": [
+      "tank",
+      "fighter"
+    ]
+  },
+  {
+    "id": "smolder",
+    "name": "Smolder",
+    "slug": "smolder",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_901.png",
+    "tier": "A",
+    "lanes": [
+      "adc",
+      "mid"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "sona",
+    "name": "Sona",
+    "slug": "sona",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_37.png",
+    "tier": "A",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "soraka",
+    "name": "Soraka",
+    "slug": "soraka",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_16.png",
+    "tier": "A",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "teemo",
+    "name": "Teemo",
+    "slug": "teemo",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_17.png",
+    "tier": "A",
+    "lanes": [
+      "baron",
+      "mid"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "thresh",
+    "name": "Thresh",
+    "slug": "thresh",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_412.png",
+    "tier": "A",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "tank"
+    ]
+  },
+  {
+    "id": "tristana",
+    "name": "Tristana",
+    "slug": "tristana",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_18.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "assassin"
+    ]
+  },
+  {
+    "id": "twisted-fate",
+    "name": "Twisted Fate",
+    "slug": "twisted-fate",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_4.png",
+    "tier": "A",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "marksman"
+    ]
+  },
+  {
+    "id": "urgot",
+    "name": "Urgot",
+    "slug": "urgot",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_6.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "vayne",
+    "name": "Vayne",
+    "slug": "vayne",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_67.png",
+    "tier": "A",
+    "lanes": [
+      "adc",
+      "baron"
+    ],
+    "roles": [
+      "marksman",
+      "assassin"
+    ]
+  },
+  {
+    "id": "viktor",
+    "name": "Viktor",
+    "slug": "viktor",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_112.png",
+    "tier": "A",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "vladimir",
+    "name": "Vladimir",
+    "slug": "vladimir",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_8.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "baron"
+    ],
+    "roles": [
+      "mage",
+      "fighter"
+    ]
+  },
+  {
+    "id": "volibear",
+    "name": "Volibear",
+    "slug": "volibear",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_106.png",
+    "tier": "A",
+    "lanes": [
+      "baron",
+      "jungle"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "warwick",
+    "name": "Warwick",
+    "slug": "warwick",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_19.png",
+    "tier": "A",
+    "lanes": [
+      "jungle",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  },
+  {
+    "id": "yone",
+    "name": "Yone",
+    "slug": "yone",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_777.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "yunara",
+    "name": "Yunara",
+    "slug": "yunara",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_804.png",
+    "tier": "A",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "yuumi",
+    "name": "Yuumi",
+    "slug": "yuumi",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_350.png",
+    "tier": "A",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "support",
+      "mage"
+    ]
+  },
+  {
+    "id": "zeri",
+    "name": "Zeri",
+    "slug": "zeri",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_221.png",
+    "tier": "A",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman"
+    ]
+  },
+  {
+    "id": "ziggs",
+    "name": "Ziggs",
+    "slug": "ziggs",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_115.png",
+    "tier": "A",
+    "lanes": [
+      "mid",
+      "adc"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "brand",
+    "name": "Brand",
+    "slug": "brand",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_63.png",
+    "tier": "B",
+    "lanes": [
+      "mid",
+      "support"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "fizz",
+    "name": "Fizz",
+    "slug": "fizz",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_105.png",
+    "tier": "B",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "assassin",
+      "fighter"
+    ]
+  },
+  {
+    "id": "kai-sa",
+    "name": "Kai'Sa",
+    "slug": "kai-sa",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_145.png",
+    "tier": "B",
+    "lanes": [
+      "adc"
+    ],
+    "roles": [
+      "marksman",
+      "mage"
+    ]
+  },
+  {
+    "id": "mel",
+    "name": "Mel",
+    "slug": "mel",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_800.png",
+    "tier": "B",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "rell",
+    "name": "Rell",
+    "slug": "rell",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_526.png",
+    "tier": "B",
+    "lanes": [
+      "support"
+    ],
+    "roles": [
+      "tank",
+      "support"
+    ]
+  },
+  {
+    "id": "tryndamere",
+    "name": "Tryndamere",
+    "slug": "tryndamere",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_23.png",
+    "tier": "B",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "assassin"
+    ]
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "slug": "twitch",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_29.png",
+    "tier": "B",
+    "lanes": [
+      "adc",
+      "jungle"
+    ],
+    "roles": [
+      "marksman",
+      "assassin"
+    ]
+  },
+  {
+    "id": "vel-koz",
+    "name": "Vel'Koz",
+    "slug": "vel-koz",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_161.png",
+    "tier": "B",
+    "lanes": [
+      "mid",
+      "support"
+    ],
+    "roles": [
+      "mage",
+      "support"
+    ]
+  },
+  {
+    "id": "zoe",
+    "name": "Zoe",
+    "slug": "zoe",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_142.png",
+    "tier": "B",
+    "lanes": [
+      "mid"
+    ],
+    "roles": [
+      "mage"
+    ]
+  },
+  {
+    "id": "kayle",
+    "name": "Kayle",
+    "slug": "kayle",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_10.png",
+    "tier": "C",
+    "lanes": [
+      "baron",
+      "mid"
+    ],
+    "roles": [
+      "mage",
+      "marksman"
+    ]
+  },
+  {
+    "id": "nasus",
+    "name": "Nasus",
+    "slug": "nasus",
+    "icon": "https://raw.communitydragon.org/latest/game/assets/ux/champion/champion_icon_75.png",
+    "tier": "C",
+    "lanes": [
+      "baron"
+    ],
+    "roles": [
+      "fighter",
+      "tank"
+    ]
+  }
+]

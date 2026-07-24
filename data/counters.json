@@ -1,0 +1,931 @@
+{
+  "aatrox": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "ahri": {
+    "strong_against": [
+      "veigar",
+      "lux",
+      "orianna",
+      "xerath",
+      "ziggs"
+    ],
+    "weak_against": []
+  },
+  "bard": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "braum": {
+    "strong_against": [
+      "blitzcrank",
+      "thresh",
+      "leona"
+    ],
+    "weak_against": [
+      "blitzcrank",
+      "leona",
+      "pyke",
+      "thresh"
+    ]
+  },
+  "camille": {
+    "strong_against": [
+      "darius",
+      "fiora",
+      "poppy",
+      "teemo"
+    ],
+    "weak_against": []
+  },
+  "ezreal": {
+    "strong_against": [
+      "draven",
+      "tristana",
+      "lucian",
+      "caitlyn"
+    ],
+    "weak_against": [
+      "jhin",
+      "lucian",
+      "caitlyn"
+    ]
+  },
+  "fiora": {
+    "strong_against": [
+      "malphite",
+      "poppy",
+      "shen"
+    ],
+    "weak_against": [
+      "camille",
+      "jax",
+      "malphite",
+      "darius",
+      "garen",
+      "irelia",
+      "renekton",
+      "sett",
+      "nasus"
+    ]
+  },
+  "milio": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "nautilus": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "senna": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "zed": {
+    "strong_against": [
+      "veigar",
+      "orianna",
+      "lux",
+      "seraphine",
+      "jhin",
+      "xayah"
+    ],
+    "weak_against": []
+  },
+  "zilean": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "akali": {
+    "strong_against": [
+      "veigar",
+      "orianna",
+      "lux",
+      "ziggs",
+      "xerath"
+    ],
+    "weak_against": []
+  },
+  "alistar": {
+    "strong_against": [
+      "morgana",
+      "janna",
+      "lulu"
+    ],
+    "weak_against": [
+      "blitzcrank",
+      "leona",
+      "pyke",
+      "thresh"
+    ]
+  },
+  "ambessa": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "amumu": {
+    "strong_against": [
+      "zac",
+      "warwick",
+      "vi"
+    ],
+    "weak_against": []
+  },
+  "annie": {
+    "strong_against": [],
+    "weak_against": [
+      "katarina"
+    ]
+  },
+  "ashe": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "aurelion-sol": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "aurora": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "blitzcrank": {
+    "strong_against": [
+      "alistar",
+      "braum",
+      "morgana",
+      "leona"
+    ],
+    "weak_against": [
+      "braum",
+      "lulu",
+      "nami",
+      "sona",
+      "thresh"
+    ]
+  },
+  "evelynn": {
+    "strong_against": [
+      "lee sin",
+      "warwick",
+      "rammus",
+      "nunu & willump"
+    ],
+    "weak_against": []
+  },
+  "gnar": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "gwen": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "hecarim": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "jarvan-iv": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "jax": {
+    "strong_against": [
+      "malphite",
+      "poppy",
+      "fiora"
+    ],
+    "weak_against": []
+  },
+  "jayce": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "jhin": {
+    "strong_against": [
+      "ezreal",
+      "draven",
+      "tristana",
+      "lucian"
+    ],
+    "weak_against": [
+      "zed"
+    ]
+  },
+  "karma": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "kassadin": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "kayn": {
+    "strong_against": [
+      "rammus",
+      "lee sin",
+      "vi"
+    ],
+    "weak_against": []
+  },
+  "kindred": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "kog-maw": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "lee-sin": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "leona": {
+    "strong_against": [
+      "alistar",
+      "braum",
+      "morgana",
+      "janna"
+    ],
+    "weak_against": [
+      "braum",
+      "blitzcrank",
+      "lulu",
+      "nami",
+      "pyke",
+      "sona"
+    ]
+  },
+  "lillia": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "lucian": {
+    "strong_against": [
+      "caitlyn",
+      "draven",
+      "ezreal"
+    ],
+    "weak_against": [
+      "ezreal",
+      "jhin",
+      "caitlyn",
+      "tristana"
+    ]
+  },
+  "lulu": {
+    "strong_against": [
+      "blitzcrank",
+      "thresh",
+      "leona",
+      "nami"
+    ],
+    "weak_against": [
+      "alistar"
+    ]
+  },
+  "malphite": {
+    "strong_against": [
+      "darius",
+      "garen",
+      "fiora",
+      "riven"
+    ],
+    "weak_against": [
+      "fiora",
+      "jax",
+      "irelia"
+    ]
+  },
+  "maokai": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "master-yi": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "mordekaiser": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "nami": {
+    "strong_against": [
+      "blitzcrank",
+      "thresh",
+      "leona",
+      "pyke"
+    ],
+    "weak_against": [
+      "lulu"
+    ]
+  },
+  "nunu-willump": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "orianna": {
+    "strong_against": [],
+    "weak_against": [
+      "ahri",
+      "zed",
+      "akali",
+      "yasuo",
+      "katarina",
+      "fizz"
+    ]
+  },
+  "ornn": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "poppy": {
+    "strong_against": [],
+    "weak_against": [
+      "camille",
+      "fiora",
+      "jax",
+      "riven",
+      "irelia"
+    ]
+  },
+  "pyke": {
+    "strong_against": [
+      "leona",
+      "alistar",
+      "braum"
+    ],
+    "weak_against": [
+      "nami",
+      "sona"
+    ]
+  },
+  "rakan": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "rammus": {
+    "strong_against": [
+      "master yi",
+      "tryndamere",
+      "xin zhao"
+    ],
+    "weak_against": [
+      "evelynn",
+      "kayn",
+      "vi",
+      "graves",
+      "warwick"
+    ]
+  },
+  "rengar": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "riven": {
+    "strong_against": [
+      "garen",
+      "darius",
+      "renekton",
+      "poppy"
+    ],
+    "weak_against": [
+      "malphite"
+    ]
+  },
+  "rumble": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "ryze": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "samira": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "shen": {
+    "strong_against": [],
+    "weak_against": [
+      "fiora"
+    ]
+  },
+  "shyvana": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "swain": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "syndra": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "taliyah": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "talon": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "varus": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "veigar": {
+    "strong_against": [],
+    "weak_against": [
+      "ahri",
+      "zed",
+      "akali",
+      "yasuo",
+      "katarina",
+      "fizz"
+    ]
+  },
+  "vex": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "vi": {
+    "strong_against": [
+      "rammus",
+      "lee sin",
+      "warwick"
+    ],
+    "weak_against": [
+      "amumu",
+      "kayn"
+    ]
+  },
+  "viego": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "wukong": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "xayah": {
+    "strong_against": [],
+    "weak_against": [
+      "zed"
+    ]
+  },
+  "xin-zhao": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "yasuo": {
+    "strong_against": [
+      "lux",
+      "orianna",
+      "veigar",
+      "ziggs",
+      "brand"
+    ],
+    "weak_against": []
+  },
+  "zyra": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "akshan": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "caitlyn": {
+    "strong_against": [
+      "draven",
+      "lucian",
+      "jinx",
+      "ezreal"
+    ],
+    "weak_against": [
+      "ezreal",
+      "lucian",
+      "tristana",
+      "vayne"
+    ]
+  },
+  "corki": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "darius": {
+    "strong_against": [
+      "garen",
+      "fiora",
+      "kennen",
+      "vayne",
+      "teemo"
+    ],
+    "weak_against": [
+      "camille",
+      "malphite",
+      "riven",
+      "garen",
+      "irelia",
+      "renekton",
+      "sett",
+      "nasus"
+    ]
+  },
+  "diana": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "dr-mundo": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "draven": {
+    "strong_against": [],
+    "weak_against": [
+      "ezreal",
+      "jhin",
+      "lucian",
+      "caitlyn",
+      "tristana",
+      "vayne"
+    ]
+  },
+  "ekko": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "fiddlesticks": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "galio": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "garen": {
+    "strong_against": [
+      "darius",
+      "fiora",
+      "kennen",
+      "vayne"
+    ],
+    "weak_against": [
+      "malphite",
+      "riven",
+      "darius",
+      "renekton"
+    ]
+  },
+  "gragas": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "graves": {
+    "strong_against": [
+      "rammus",
+      "warwick",
+      "xinzhao"
+    ],
+    "weak_against": []
+  },
+  "heimerdinger": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "irelia": {
+    "strong_against": [
+      "fiora",
+      "darius",
+      "renekton",
+      "poppy",
+      "malphite"
+    ],
+    "weak_against": []
+  },
+  "janna": {
+    "strong_against": [],
+    "weak_against": [
+      "alistar",
+      "leona"
+    ]
+  },
+  "jinx": {
+    "strong_against": [],
+    "weak_against": [
+      "caitlyn"
+    ]
+  },
+  "k-sante": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "kalista": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "katarina": {
+    "strong_against": [
+      "veigar",
+      "orianna",
+      "lux",
+      "ziggs",
+      "annie"
+    ],
+    "weak_against": []
+  },
+  "kennen": {
+    "strong_against": [],
+    "weak_against": [
+      "darius",
+      "garen"
+    ]
+  },
+  "kha-zix": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "lissandra": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "lux": {
+    "strong_against": [],
+    "weak_against": [
+      "ahri",
+      "zed",
+      "akali",
+      "yasuo",
+      "katarina",
+      "fizz"
+    ]
+  },
+  "miss-fortune": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "morgana": {
+    "strong_against": [],
+    "weak_against": [
+      "alistar",
+      "blitzcrank",
+      "leona",
+      "thresh"
+    ]
+  },
+  "nidalee": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "nilah": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "nocturne": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "norra": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "olaf": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "pantheon": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "renekton": {
+    "strong_against": [
+      "darius",
+      "garen",
+      "fiora",
+      "teemo"
+    ],
+    "weak_against": [
+      "riven",
+      "irelia"
+    ]
+  },
+  "seraphine": {
+    "strong_against": [],
+    "weak_against": [
+      "zed"
+    ]
+  },
+  "sett": {
+    "strong_against": [
+      "fiora",
+      "darius",
+      "vayne",
+      "teemo"
+    ],
+    "weak_against": []
+  },
+  "singed": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "sion": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "sivir": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "skarner": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "smolder": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "sona": {
+    "strong_against": [
+      "blitzcrank",
+      "thresh",
+      "leona",
+      "pyke"
+    ],
+    "weak_against": []
+  },
+  "soraka": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "teemo": {
+    "strong_against": [],
+    "weak_against": [
+      "camille",
+      "darius",
+      "renekton",
+      "sett",
+      "nasus"
+    ]
+  },
+  "thresh": {
+    "strong_against": [
+      "alistar",
+      "braum",
+      "morgana",
+      "blitzcrank"
+    ],
+    "weak_against": [
+      "braum",
+      "lulu",
+      "nami",
+      "sona"
+    ]
+  },
+  "tristana": {
+    "strong_against": [
+      "caitlyn",
+      "lucian",
+      "draven"
+    ],
+    "weak_against": [
+      "ezreal",
+      "jhin",
+      "vayne"
+    ]
+  },
+  "twisted-fate": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "urgot": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "vayne": {
+    "strong_against": [
+      "caitlyn",
+      "draven",
+      "tristana",
+      "miss fortune"
+    ],
+    "weak_against": [
+      "darius",
+      "garen",
+      "sett",
+      "nasus"
+    ]
+  },
+  "viktor": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "vladimir": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "volibear": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "warwick": {
+    "strong_against": [
+      "rammus",
+      "xin zhao",
+      "lee sin"
+    ],
+    "weak_against": [
+      "amumu",
+      "evelynn",
+      "vi",
+      "graves"
+    ]
+  },
+  "yone": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "yunara": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "yuumi": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "zeri": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "ziggs": {
+    "strong_against": [],
+    "weak_against": [
+      "ahri",
+      "akali",
+      "yasuo",
+      "katarina",
+      "fizz"
+    ]
+  },
+  "brand": {
+    "strong_against": [],
+    "weak_against": [
+      "yasuo"
+    ]
+  },
+  "fizz": {
+    "strong_against": [
+      "lux",
+      "orianna",
+      "veigar",
+      "ziggs",
+      "xerath"
+    ],
+    "weak_against": []
+  },
+  "kai-sa": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "mel": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "rell": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "tryndamere": {
+    "strong_against": [],
+    "weak_against": [
+      "rammus"
+    ]
+  },
+  "twitch": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "vel-koz": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "zoe": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "kayle": {
+    "strong_against": [],
+    "weak_against": []
+  },
+  "nasus": {
+    "strong_against": [
+      "darius",
+      "teemo",
+      "vayne",
+      "fiora"
+    ],
+    "weak_against": []
+  }
+}

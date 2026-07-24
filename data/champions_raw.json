@@ -1,0 +1,985 @@
+{
+  "patch": "7.2a",
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "slug": "aatrox",
+      "icon": "https://cdn.communitydragon.org/latest/champion/aatrox/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "slug": "ahri",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ahri/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "slug": "bard",
+      "icon": "https://cdn.communitydragon.org/latest/champion/bard/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "braum",
+      "name": "Braum",
+      "slug": "braum",
+      "icon": "https://cdn.communitydragon.org/latest/champion/braum/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "camille",
+      "name": "Camille",
+      "slug": "camille",
+      "icon": "https://cdn.communitydragon.org/latest/champion/camille/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "slug": "ezreal",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ezreal/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "fiora",
+      "name": "Fiora",
+      "slug": "fiora",
+      "icon": "https://cdn.communitydragon.org/latest/champion/fiora/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "milio",
+      "name": "Milio",
+      "slug": "milio",
+      "icon": "https://cdn.communitydragon.org/latest/champion/milio/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "slug": "nautilus",
+      "icon": "https://cdn.communitydragon.org/latest/champion/nautilus/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "slug": "senna",
+      "icon": "https://cdn.communitydragon.org/latest/champion/senna/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "slug": "zed",
+      "icon": "https://cdn.communitydragon.org/latest/champion/zed/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "zilean",
+      "name": "Zilean",
+      "slug": "zilean",
+      "icon": "https://cdn.communitydragon.org/latest/champion/zilean/tile.jpg",
+      "tier": "S+"
+    },
+    {
+      "id": "akali",
+      "name": "Akali",
+      "slug": "akali",
+      "icon": "https://cdn.communitydragon.org/latest/champion/akali/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "alistar",
+      "name": "Alistar",
+      "slug": "alistar",
+      "icon": "https://cdn.communitydragon.org/latest/champion/alistar/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "ambessa",
+      "name": "Ambessa",
+      "slug": "ambessa",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ambessa/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "amumu",
+      "name": "Amumu",
+      "slug": "amumu",
+      "icon": "https://cdn.communitydragon.org/latest/champion/amumu/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "annie",
+      "name": "Annie",
+      "slug": "annie",
+      "icon": "https://cdn.communitydragon.org/latest/champion/annie/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "slug": "ashe",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ashe/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "aurelion-sol",
+      "name": "Aurelion Sol",
+      "slug": "aurelion-sol",
+      "icon": "https://cdn.communitydragon.org/latest/champion/aurelion-sol/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "slug": "aurora",
+      "icon": "https://cdn.communitydragon.org/latest/champion/aurora/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "slug": "blitzcrank",
+      "icon": "https://cdn.communitydragon.org/latest/champion/blitzcrank/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "evelynn",
+      "name": "Evelynn",
+      "slug": "evelynn",
+      "icon": "https://cdn.communitydragon.org/latest/champion/evelynn/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "gnar",
+      "name": "Gnar",
+      "slug": "gnar",
+      "icon": "https://cdn.communitydragon.org/latest/champion/gnar/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen",
+      "slug": "gwen",
+      "icon": "https://cdn.communitydragon.org/latest/champion/gwen/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "hecarim",
+      "name": "Hecarim",
+      "slug": "hecarim",
+      "icon": "https://cdn.communitydragon.org/latest/champion/hecarim/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "jarvan-iv",
+      "name": "Jarvan IV",
+      "slug": "jarvan-iv",
+      "icon": "https://cdn.communitydragon.org/latest/champion/jarvan-iv/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "jax",
+      "name": "Jax",
+      "slug": "jax",
+      "icon": "https://cdn.communitydragon.org/latest/champion/jax/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "jayce",
+      "name": "Jayce",
+      "slug": "jayce",
+      "icon": "https://cdn.communitydragon.org/latest/champion/jayce/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "slug": "jhin",
+      "icon": "https://cdn.communitydragon.org/latest/champion/jhin/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "karma",
+      "name": "Karma",
+      "slug": "karma",
+      "icon": "https://cdn.communitydragon.org/latest/champion/karma/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "kassadin",
+      "name": "Kassadin",
+      "slug": "kassadin",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kassadin/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "slug": "kayn",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kayn/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "kindred",
+      "name": "Kindred",
+      "slug": "kindred",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kindred/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "kog-maw",
+      "name": "Kog'Maw",
+      "slug": "kog-maw",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kog-maw/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "lee-sin",
+      "name": "Lee Sin",
+      "slug": "lee-sin",
+      "icon": "https://cdn.communitydragon.org/latest/champion/lee-sin/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "slug": "leona",
+      "icon": "https://cdn.communitydragon.org/latest/champion/leona/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "slug": "lillia",
+      "icon": "https://cdn.communitydragon.org/latest/champion/lillia/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "lucian",
+      "name": "Lucian",
+      "slug": "lucian",
+      "icon": "https://cdn.communitydragon.org/latest/champion/lucian/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "slug": "lulu",
+      "icon": "https://cdn.communitydragon.org/latest/champion/lulu/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "malphite",
+      "name": "Malphite",
+      "slug": "malphite",
+      "icon": "https://cdn.communitydragon.org/latest/champion/malphite/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "maokai",
+      "name": "Maokai",
+      "slug": "maokai",
+      "icon": "https://cdn.communitydragon.org/latest/champion/maokai/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "master-yi",
+      "name": "Master Yi",
+      "slug": "master-yi",
+      "icon": "https://cdn.communitydragon.org/latest/champion/master-yi/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "slug": "mordekaiser",
+      "icon": "https://cdn.communitydragon.org/latest/champion/mordekaiser/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "slug": "nami",
+      "icon": "https://cdn.communitydragon.org/latest/champion/nami/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "nunu-willump",
+      "name": "Nunu & Willump",
+      "slug": "nunu-willump",
+      "icon": "https://cdn.communitydragon.org/latest/champion/nunu-willump/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "orianna",
+      "name": "Orianna",
+      "slug": "orianna",
+      "icon": "https://cdn.communitydragon.org/latest/champion/orianna/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "slug": "ornn",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ornn/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "slug": "poppy",
+      "icon": "https://cdn.communitydragon.org/latest/champion/poppy/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "pyke",
+      "name": "Pyke",
+      "slug": "pyke",
+      "icon": "https://cdn.communitydragon.org/latest/champion/pyke/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "rakan",
+      "name": "Rakan",
+      "slug": "rakan",
+      "icon": "https://cdn.communitydragon.org/latest/champion/rakan/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "rammus",
+      "name": "Rammus",
+      "slug": "rammus",
+      "icon": "https://cdn.communitydragon.org/latest/champion/rammus/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "rengar",
+      "name": "Rengar",
+      "slug": "rengar",
+      "icon": "https://cdn.communitydragon.org/latest/champion/rengar/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "slug": "riven",
+      "icon": "https://cdn.communitydragon.org/latest/champion/riven/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "slug": "rumble",
+      "icon": "https://cdn.communitydragon.org/latest/champion/rumble/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "slug": "ryze",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ryze/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "slug": "samira",
+      "icon": "https://cdn.communitydragon.org/latest/champion/samira/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "slug": "shen",
+      "icon": "https://cdn.communitydragon.org/latest/champion/shen/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "slug": "shyvana",
+      "icon": "https://cdn.communitydragon.org/latest/champion/shyvana/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "slug": "swain",
+      "icon": "https://cdn.communitydragon.org/latest/champion/swain/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "syndra",
+      "name": "Syndra",
+      "slug": "syndra",
+      "icon": "https://cdn.communitydragon.org/latest/champion/syndra/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "taliyah",
+      "name": "Taliyah",
+      "slug": "taliyah",
+      "icon": "https://cdn.communitydragon.org/latest/champion/taliyah/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "talon",
+      "name": "Talon",
+      "slug": "talon",
+      "icon": "https://cdn.communitydragon.org/latest/champion/talon/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "varus",
+      "name": "Varus",
+      "slug": "varus",
+      "icon": "https://cdn.communitydragon.org/latest/champion/varus/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "veigar",
+      "name": "Veigar",
+      "slug": "veigar",
+      "icon": "https://cdn.communitydragon.org/latest/champion/veigar/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "vex",
+      "name": "Vex",
+      "slug": "vex",
+      "icon": "https://cdn.communitydragon.org/latest/champion/vex/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "slug": "vi",
+      "icon": "https://cdn.communitydragon.org/latest/champion/vi/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "viego",
+      "name": "Viego",
+      "slug": "viego",
+      "icon": "https://cdn.communitydragon.org/latest/champion/viego/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "slug": "wukong",
+      "icon": "https://cdn.communitydragon.org/latest/champion/wukong/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "xayah",
+      "name": "Xayah",
+      "slug": "xayah",
+      "icon": "https://cdn.communitydragon.org/latest/champion/xayah/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "xin-zhao",
+      "name": "Xin Zhao",
+      "slug": "xin-zhao",
+      "icon": "https://cdn.communitydragon.org/latest/champion/xin-zhao/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "slug": "yasuo",
+      "icon": "https://cdn.communitydragon.org/latest/champion/yasuo/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "zyra",
+      "name": "Zyra",
+      "slug": "zyra",
+      "icon": "https://cdn.communitydragon.org/latest/champion/zyra/tile.jpg",
+      "tier": "S"
+    },
+    {
+      "id": "akshan",
+      "name": "Akshan",
+      "slug": "akshan",
+      "icon": "https://cdn.communitydragon.org/latest/champion/akshan/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "slug": "caitlyn",
+      "icon": "https://cdn.communitydragon.org/latest/champion/caitlyn/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "slug": "corki",
+      "icon": "https://cdn.communitydragon.org/latest/champion/corki/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "darius",
+      "name": "Darius",
+      "slug": "darius",
+      "icon": "https://cdn.communitydragon.org/latest/champion/darius/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "slug": "diana",
+      "icon": "https://cdn.communitydragon.org/latest/champion/diana/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "dr-mundo",
+      "name": "Dr. Mundo",
+      "slug": "dr-mundo",
+      "icon": "https://cdn.communitydragon.org/latest/champion/dr-mundo/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "slug": "draven",
+      "icon": "https://cdn.communitydragon.org/latest/champion/draven/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "slug": "ekko",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ekko/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "fiddlesticks",
+      "name": "Fiddlesticks",
+      "slug": "fiddlesticks",
+      "icon": "https://cdn.communitydragon.org/latest/champion/fiddlesticks/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "galio",
+      "name": "Galio",
+      "slug": "galio",
+      "icon": "https://cdn.communitydragon.org/latest/champion/galio/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "slug": "garen",
+      "icon": "https://cdn.communitydragon.org/latest/champion/garen/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "gragas",
+      "name": "Gragas",
+      "slug": "gragas",
+      "icon": "https://cdn.communitydragon.org/latest/champion/gragas/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "slug": "graves",
+      "icon": "https://cdn.communitydragon.org/latest/champion/graves/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "heimerdinger",
+      "name": "Heimerdinger",
+      "slug": "heimerdinger",
+      "icon": "https://cdn.communitydragon.org/latest/champion/heimerdinger/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "irelia",
+      "name": "Irelia",
+      "slug": "irelia",
+      "icon": "https://cdn.communitydragon.org/latest/champion/irelia/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "janna",
+      "name": "Janna",
+      "slug": "janna",
+      "icon": "https://cdn.communitydragon.org/latest/champion/janna/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "slug": "jinx",
+      "icon": "https://cdn.communitydragon.org/latest/champion/jinx/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "k-sante",
+      "name": "K'Santé",
+      "slug": "k-sante",
+      "icon": "https://cdn.communitydragon.org/latest/champion/k-sante/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista",
+      "slug": "kalista",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kalista/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "katarina",
+      "name": "Katarina",
+      "slug": "katarina",
+      "icon": "https://cdn.communitydragon.org/latest/champion/katarina/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "slug": "kennen",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kennen/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "kha-zix",
+      "name": "Kha'Zix",
+      "slug": "kha-zix",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kha-zix/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "slug": "lissandra",
+      "icon": "https://cdn.communitydragon.org/latest/champion/lissandra/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "slug": "lux",
+      "icon": "https://cdn.communitydragon.org/latest/champion/lux/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "miss-fortune",
+      "name": "Miss Fortune",
+      "slug": "miss-fortune",
+      "icon": "https://cdn.communitydragon.org/latest/champion/miss-fortune/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "morgana",
+      "name": "Morgana",
+      "slug": "morgana",
+      "icon": "https://cdn.communitydragon.org/latest/champion/morgana/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee",
+      "slug": "nidalee",
+      "icon": "https://cdn.communitydragon.org/latest/champion/nidalee/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "nilah",
+      "name": "Nilah",
+      "slug": "nilah",
+      "icon": "https://cdn.communitydragon.org/latest/champion/nilah/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "nocturne",
+      "name": "Nocturne",
+      "slug": "nocturne",
+      "icon": "https://cdn.communitydragon.org/latest/champion/nocturne/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "norra",
+      "name": "Norra",
+      "slug": "norra",
+      "icon": "https://cdn.communitydragon.org/latest/champion/norra/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "slug": "olaf",
+      "icon": "https://cdn.communitydragon.org/latest/champion/olaf/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "slug": "pantheon",
+      "icon": "https://cdn.communitydragon.org/latest/champion/pantheon/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton",
+      "slug": "renekton",
+      "icon": "https://cdn.communitydragon.org/latest/champion/renekton/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "slug": "seraphine",
+      "icon": "https://cdn.communitydragon.org/latest/champion/seraphine/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "slug": "sett",
+      "icon": "https://cdn.communitydragon.org/latest/champion/sett/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "slug": "singed",
+      "icon": "https://cdn.communitydragon.org/latest/champion/singed/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "slug": "sion",
+      "icon": "https://cdn.communitydragon.org/latest/champion/sion/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "sivir",
+      "name": "Sivir",
+      "slug": "sivir",
+      "icon": "https://cdn.communitydragon.org/latest/champion/sivir/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "skarner",
+      "name": "Skarner",
+      "slug": "skarner",
+      "icon": "https://cdn.communitydragon.org/latest/champion/skarner/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "smolder",
+      "name": "Smolder",
+      "slug": "smolder",
+      "icon": "https://cdn.communitydragon.org/latest/champion/smolder/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "sona",
+      "name": "Sona",
+      "slug": "sona",
+      "icon": "https://cdn.communitydragon.org/latest/champion/sona/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "soraka",
+      "name": "Soraka",
+      "slug": "soraka",
+      "icon": "https://cdn.communitydragon.org/latest/champion/soraka/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "teemo",
+      "name": "Teemo",
+      "slug": "teemo",
+      "icon": "https://cdn.communitydragon.org/latest/champion/teemo/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "slug": "thresh",
+      "icon": "https://cdn.communitydragon.org/latest/champion/thresh/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "slug": "tristana",
+      "icon": "https://cdn.communitydragon.org/latest/champion/tristana/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "twisted-fate",
+      "name": "Twisted Fate",
+      "slug": "twisted-fate",
+      "icon": "https://cdn.communitydragon.org/latest/champion/twisted-fate/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "urgot",
+      "name": "Urgot",
+      "slug": "urgot",
+      "icon": "https://cdn.communitydragon.org/latest/champion/urgot/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "slug": "vayne",
+      "icon": "https://cdn.communitydragon.org/latest/champion/vayne/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "viktor",
+      "name": "Viktor",
+      "slug": "viktor",
+      "icon": "https://cdn.communitydragon.org/latest/champion/viktor/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "vladimir",
+      "name": "Vladimir",
+      "slug": "vladimir",
+      "icon": "https://cdn.communitydragon.org/latest/champion/vladimir/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear",
+      "slug": "volibear",
+      "icon": "https://cdn.communitydragon.org/latest/champion/volibear/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick",
+      "slug": "warwick",
+      "icon": "https://cdn.communitydragon.org/latest/champion/warwick/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "slug": "yone",
+      "icon": "https://cdn.communitydragon.org/latest/champion/yone/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "yunara",
+      "name": "Yunara",
+      "slug": "yunara",
+      "icon": "https://cdn.communitydragon.org/latest/champion/yunara/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "yuumi",
+      "name": "Yuumi",
+      "slug": "yuumi",
+      "icon": "https://cdn.communitydragon.org/latest/champion/yuumi/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "zeri",
+      "name": "Zeri",
+      "slug": "zeri",
+      "icon": "https://cdn.communitydragon.org/latest/champion/zeri/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "slug": "ziggs",
+      "icon": "https://cdn.communitydragon.org/latest/champion/ziggs/tile.jpg",
+      "tier": "A"
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "slug": "brand",
+      "icon": "https://cdn.communitydragon.org/latest/champion/brand/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "slug": "fizz",
+      "icon": "https://cdn.communitydragon.org/latest/champion/fizz/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "kai-sa",
+      "name": "Kai'Sa",
+      "slug": "kai-sa",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kai-sa/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "mel",
+      "name": "Mel",
+      "slug": "mel",
+      "icon": "https://cdn.communitydragon.org/latest/champion/mel/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "rell",
+      "name": "Rell",
+      "slug": "rell",
+      "icon": "https://cdn.communitydragon.org/latest/champion/rell/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "tryndamere",
+      "name": "Tryndamere",
+      "slug": "tryndamere",
+      "icon": "https://cdn.communitydragon.org/latest/champion/tryndamere/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "slug": "twitch",
+      "icon": "https://cdn.communitydragon.org/latest/champion/twitch/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "vel-koz",
+      "name": "Vel'Koz",
+      "slug": "vel-koz",
+      "icon": "https://cdn.communitydragon.org/latest/champion/vel-koz/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "slug": "zoe",
+      "icon": "https://cdn.communitydragon.org/latest/champion/zoe/tile.jpg",
+      "tier": "B"
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "slug": "kayle",
+      "icon": "https://cdn.communitydragon.org/latest/champion/kayle/tile.jpg",
+      "tier": "C"
+    },
+    {
+      "id": "nasus",
+      "name": "Nasus",
+      "slug": "nasus",
+      "icon": "https://cdn.communitydragon.org/latest/champion/nasus/tile.jpg",
+      "tier": "C"
+    }
+  ]
+}
