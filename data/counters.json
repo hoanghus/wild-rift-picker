@@ -1,931 +1,2397 @@
 {
   "aatrox": {
-    "strong_against": [],
-    "weak_against": []
+    "strong_against": [
+      "dr-mundo",
+      "yone",
+      "sion",
+      "olaf",
+      "jayce",
+      "shen"
+    ],
+    "weak_against": [
+      "fiora",
+      "irelia",
+      "darius",
+      "jax",
+      "sett",
+      "riven"
+    ]
   },
   "ahri": {
     "strong_against": [
-      "veigar",
-      "lux",
       "orianna",
-      "xerath",
-      "ziggs"
+      "gragas",
+      "katarina",
+      "brand",
+      "lux",
+      "akali"
     ],
-    "weak_against": []
+    "weak_against": [
+      "diana",
+      "yasuo",
+      "annie",
+      "corki",
+      "irelia",
+      "zed"
+    ]
+  },
+  "akali": {
+    "strong_against": [
+      "yasuo",
+      "ziggs",
+      "twisted-fate",
+      "veigar",
+      "katarina",
+      "orianna"
+    ],
+    "weak_against": [
+      "annie",
+      "diana",
+      "lux",
+      "veigar",
+      "akshan"
+    ]
+  },
+  "akshan": {
+    "strong_against": [
+      "caitlyn",
+      "lucian",
+      "ashe",
+      "ezreal"
+    ],
+    "weak_against": [
+      "jinx",
+      "draven",
+      "jhin",
+      "vayne",
+      "xayah",
+      "miss-fortune"
+    ]
+  },
+  "alistar": {
+    "strong_against": [
+      "blitzcrank",
+      "leona",
+      "braum",
+      "nami",
+      "nunu-willump",
+      "lucian"
+    ],
+    "weak_against": [
+      "janna",
+      "vayne",
+      "soraka",
+      "morgana",
+      "tristana",
+      "lulu"
+    ]
+  },
+  "ambessa": {
+    "strong_against": [
+      "aatrox",
+      "garen",
+      "sion",
+      "nasus",
+      "teemo",
+      "kennen"
+    ],
+    "weak_against": [
+      "fiora",
+      "camille",
+      "darius",
+      "jayce",
+      "poppy",
+      "shen"
+    ]
+  },
+  "amumu": {
+    "strong_against": [
+      "kha-zix",
+      "yasuo",
+      "olaf",
+      "diana"
+    ],
+    "weak_against": [
+      "shyvana",
+      "lee-sin",
+      "vi",
+      "dr-mundo"
+    ]
+  },
+  "annie": {
+    "strong_against": [
+      "akali",
+      "ahri",
+      "katarina",
+      "kayle",
+      "zed"
+    ],
+    "weak_against": [
+      "brand",
+      "orianna",
+      "morgana",
+      "fizz",
+      "veigar"
+    ]
+  },
+  "ashe": {
+    "strong_against": [
+      "vayne",
+      "corki",
+      "miss-fortune",
+      "lucian",
+      "jayce",
+      "annie"
+    ],
+    "weak_against": [
+      "ezreal",
+      "graves",
+      "jinx",
+      "draven",
+      "caitlyn"
+    ]
+  },
+  "aurelion-sol": {
+    "strong_against": [
+      "annie",
+      "katarina",
+      "irelia",
+      "orianna",
+      "diana"
+    ],
+    "weak_against": [
+      "fizz",
+      "zed",
+      "yasuo",
+      "katarina",
+      "karma",
+      "galio"
+    ]
+  },
+  "aurora": {
+    "strong_against": [
+      "yone",
+      "ryze",
+      "corki",
+      "lissandra",
+      "viktor",
+      "kassadin"
+    ],
+    "weak_against": [
+      "vex",
+      "talon",
+      "kayle",
+      "ekko",
+      "zoe",
+      "katarina"
+    ]
   },
   "bard": {
-    "strong_against": [],
-    "weak_against": []
+    "strong_against": [
+      "lux",
+      "pyke",
+      "seraphine",
+      "senna",
+      "rakan",
+      "zyra"
+    ],
+    "weak_against": [
+      "sona",
+      "zilean",
+      "nami",
+      "janna",
+      "morgana",
+      "soraka"
+    ]
+  },
+  "blitzcrank": {
+    "strong_against": [
+      "sona",
+      "draven",
+      "varus",
+      "soraka",
+      "nami",
+      "lulu"
+    ],
+    "weak_against": [
+      "leona",
+      "alistar",
+      "morgana",
+      "ezreal",
+      "thresh"
+    ]
+  },
+  "brand": {
+    "strong_against": [
+      "annie",
+      "ziggs",
+      "akali",
+      "katarina",
+      "akshan",
+      "lulu"
+    ],
+    "weak_against": [
+      "fizz",
+      "galio",
+      "lux",
+      "zed",
+      "corki"
+    ]
   },
   "braum": {
     "strong_against": [
+      "miss-fortune",
       "blitzcrank",
       "thresh",
-      "leona"
+      "jinx",
+      "jayce",
+      "nami"
     ],
     "weak_against": [
-      "blitzcrank",
+      "morgana",
       "leona",
-      "pyke",
-      "thresh"
+      "soraka",
+      "alistar",
+      "karma",
+      "vayne"
+    ]
+  },
+  "caitlyn": {
+    "strong_against": [
+      "vayne",
+      "corki",
+      "graves",
+      "ezreal",
+      "draven",
+      "ashe"
+    ],
+    "weak_against": [
+      "varus",
+      "tristana",
+      "jinx",
+      "lucian"
     ]
   },
   "camille": {
     "strong_against": [
-      "darius",
-      "fiora",
-      "poppy",
-      "teemo"
-    ],
-    "weak_against": []
-  },
-  "ezreal": {
-    "strong_against": [
-      "draven",
-      "tristana",
-      "lucian",
-      "caitlyn"
-    ],
-    "weak_against": [
-      "jhin",
-      "lucian",
-      "caitlyn"
-    ]
-  },
-  "fiora": {
-    "strong_against": [
-      "malphite",
-      "poppy",
-      "shen"
-    ],
-    "weak_against": [
-      "camille",
-      "jax",
-      "malphite",
-      "darius",
-      "garen",
-      "irelia",
-      "renekton",
-      "sett",
-      "nasus"
-    ]
-  },
-  "milio": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "nautilus": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "senna": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "zed": {
-    "strong_against": [
-      "veigar",
-      "orianna",
-      "lux",
-      "seraphine",
-      "jhin",
-      "xayah"
-    ],
-    "weak_against": []
-  },
-  "zilean": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "akali": {
-    "strong_against": [
-      "veigar",
-      "orianna",
-      "lux",
-      "ziggs",
-      "xerath"
-    ],
-    "weak_against": []
-  },
-  "alistar": {
-    "strong_against": [
-      "morgana",
-      "janna",
-      "lulu"
-    ],
-    "weak_against": [
-      "blitzcrank",
-      "leona",
-      "pyke",
-      "thresh"
-    ]
-  },
-  "ambessa": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "amumu": {
-    "strong_against": [
-      "zac",
-      "warwick",
-      "vi"
-    ],
-    "weak_against": []
-  },
-  "annie": {
-    "strong_against": [],
-    "weak_against": [
-      "katarina"
-    ]
-  },
-  "ashe": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "aurelion-sol": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "aurora": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "blitzcrank": {
-    "strong_against": [
-      "alistar",
-      "braum",
-      "morgana",
-      "leona"
-    ],
-    "weak_against": [
-      "braum",
-      "lulu",
-      "nami",
-      "sona",
-      "thresh"
-    ]
-  },
-  "evelynn": {
-    "strong_against": [
-      "lee sin",
-      "warwick",
-      "rammus",
-      "nunu & willump"
-    ],
-    "weak_against": []
-  },
-  "gnar": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "gwen": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "hecarim": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "jarvan-iv": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "jax": {
-    "strong_against": [
-      "malphite",
-      "poppy",
-      "fiora"
-    ],
-    "weak_against": []
-  },
-  "jayce": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "jhin": {
-    "strong_against": [
-      "ezreal",
-      "draven",
-      "tristana",
-      "lucian"
-    ],
-    "weak_against": [
-      "zed"
-    ]
-  },
-  "karma": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "kassadin": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "kayn": {
-    "strong_against": [
-      "rammus",
-      "lee sin",
-      "vi"
-    ],
-    "weak_against": []
-  },
-  "kindred": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "kog-maw": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "lee-sin": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "leona": {
-    "strong_against": [
-      "alistar",
-      "braum",
-      "morgana",
-      "janna"
-    ],
-    "weak_against": [
-      "braum",
-      "blitzcrank",
-      "lulu",
-      "nami",
-      "pyke",
-      "sona"
-    ]
-  },
-  "lillia": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "lucian": {
-    "strong_against": [
-      "caitlyn",
-      "draven",
-      "ezreal"
-    ],
-    "weak_against": [
-      "ezreal",
-      "jhin",
-      "caitlyn",
-      "tristana"
-    ]
-  },
-  "lulu": {
-    "strong_against": [
-      "blitzcrank",
-      "thresh",
-      "leona",
-      "nami"
-    ],
-    "weak_against": [
-      "alistar"
-    ]
-  },
-  "malphite": {
-    "strong_against": [
-      "darius",
-      "garen",
-      "fiora",
-      "riven"
-    ],
-    "weak_against": [
-      "fiora",
-      "jax",
-      "irelia"
-    ]
-  },
-  "maokai": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "master-yi": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "mordekaiser": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "nami": {
-    "strong_against": [
-      "blitzcrank",
-      "thresh",
-      "leona",
-      "pyke"
-    ],
-    "weak_against": [
-      "lulu"
-    ]
-  },
-  "nunu-willump": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "orianna": {
-    "strong_against": [],
-    "weak_against": [
-      "ahri",
-      "zed",
-      "akali",
       "yasuo",
-      "katarina",
-      "fizz"
-    ]
-  },
-  "ornn": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "poppy": {
-    "strong_against": [],
+      "darius",
+      "nasus",
+      "jayce",
+      "garen"
+    ],
     "weak_against": [
-      "camille",
+      "teemo",
       "fiora",
-      "jax",
       "riven",
-      "irelia"
-    ]
-  },
-  "pyke": {
-    "strong_against": [
-      "leona",
-      "alistar",
-      "braum"
-    ],
-    "weak_against": [
-      "nami",
-      "sona"
-    ]
-  },
-  "rakan": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "rammus": {
-    "strong_against": [
-      "master yi",
-      "tryndamere",
-      "xin zhao"
-    ],
-    "weak_against": [
-      "evelynn",
-      "kayn",
-      "vi",
-      "graves",
-      "warwick"
-    ]
-  },
-  "rengar": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "riven": {
-    "strong_against": [
-      "garen",
-      "darius",
-      "renekton",
-      "poppy"
-    ],
-    "weak_against": [
-      "malphite"
-    ]
-  },
-  "rumble": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "ryze": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "samira": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "shen": {
-    "strong_against": [],
-    "weak_against": [
-      "fiora"
-    ]
-  },
-  "shyvana": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "swain": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "syndra": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "taliyah": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "talon": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "varus": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "veigar": {
-    "strong_against": [],
-    "weak_against": [
-      "ahri",
-      "zed",
-      "akali",
-      "yasuo",
-      "katarina",
-      "fizz"
-    ]
-  },
-  "vex": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "vi": {
-    "strong_against": [
-      "rammus",
-      "lee sin",
-      "warwick"
-    ],
-    "weak_against": [
-      "amumu",
-      "kayn"
-    ]
-  },
-  "viego": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "wukong": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "xayah": {
-    "strong_against": [],
-    "weak_against": [
-      "zed"
-    ]
-  },
-  "xin-zhao": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "yasuo": {
-    "strong_against": [
-      "lux",
-      "orianna",
-      "veigar",
-      "ziggs",
-      "brand"
-    ],
-    "weak_against": []
-  },
-  "zyra": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "akshan": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "caitlyn": {
-    "strong_against": [
-      "draven",
-      "lucian",
-      "jinx",
-      "ezreal"
-    ],
-    "weak_against": [
-      "ezreal",
-      "lucian",
-      "tristana",
+      "kayle",
       "vayne"
     ]
   },
   "corki": {
-    "strong_against": [],
-    "weak_against": []
+    "strong_against": [
+      "ziggs",
+      "katarina",
+      "akali",
+      "orianna",
+      "zed",
+      "yasuo"
+    ],
+    "weak_against": [
+      "brand",
+      "lux",
+      "fizz",
+      "ahri"
+    ]
   },
   "darius": {
     "strong_against": [
-      "garen",
-      "fiora",
-      "kennen",
-      "vayne",
-      "teemo"
-    ],
-    "weak_against": [
-      "camille",
-      "malphite",
+      "nasus",
       "riven",
-      "garen",
+      "wukong",
       "irelia",
-      "renekton",
-      "sett",
-      "nasus"
-    ]
-  },
-  "diana": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "dr-mundo": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "draven": {
-    "strong_against": [],
-    "weak_against": [
-      "ezreal",
-      "jhin",
-      "lucian",
-      "caitlyn",
-      "tristana",
-      "vayne"
-    ]
-  },
-  "ekko": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "fiddlesticks": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "galio": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "garen": {
-    "strong_against": [
-      "darius",
       "fiora",
-      "kennen",
-      "vayne"
+      "garen"
     ],
     "weak_against": [
-      "malphite",
-      "riven",
-      "darius",
+      "jayce",
+      "kayle",
+      "teemo",
+      "zed",
       "renekton"
     ]
   },
-  "gragas": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "graves": {
+  "diana": {
     "strong_against": [
-      "rammus",
-      "warwick",
-      "xinzhao"
-    ],
-    "weak_against": []
-  },
-  "heimerdinger": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "irelia": {
-    "strong_against": [
-      "fiora",
-      "darius",
-      "renekton",
-      "poppy",
-      "malphite"
-    ],
-    "weak_against": []
-  },
-  "janna": {
-    "strong_against": [],
-    "weak_against": [
-      "alistar",
-      "leona"
-    ]
-  },
-  "jinx": {
-    "strong_against": [],
-    "weak_against": [
-      "caitlyn"
-    ]
-  },
-  "k-sante": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "kalista": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "katarina": {
-    "strong_against": [
-      "veigar",
-      "orianna",
-      "lux",
-      "ziggs",
-      "annie"
-    ],
-    "weak_against": []
-  },
-  "kennen": {
-    "strong_against": [],
-    "weak_against": [
-      "darius",
-      "garen"
-    ]
-  },
-  "kha-zix": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "lissandra": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "lux": {
-    "strong_against": [],
-    "weak_against": [
-      "ahri",
-      "zed",
       "akali",
-      "yasuo",
-      "katarina",
-      "fizz"
-    ]
-  },
-  "miss-fortune": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "morgana": {
-    "strong_against": [],
+      "ahri",
+      "twisted-fate",
+      "orianna",
+      "katarina"
+    ],
     "weak_against": [
-      "alistar",
-      "blitzcrank",
-      "leona",
-      "thresh"
+      "kayle",
+      "fizz",
+      "pantheon",
+      "irelia",
+      "jax",
+      "nasus"
     ]
   },
-  "nidalee": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "nilah": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "nocturne": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "norra": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "olaf": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "pantheon": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "renekton": {
+  "dr-mundo": {
     "strong_against": [
-      "darius",
-      "garen",
-      "fiora",
-      "teemo"
+      "jax",
+      "singed",
+      "renekton",
+      "nasus",
+      "tryndamere",
+      "irelia"
     ],
     "weak_against": [
       "riven",
-      "irelia"
-    ]
-  },
-  "seraphine": {
-    "strong_against": [],
-    "weak_against": [
-      "zed"
-    ]
-  },
-  "sett": {
-    "strong_against": [
-      "fiora",
       "darius",
-      "vayne",
-      "teemo"
-    ],
-    "weak_against": []
-  },
-  "singed": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "sion": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "sivir": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "skarner": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "smolder": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "sona": {
-    "strong_against": [
-      "blitzcrank",
-      "thresh",
-      "leona",
-      "pyke"
-    ],
-    "weak_against": []
-  },
-  "soraka": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "teemo": {
-    "strong_against": [],
-    "weak_against": [
-      "camille",
-      "darius",
-      "renekton",
-      "sett",
-      "nasus"
-    ]
-  },
-  "thresh": {
-    "strong_against": [
-      "alistar",
-      "braum",
-      "morgana",
-      "blitzcrank"
-    ],
-    "weak_against": [
-      "braum",
-      "lulu",
-      "nami",
-      "sona"
-    ]
-  },
-  "tristana": {
-    "strong_against": [
-      "caitlyn",
-      "lucian",
-      "draven"
-    ],
-    "weak_against": [
-      "ezreal",
-      "jhin",
-      "vayne"
-    ]
-  },
-  "twisted-fate": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "urgot": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "vayne": {
-    "strong_against": [
-      "caitlyn",
-      "draven",
-      "tristana",
-      "miss fortune"
-    ],
-    "weak_against": [
-      "darius",
-      "garen",
-      "sett",
-      "nasus"
-    ]
-  },
-  "viktor": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "vladimir": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "volibear": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "warwick": {
-    "strong_against": [
-      "rammus",
-      "xin zhao",
-      "lee sin"
-    ],
-    "weak_against": [
-      "amumu",
-      "evelynn",
-      "vi",
-      "graves"
-    ]
-  },
-  "yone": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "yunara": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "yuumi": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "zeri": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "ziggs": {
-    "strong_against": [],
-    "weak_against": [
-      "ahri",
-      "akali",
-      "yasuo",
-      "katarina",
+      "shyvana",
+      "olaf",
       "fizz"
     ]
   },
-  "brand": {
-    "strong_against": [],
+  "draven": {
+    "strong_against": [
+      "ezreal",
+      "vayne",
+      "jinx",
+      "tristana",
+      "ashe",
+      "miss-fortune"
+    ],
     "weak_against": [
-      "yasuo"
+      "varus",
+      "caitlyn",
+      "blitzcrank",
+      "nami",
+      "leona",
+      "jinx"
+    ]
+  },
+  "ekko": {
+    "strong_against": [
+      "lux",
+      "veigar",
+      "orianna",
+      "ziggs",
+      "syndra",
+      "katarina"
+    ],
+    "weak_against": [
+      "fizz",
+      "diana",
+      "kassadin",
+      "ahri",
+      "annie",
+      "veigar"
+    ]
+  },
+  "evelynn": {
+    "strong_against": [
+      "graves",
+      "dr-mundo",
+      "jarvan-iv",
+      "amumu"
+    ],
+    "weak_against": [
+      "kha-zix",
+      "xin-zhao",
+      "lee-sin",
+      "master-yi",
+      "rengar"
+    ]
+  },
+  "ezreal": {
+    "strong_against": [
+      "veigar",
+      "orianna",
+      "lee-sin",
+      "lux",
+      "katarina",
+      "tristana"
+    ],
+    "weak_against": [
+      "fizz",
+      "diana",
+      "annie",
+      "gragas",
+      "draven",
+      "graves"
+    ]
+  },
+  "fiddlesticks": {
+    "strong_against": [
+      "kayn",
+      "jarvan-iv",
+      "wukong",
+      "rammus",
+      "lee-sin",
+      "zed"
+    ],
+    "weak_against": [
+      "shyvana",
+      "vi",
+      "evelynn",
+      "nunu-willump",
+      "ekko"
+    ]
+  },
+  "fiora": {
+    "strong_against": [
+      "jayce",
+      "nasus",
+      "rengar",
+      "riven",
+      "xin-zhao",
+      "irelia"
+    ],
+    "weak_against": [
+      "jax",
+      "pantheon",
+      "darius",
+      "renekton",
+      "malphite",
+      "singed"
     ]
   },
   "fizz": {
     "strong_against": [
-      "lux",
-      "orianna",
-      "veigar",
-      "ziggs",
-      "xerath"
+      "gragas",
+      "karma",
+      "jayce",
+      "riven",
+      "darius",
+      "nasus"
     ],
-    "weak_against": []
-  },
-  "kai-sa": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "mel": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "rell": {
-    "strong_against": [],
-    "weak_against": []
-  },
-  "tryndamere": {
-    "strong_against": [],
     "weak_against": [
+      "dr-mundo",
+      "darius",
+      "olaf",
+      "tryndamere"
+    ]
+  },
+  "galio": {
+    "strong_against": [
+      "singed",
+      "renekton",
+      "teemo",
+      "kennen"
+    ],
+    "weak_against": [
+      "malphite",
+      "jax",
+      "riven",
+      "pantheon"
+    ]
+  },
+  "garen": {
+    "strong_against": [
+      "riven",
+      "nasus",
+      "renekton",
+      "akali",
+      "irelia",
+      "wukong"
+    ],
+    "weak_against": [
+      "teemo",
+      "darius",
+      "pantheon",
+      "jayce",
+      "kennen",
+      "yasuo"
+    ]
+  },
+  "gnar": {
+    "strong_against": [
+      "sion",
+      "garen",
+      "olaf",
+      "sett",
+      "gwen",
+      "aatrox"
+    ],
+    "weak_against": [
+      "irelia",
+      "darius",
+      "olaf",
+      "renekton",
+      "nasus",
+      "camille"
+    ]
+  },
+  "gragas": {
+    "strong_against": [
+      "nasus",
+      "darius",
+      "teemo",
+      "malphite",
+      "kennen"
+    ],
+    "weak_against": [
+      "fizz",
+      "pantheon",
+      "akali",
+      "yasuo",
+      "ahri"
+    ]
+  },
+  "graves": {
+    "strong_against": [
+      "master-yi",
+      "wukong",
+      "jarvan-iv",
+      "lee-sin"
+    ],
+    "weak_against": [
+      "evelynn",
+      "vi",
+      "rengar",
+      "kha-zix",
       "rammus"
     ]
   },
-  "twitch": {
-    "strong_against": [],
-    "weak_against": []
+  "gwen": {
+    "strong_against": [
+      "fizz",
+      "vi",
+      "kayle",
+      "jax"
+    ],
+    "weak_against": [
+      "zed",
+      "nunu-willump",
+      "dr-mundo",
+      "xin-zhao",
+      "jarvan-iv"
+    ]
   },
-  "vel-koz": {
-    "strong_against": [],
-    "weak_against": []
+  "hecarim": {
+    "strong_against": [
+      "rammus",
+      "lee-sin",
+      "kayn",
+      "graves",
+      "rengar",
+      "diana"
+    ],
+    "weak_against": [
+      "master-yi",
+      "evelynn",
+      "warwick",
+      "vi",
+      "shyvana",
+      "jarvan-iv"
+    ]
   },
-  "zoe": {
-    "strong_against": [],
-    "weak_against": []
+  "heimerdinger": {
+    "strong_against": [
+      "lissandra",
+      "veigar",
+      "orianna",
+      "lux",
+      "malphite",
+      "galio"
+    ],
+    "weak_against": [
+      "zed",
+      "yasuo",
+      "fizz",
+      "ziggs",
+      "syndra",
+      "ahri"
+    ]
   },
-  "kayle": {
-    "strong_against": [],
-    "weak_against": []
+  "irelia": {
+    "strong_against": [
+      "zed",
+      "diana",
+      "riven",
+      "jayce"
+    ],
+    "weak_against": [
+      "olaf",
+      "garen",
+      "darius",
+      "renekton",
+      "nasus"
+    ]
   },
-  "nasus": {
+  "janna": {
+    "strong_against": [
+      "kennen",
+      "alistar",
+      "leona",
+      "morgana",
+      "thresh",
+      "nunu-willump"
+    ],
+    "weak_against": [
+      "nami",
+      "blitzcrank",
+      "lux",
+      "sona"
+    ]
+  },
+  "jarvan-iv": {
+    "strong_against": [
+      "alistar",
+      "malphite",
+      "nasus",
+      "evelynn",
+      "olaf",
+      "kha-zix"
+    ],
+    "weak_against": [
+      "vi",
+      "lee-sin",
+      "xin-zhao",
+      "nunu-willump"
+    ]
+  },
+  "jax": {
+    "strong_against": [
+      "fiora",
+      "zed",
+      "master-yi",
+      "rengar",
+      "xin-zhao",
+      "darius"
+    ],
+    "weak_against": [
+      "renekton",
+      "garen",
+      "pantheon",
+      "singed",
+      "jayce"
+    ]
+  },
+  "jayce": {
     "strong_against": [
       "darius",
       "teemo",
+      "garen",
+      "shen",
+      "singed",
+      "jax"
+    ],
+    "weak_against": [
+      "fiora",
+      "wukong",
+      "xin-zhao",
+      "pantheon"
+    ]
+  },
+  "jhin": {
+    "strong_against": [
+      "xayah",
+      "caitlyn",
+      "varus",
       "vayne",
+      "sona",
+      "ashe"
+    ],
+    "weak_against": [
+      "lucian",
+      "vayne",
+      "varus",
+      "ezreal",
+      "tristana"
+    ]
+  },
+  "jinx": {
+    "strong_against": [
+      "caitlyn",
+      "miss-fortune",
+      "amumu",
+      "evelynn",
       "fiora"
     ],
-    "weak_against": []
+    "weak_against": [
+      "draven",
+      "tristana",
+      "graves",
+      "ashe"
+    ]
+  },
+  "k-sante": {
+    "strong_against": [
+      "vladimir",
+      "ambessa",
+      "camille",
+      "yone",
+      "nasus",
+      "poppy"
+    ],
+    "weak_against": [
+      "riven",
+      "urgot",
+      "jayce",
+      "renekton",
+      "kayle",
+      "kennen"
+    ]
+  },
+  "kai-sa": {
+    "strong_against": [
+      "ezreal",
+      "tristana",
+      "caitlyn"
+    ],
+    "weak_against": [
+      "miss-fortune",
+      "vayne",
+      "draven",
+      "ashe",
+      "lucian",
+      "jinx"
+    ]
+  },
+  "kalista": {
+    "strong_against": [
+      "senna",
+      "ezreal",
+      "varus",
+      "jhin",
+      "sivir"
+    ],
+    "weak_against": [
+      "nilah",
+      "xayah",
+      "lucian",
+      "twitch",
+      "ashe",
+      "zeri"
+    ]
+  },
+  "karma": {
+    "strong_against": [
+      "fizz",
+      "diana",
+      "katarina",
+      "zed",
+      "akali"
+    ],
+    "weak_against": [
+      "veigar",
+      "lux",
+      "orianna",
+      "ahri",
+      "yasuo"
+    ]
+  },
+  "kassadin": {
+    "strong_against": [
+      "lux",
+      "orianna",
+      "veigar",
+      "syndra",
+      "brand"
+    ],
+    "weak_against": [
+      "zed",
+      "talon",
+      "akali",
+      "yasuo",
+      "diana",
+      "fizz"
+    ]
+  },
+  "katarina": {
+    "strong_against": [
+      "veigar",
+      "lux",
+      "akali",
+      "morgana"
+    ],
+    "weak_against": [
+      "fizz",
+      "kayle",
+      "yasuo",
+      "pantheon",
+      "annie",
+      "ahri"
+    ]
+  },
+  "kayle": {
+    "strong_against": [
+      "zed",
+      "darius",
+      "olaf",
+      "singed",
+      "fiora",
+      "garen"
+    ],
+    "weak_against": [
+      "nasus",
+      "pantheon",
+      "xin-zhao",
+      "jarvan-iv",
+      "riven",
+      "jax"
+    ]
+  },
+  "kayn": {
+    "strong_against": [
+      "rammus",
+      "diana",
+      "jarvan-iv",
+      "lee-sin"
+    ],
+    "weak_against": [
+      "vi",
+      "rengar",
+      "shyvana",
+      "evelynn",
+      "master-yi",
+      "xin-zhao"
+    ]
+  },
+  "kennen": {
+    "strong_against": [
+      "riven",
+      "olaf",
+      "singed",
+      "renekton",
+      "darius",
+      "nasus"
+    ],
+    "weak_against": [
+      "pantheon",
+      "irelia",
+      "kayle",
+      "fiora"
+    ]
+  },
+  "kha-zix": {
+    "strong_against": [
+      "evelynn",
+      "amumu",
+      "master-yi",
+      "jarvan-iv",
+      "shyvana"
+    ],
+    "weak_against": [
+      "rengar",
+      "vi",
+      "lee-sin"
+    ]
+  },
+  "kindred": {
+    "strong_against": [
+      "nunu-willump",
+      "shyvana",
+      "viego",
+      "rengar",
+      "jarvan-iv",
+      "ekko"
+    ],
+    "weak_against": [
+      "lee-sin",
+      "gragas",
+      "master-yi",
+      "evelynn",
+      "kha-zix",
+      "vi"
+    ]
+  },
+  "kog-maw": {
+    "strong_against": [
+      "corki",
+      "xayah",
+      "varus",
+      "samira",
+      "tristana",
+      "ezreal"
+    ],
+    "weak_against": [
+      "vayne",
+      "draven",
+      "miss-fortune",
+      "twitch",
+      "ashe",
+      "jinx"
+    ]
+  },
+  "lee-sin": {
+    "strong_against": [
+      "amumu",
+      "jarvan-iv",
+      "rengar",
+      "xin-zhao"
+    ],
+    "weak_against": [
+      "shyvana",
+      "rammus",
+      "vi",
+      "evelynn",
+      "wukong"
+    ]
+  },
+  "leona": {
+    "strong_against": [
+      "blitzcrank",
+      "sona",
+      "draven",
+      "varus",
+      "braum",
+      "caitlyn"
+    ],
+    "weak_against": [
+      "morgana",
+      "alistar",
+      "janna",
+      "lulu",
+      "karma",
+      "thresh"
+    ]
+  },
+  "lillia": {
+    "strong_against": [
+      "rammus",
+      "wukong",
+      "shyvana",
+      "nunu-willump",
+      "warwick",
+      "kha-zix"
+    ],
+    "weak_against": [
+      "rengar",
+      "ekko",
+      "diana",
+      "master-yi",
+      "evelynn",
+      "jarvan-iv"
+    ]
+  },
+  "lissandra": {
+    "strong_against": [
+      "yone",
+      "akshan",
+      "twisted-fate",
+      "yasuo",
+      "katarina",
+      "fizz"
+    ],
+    "weak_against": [
+      "vex",
+      "lux",
+      "malphite",
+      "zed",
+      "kassadin",
+      "varus"
+    ]
+  },
+  "lucian": {
+    "strong_against": [
+      "thresh",
+      "ashe",
+      "miss-fortune",
+      "varus",
+      "corki",
+      "blitzcrank"
+    ],
+    "weak_against": [
+      "vayne",
+      "tristana",
+      "graves",
+      "caitlyn",
+      "ezreal"
+    ]
+  },
+  "lulu": {
+    "strong_against": [
+      "thresh",
+      "leona",
+      "nami",
+      "blitzcrank",
+      "alistar",
+      "kennen"
+    ],
+    "weak_against": [
+      "sona",
+      "soraka",
+      "blitzcrank",
+      "amumu",
+      "annie",
+      "zed"
+    ]
+  },
+  "lux": {
+    "strong_against": [
+      "brand",
+      "annie",
+      "orianna",
+      "corki",
+      "irelia",
+      "akali"
+    ],
+    "weak_against": [
+      "diana",
+      "katarina",
+      "yasuo",
+      "ahri",
+      "veigar",
+      "fizz"
+    ]
+  },
+  "malphite": {
+    "strong_against": [
+      "jayce",
+      "tryndamere",
+      "jax",
+      "renekton",
+      "teemo"
+    ],
+    "weak_against": [
+      "olaf",
+      "shen",
+      "nasus",
+      "garen",
+      "camille"
+    ]
+  },
+  "maokai": {
+    "strong_against": [
+      "pyke",
+      "rakan",
+      "lux",
+      "sona",
+      "senna",
+      "seraphine"
+    ],
+    "weak_against": [
+      "braum",
+      "alistar",
+      "janna",
+      "thresh",
+      "lulu",
+      "zyra"
+    ]
+  },
+  "master-yi": {
+    "strong_against": [
+      "evelynn",
+      "jarvan-iv",
+      "lee-sin",
+      "xin-zhao",
+      "rengar"
+    ],
+    "weak_against": [
+      "rammus",
+      "vi",
+      "amumu",
+      "kha-zix"
+    ]
+  },
+  "mel": {
+    "strong_against": [
+      "ahri",
+      "lux",
+      "yone",
+      "orianna",
+      "zed",
+      "vladimir"
+    ],
+    "weak_against": [
+      "aurelion-sol",
+      "kassadin",
+      "kayle",
+      "fizz",
+      "syndra",
+      "ziggs"
+    ]
+  },
+  "milio": {
+    "strong_against": [
+      "seraphine",
+      "soraka",
+      "rakan",
+      "leona",
+      "janna",
+      "nami"
+    ],
+    "weak_against": [
+      "blitzcrank",
+      "thresh",
+      "pyke",
+      "nautilus",
+      "senna",
+      "lux"
+    ]
+  },
+  "miss-fortune": {
+    "strong_against": [
+      "caitlyn",
+      "tristana",
+      "ezreal",
+      "ashe"
+    ],
+    "weak_against": [
+      "draven",
+      "varus",
+      "jhin",
+      "lucian",
+      "vayne",
+      "xayah"
+    ]
+  },
+  "mordekaiser": {
+    "strong_against": [
+      "sion",
+      "sett",
+      "garen",
+      "akali",
+      "shen",
+      "yone"
+    ],
+    "weak_against": [
+      "olaf",
+      "fiora",
+      "warwick",
+      "riven",
+      "jax",
+      "gwen"
+    ]
+  },
+  "morgana": {
+    "strong_against": [
+      "leona",
+      "braum",
+      "blitzcrank",
+      "nami",
+      "alistar",
+      "draven"
+    ],
+    "weak_against": [
+      "karma",
+      "janna",
+      "sona",
+      "soraka"
+    ]
+  },
+  "nami": {
+    "strong_against": [
+      "draven",
+      "janna",
+      "thresh",
+      "karma",
+      "braum",
+      "miss-fortune"
+    ],
+    "weak_against": [
+      "lulu",
+      "ezreal",
+      "blitzcrank",
+      "morgana",
+      "leona",
+      "alistar"
+    ]
+  },
+  "nasus": {
+    "strong_against": [
+      "irelia",
+      "zed",
+      "wukong",
+      "kayle",
+      "jax",
+      "shen"
+    ],
+    "weak_against": [
+      "teemo",
+      "olaf",
+      "pantheon",
+      "darius",
+      "garen"
+    ]
+  },
+  "nautilus": {
+    "strong_against": [
+      "yuumi",
+      "thresh",
+      "karma",
+      "lux",
+      "brand"
+    ],
+    "weak_against": [
+      "morgana",
+      "janna",
+      "alistar",
+      "rakan",
+      "seraphine",
+      "lulu"
+    ]
+  },
+  "nidalee": {
+    "strong_against": [
+      "pantheon",
+      "nunu-willump",
+      "wukong",
+      "graves",
+      "gragas"
+    ],
+    "weak_against": [
+      "rammus",
+      "warwick",
+      "amumu",
+      "master-yi",
+      "ekko",
+      "nocturne"
+    ]
+  },
+  "nilah": {
+    "strong_against": [
+      "jinx",
+      "twitch",
+      "zeri",
+      "vayne",
+      "ezreal",
+      "lucian"
+    ],
+    "weak_against": [
+      "caitlyn",
+      "xayah",
+      "seraphine",
+      "ashe",
+      "jhin",
+      "varus"
+    ]
+  },
+  "nocturne": {
+    "strong_against": [
+      "kha-zix",
+      "viego",
+      "gwen",
+      "gragas",
+      "amumu",
+      "diana"
+    ],
+    "weak_against": [
+      "kindred",
+      "ekko",
+      "jarvan-iv",
+      "rammus",
+      "master-yi"
+    ]
+  },
+  "norra": {
+    "strong_against": [
+      "orianna",
+      "annie",
+      "aurelion-sol",
+      "morgana",
+      "teemo"
+    ],
+    "weak_against": [
+      "ekko",
+      "zoe",
+      "rengar",
+      "malphite",
+      "nocturne",
+      "ahri"
+    ]
+  },
+  "nunu-willump": {
+    "strong_against": [
+      "jarvan-iv",
+      "tryndamere",
+      "shyvana",
+      "lee-sin",
+      "rammus",
+      "xin-zhao"
+    ],
+    "weak_against": [
+      "lee-sin",
+      "vi",
+      "kha-zix",
+      "diana",
+      "evelynn"
+    ]
+  },
+  "olaf": {
+    "strong_against": [
+      "irelia",
+      "nasus",
+      "shyvana",
+      "renekton",
+      "malphite",
+      "gragas"
+    ],
+    "weak_against": [
+      "kennen",
+      "kayle",
+      "pantheon",
+      "tryndamere",
+      "riven",
+      "shen",
+      "sett",
+      "jax"
+    ]
+  },
+  "orianna": {
+    "strong_against": [
+      "annie",
+      "lux",
+      "kayle",
+      "fizz",
+      "akali",
+      "yasuo"
+    ],
+    "weak_against": [
+      "diana",
+      "gragas",
+      "ziggs",
+      "ahri",
+      "zed"
+    ]
+  },
+  "ornn": {
+    "strong_against": [
+      "sion",
+      "renekton",
+      "jayce",
+      "sett",
+      "jax",
+      "yone"
+    ],
+    "weak_against": [
+      "fiora",
+      "shen",
+      "olaf",
+      "camille",
+      "riven",
+      "vayne"
+    ]
+  },
+  "pantheon": {
+    "strong_against": [
+      "nasus",
+      "riven",
+      "fiora",
+      "teemo",
+      "jax",
+      "garen"
+    ],
+    "weak_against": [
+      "shen",
+      "olaf",
+      "darius",
+      "malphite"
+    ]
+  },
+  "poppy": {
+    "strong_against": [
+      "yone",
+      "irelia",
+      "jayce",
+      "akali",
+      "teemo",
+      "fiora"
+    ],
+    "weak_against": [
+      "shen",
+      "darius",
+      "garen",
+      "camille",
+      "malphite",
+      "olaf"
+    ]
+  },
+  "pyke": {
+    "strong_against": [
+      "teemo",
+      "shen",
+      "renekton",
+      "yasuo",
+      "jax",
+      "jayce"
+    ],
+    "weak_against": [
+      "garen",
+      "pantheon",
+      "riven",
+      "dr-mundo",
+      "tryndamere",
+      "nasus"
+    ]
+  },
+  "rakan": {
+    "strong_against": [
+      "nami",
+      "blitzcrank",
+      "lucian",
+      "soraka",
+      "miss-fortune",
+      "thresh"
+    ],
+    "weak_against": [
+      "lulu",
+      "leona",
+      "janna",
+      "alistar",
+      "karma",
+      "veigar"
+    ]
+  },
+  "rammus": {
+    "strong_against": [
+      "tryndamere",
+      "master-yi",
+      "xin-zhao",
+      "graves",
+      "lee-sin"
+    ],
+    "weak_against": [
+      "shyvana",
+      "vi",
+      "nunu-willump",
+      "evelynn"
+    ]
+  },
+  "rell": {
+    "strong_against": [
+      "rakan",
+      "pyke",
+      "yuumi",
+      "nautilus",
+      "leona",
+      "lulu"
+    ],
+    "weak_against": [
+      "janna",
+      "sona",
+      "nami",
+      "morgana",
+      "seraphine",
+      "zyra"
+    ]
+  },
+  "renekton": {
+    "strong_against": [
+      "riven",
+      "irelia",
+      "fiora",
+      "jax",
+      "akali",
+      "tryndamere"
+    ],
+    "weak_against": [
+      "garen",
+      "shyvana",
+      "vayne",
+      "olaf",
+      "jayce"
+    ]
+  },
+  "rengar": {
+    "strong_against": [
+      "kha-zix",
+      "vi",
+      "kennen",
+      "graves"
+    ],
+    "weak_against": [
+      "lee-sin",
+      "shyvana",
+      "rammus",
+      "amumu",
+      "jarvan-iv",
+      "nunu-willump"
+    ]
+  },
+  "riven": {
+    "strong_against": [
+      "vi",
+      "dr-mundo",
+      "nasus",
+      "lee-sin",
+      "rengar"
+    ],
+    "weak_against": [
+      "fiora",
+      "garen",
+      "renekton",
+      "kennen",
+      "pantheon",
+      "darius"
+    ]
+  },
+  "rumble": {
+    "strong_against": [
+      "yone",
+      "sett",
+      "teemo",
+      "irelia",
+      "wukong",
+      "malphite"
+    ],
+    "weak_against": [
+      "garen",
+      "jayce",
+      "sion",
+      "shen",
+      "camille",
+      "tryndamere"
+    ]
+  },
+  "ryze": {
+    "strong_against": [
+      "akali",
+      "fizz",
+      "kassadin",
+      "vex",
+      "katarina"
+    ],
+    "weak_against": [
+      "swain",
+      "annie",
+      "jayce",
+      "yasuo",
+      "irelia",
+      "orianna"
+    ]
+  },
+  "samira": {
+    "strong_against": [
+      "jhin",
+      "xayah",
+      "ashe",
+      "varus",
+      "zeri",
+      "sivir"
+    ],
+    "weak_against": [
+      "caitlyn",
+      "draven",
+      "tristana",
+      "lucian",
+      "ezreal",
+      "nilah"
+    ]
+  },
+  "senna": {
+    "strong_against": [
+      "thresh",
+      "leona",
+      "rakan",
+      "seraphine",
+      "alistar",
+      "jinx"
+    ],
+    "weak_against": [
+      "sona",
+      "nami",
+      "soraka",
+      "miss-fortune",
+      "jhin",
+      "kai-sa"
+    ]
+  },
+  "seraphine": {
+    "strong_against": [
+      "orianna",
+      "karma",
+      "lux",
+      "annie",
+      "corki"
+    ],
+    "weak_against": [
+      "fizz",
+      "ziggs",
+      "irelia",
+      "twisted-fate",
+      "katarina"
+    ]
+  },
+  "sett": {
+    "strong_against": [
+      "yasuo",
+      "fiora",
+      "zed",
+      "master-yi",
+      "rengar"
+    ],
+    "weak_against": [
+      "malphite",
+      "renekton",
+      "garen",
+      "pantheon",
+      "singed",
+      "jayce"
+    ]
+  },
+  "shen": {
+    "strong_against": [
+      "pantheon",
+      "malphite",
+      "fiora",
+      "renekton",
+      "riven",
+      "jarvan-iv"
+    ],
+    "weak_against": [
+      "jayce",
+      "darius",
+      "teemo"
+    ]
+  },
+  "shyvana": {
+    "strong_against": [
+      "amumu",
+      "rammus",
+      "jarvan-iv",
+      "rengar",
+      "master-yi",
+      "evelynn"
+    ],
+    "weak_against": [
+      "vi",
+      "lee-sin",
+      "kha-zix",
+      "gragas"
+    ]
+  },
+  "singed": {
+    "strong_against": [
+      "jax",
+      "fiora",
+      "lee-sin",
+      "tryndamere",
+      "wukong",
+      "irelia"
+    ],
+    "weak_against": [
+      "teemo",
+      "jayce",
+      "kennen"
+    ]
+  },
+  "sion": {
+    "strong_against": [
+      "garen",
+      "nasus",
+      "darius",
+      "shen",
+      "ornn",
+      "singed"
+    ],
+    "weak_against": [
+      "fiora",
+      "vayne",
+      "camille",
+      "riven",
+      "teemo",
+      "darius"
+    ]
+  },
+  "sivir": {
+    "strong_against": [
+      "ezreal",
+      "draven",
+      "tristana",
+      "lucian",
+      "xayah",
+      "varus"
+    ],
+    "weak_against": [
+      "jhin",
+      "jinx",
+      "kai-sa",
+      "miss-fortune",
+      "vayne",
+      "ashe"
+    ]
+  },
+  "skarner": {
+    "strong_against": [
+      "nidalee",
+      "warwick",
+      "volibear",
+      "nocturne",
+      "jax",
+      "kindred"
+    ],
+    "weak_against": [
+      "ambessa",
+      "vi",
+      "jarvan-iv",
+      "evelynn",
+      "viego"
+    ]
+  },
+  "smolder": {
+    "strong_against": [
+      "corki",
+      "kalista",
+      "varus",
+      "ezreal",
+      "xayah",
+      "zeri"
+    ],
+    "weak_against": [
+      "kog-maw",
+      "yasuo",
+      "ziggs",
+      "caitlyn",
+      "tristana",
+      "swain"
+    ]
+  },
+  "sona": {
+    "strong_against": [
+      "morgana",
+      "lulu",
+      "vayne",
+      "nunu-willump",
+      "nami",
+      "janna"
+    ],
+    "weak_against": [
+      "blitzcrank",
+      "leona",
+      "thresh",
+      "miss-fortune",
+      "caitlyn",
+      "ezreal"
+    ]
+  },
+  "soraka": {
+    "strong_against": [
+      "braum",
+      "lulu",
+      "alistar",
+      "nunu-willump",
+      "lucian",
+      "morgana"
+    ],
+    "weak_against": [
+      "miss-fortune",
+      "blitzcrank",
+      "tristana",
+      "thresh",
+      "varus",
+      "leona"
+    ]
+  },
+  "swain": {
+    "strong_against": [
+      "akali",
+      "sion",
+      "teemo",
+      "nasus",
+      "irelia"
+    ],
+    "weak_against": [
+      "riven",
+      "jayce",
+      "shen",
+      "jax",
+      "sett",
+      "yone"
+    ]
+  },
+  "syndra": {
+    "strong_against": [
+      "zoe",
+      "orianna",
+      "akshan",
+      "yone",
+      "jayce",
+      "brand"
+    ],
+    "weak_against": [
+      "fizz",
+      "kassadin",
+      "lux",
+      "yasuo",
+      "kayle",
+      "talon"
+    ]
+  },
+  "taliyah": {
+    "strong_against": [
+      "malphite",
+      "pantheon",
+      "amumu",
+      "jax",
+      "volibear"
+    ],
+    "weak_against": [
+      "evelynn",
+      "rammus",
+      "master-yi",
+      "fiddlesticks",
+      "kindred",
+      "dr-mundo"
+    ]
+  },
+  "talon": {
+    "strong_against": [
+      "lux",
+      "ziggs",
+      "annie",
+      "twisted-fate",
+      "ahri",
+      "zoe"
+    ],
+    "weak_against": [
+      "ekko",
+      "vex",
+      "veigar",
+      "fizz",
+      "kassadin",
+      "katarina"
+    ]
+  },
+  "teemo": {
+    "strong_against": [
+      "tryndamere",
+      "nasus",
+      "garen",
+      "singed",
+      "darius",
+      "shen"
+    ],
+    "weak_against": [
+      "pantheon",
+      "zed",
+      "jayce",
+      "akali",
+      "lux",
+      "karma"
+    ]
+  },
+  "thresh": {
+    "strong_against": [
+      "tryndamere",
+      "nasus",
+      "garen",
+      "singed",
+      "darius",
+      "shen"
+    ],
+    "weak_against": [
+      "pantheon",
+      "zed",
+      "jayce",
+      "akali"
+    ]
+  },
+  "tristana": {
+    "strong_against": [
+      "blitzcrank",
+      "leona",
+      "sona",
+      "varus",
+      "soraka"
+    ],
+    "weak_against": [
+      "lulu",
+      "morgana",
+      "lucian",
+      "janna",
+      "ezreal"
+    ]
+  },
+  "tryndamere": {
+    "strong_against": [
+      "zed",
+      "master-yi",
+      "darius",
+      "riven",
+      "wukong",
+      "irelia"
+    ],
+    "weak_against": [
+      "teemo",
+      "renekton",
+      "malphite",
+      "pantheon",
+      "jax"
+    ]
+  },
+  "twisted-fate": {
+    "strong_against": [
+      "evelynn",
+      "ziggs",
+      "annie",
+      "karma"
+    ],
+    "weak_against": [
+      "fizz",
+      "diana",
+      "ahri",
+      "yasuo",
+      "akali",
+      "veigar"
+    ]
+  },
+  "twitch": {
+    "strong_against": [
+      "vayne",
+      "jinx",
+      "varus",
+      "ashe",
+      "ezreal",
+      "miss-fortune"
+    ],
+    "weak_against": [
+      "jhin",
+      "tristana",
+      "kai-sa",
+      "draven",
+      "xayah",
+      "samira"
+    ]
+  },
+  "urgot": {
+    "strong_against": [
+      "jayce",
+      "gragas",
+      "akali",
+      "renekton",
+      "kayle",
+      "tryndamere"
+    ],
+    "weak_against": [
+      "nasus",
+      "fiora",
+      "garen",
+      "teemo",
+      "malphite",
+      "aatrox"
+    ]
+  },
+  "varus": {
+    "strong_against": [
+      "draven",
+      "caitlyn",
+      "vayne",
+      "miss-fortune",
+      "ashe",
+      "jhin"
+    ],
+    "weak_against": [
+      "tristana",
+      "leona",
+      "lucian",
+      "annie",
+      "fizz",
+      "ahri",
+      "master-yi",
+      "zed"
+    ]
+  },
+  "vayne": {
+    "strong_against": [
+      "lucian",
+      "ezreal",
+      "jhin",
+      "alistar",
+      "braum",
+      "miss-fortune"
+    ],
+    "weak_against": [
+      "teemo",
+      "akshan",
+      "pantheon",
+      "wukong",
+      "lee-sin",
+      "caitlyn",
+      "draven",
+      "varus",
+      "ashe",
+      "tristana",
+      "graves"
+    ]
+  },
+  "veigar": {
+    "strong_against": [
+      "ahri",
+      "twisted-fate",
+      "ziggs",
+      "brand",
+      "kha-zix",
+      "yasuo"
+    ],
+    "weak_against": [
+      "annie",
+      "zed",
+      "katarina"
+    ]
+  },
+  "vel-koz": {
+    "strong_against": [
+      "twisted-fate",
+      "veigar",
+      "corki",
+      "lux",
+      "ryze",
+      "viktor"
+    ],
+    "weak_against": [
+      "yone",
+      "irelia",
+      "zed",
+      "kassadin",
+      "fizz",
+      "ekko"
+    ]
+  },
+  "vex": {
+    "strong_against": [
+      "annie",
+      "varus",
+      "fizz",
+      "orianna",
+      "lux"
+    ],
+    "weak_against": [
+      "pantheon",
+      "galio",
+      "diana",
+      "veigar",
+      "kassadin",
+      "katarina"
+    ]
+  },
+  "vi": {
+    "strong_against": [
+      "jarvan-iv",
+      "shyvana",
+      "amumu",
+      "master-yi"
+    ],
+    "weak_against": [
+      "lee-sin",
+      "xin-zhao",
+      "kha-zix",
+      "jax",
+      "pantheon"
+    ]
+  },
+  "viego": {
+    "strong_against": [
+      "kayn",
+      "graves",
+      "jarvan-iv",
+      "diana",
+      "shyvana",
+      "xin-zhao"
+    ],
+    "weak_against": [
+      "rammus",
+      "evelynn",
+      "warwick",
+      "vi",
+      "amumu"
+    ]
+  },
+  "viktor": {
+    "strong_against": [
+      "varus",
+      "vex",
+      "yasuo",
+      "katarina",
+      "twisted-fate",
+      "veigar"
+    ],
+    "weak_against": [
+      "ekko",
+      "fizz",
+      "lux",
+      "galio",
+      "zed",
+      "kassadin"
+    ]
+  },
+  "vladimir": {
+    "strong_against": [
+      "teemo",
+      "jayce",
+      "akali",
+      "jax",
+      "darius",
+      "kayle"
+    ],
+    "weak_against": [
+      "shen",
+      "camille",
+      "nasus",
+      "irelia",
+      "riven",
+      "yone"
+    ]
+  },
+  "volibear": {
+    "strong_against": [
+      "sett",
+      "renekton",
+      "riven",
+      "irelia",
+      "tryndamere",
+      "yone"
+    ],
+    "weak_against": [
+      "teemo",
+      "fiora",
+      "vayne",
+      "darius",
+      "dr-mundo",
+      "jayce"
+    ]
+  },
+  "warwick": {
+    "strong_against": [
+      "master-yi",
+      "lee-sin",
+      "shyvana",
+      "kha-zix",
+      "gragas"
+    ],
+    "weak_against": [
+      "evelynn",
+      "nunu-willump",
+      "rengar"
+    ]
+  },
+  "wukong": {
+    "strong_against": [
+      "zed",
+      "jayce",
+      "teemo",
+      "pantheon",
+      "irelia",
+      "jax"
+    ],
+    "weak_against": [
+      "lee-sin",
+      "darius",
+      "garen",
+      "nasus",
+      "olaf",
+      "pantheon"
+    ]
+  },
+  "xayah": {
+    "strong_against": [
+      "ashe",
+      "vayne",
+      "shen",
+      "akali"
+    ],
+    "weak_against": [
+      "miss-fortune",
+      "tristana",
+      "jhin",
+      "varus",
+      "caitlyn",
+      "ezreal"
+    ]
+  },
+  "xin-zhao": {
+    "strong_against": [
+      "jayce",
+      "kayle",
+      "darius",
+      "riven",
+      "vi",
+      "zed",
+      "jarvan-iv"
+    ],
+    "weak_against": [
+      "jax",
+      "pantheon",
+      "teemo",
+      "fiora",
+      "malphite",
+      "lee-sin"
+    ]
+  },
+  "yasuo": {
+    "strong_against": [
+      "darius",
+      "teemo",
+      "riven",
+      "jayce",
+      "yasuo",
+      "veigar",
+      "ziggs",
+      "orianna"
+    ],
+    "weak_against": [
+      "renekton",
+      "garen",
+      "camille",
+      "darius",
+      "irelia",
+      "xin-zhao",
+      "kayle"
+    ]
+  },
+  "yone": {
+    "strong_against": [
+      "orianna",
+      "corki",
+      "twisted-fate",
+      "irelia",
+      "yasuo"
+    ],
+    "weak_against": [
+      "annie",
+      "akshan",
+      "ahri",
+      "veigar",
+      "zed",
+      "fizz"
+    ]
+  },
+  "yunara": {
+    "strong_against": [
+      "ashe",
+      "jinx",
+      "sivir",
+      "kog-maw",
+      "caitlyn",
+      "zeri"
+    ],
+    "weak_against": [
+      "draven",
+      "tristana",
+      "lucian",
+      "vayne",
+      "jhin",
+      "nilah"
+    ]
+  },
+  "yuumi": {
+    "strong_against": [
+      "seraphine",
+      "brand",
+      "braum",
+      "lux",
+      "thresh"
+    ],
+    "weak_against": [
+      "leona",
+      "alistar",
+      "rakan",
+      "blitzcrank",
+      "soraka",
+      "sona"
+    ]
+  },
+  "zed": {
+    "strong_against": [
+      "darius",
+      "teemo",
+      "riven",
+      "jayce",
+      "yasuo"
+    ],
+    "weak_against": [
+      "kayle",
+      "jax",
+      "irelia",
+      "wukong",
+      "nasus",
+      "tryndamere"
+    ]
+  },
+  "zeri": {
+    "strong_against": [
+      "miss-fortune",
+      "ezreal",
+      "xayah",
+      "kai-sa",
+      "jinx",
+      "ashe"
+    ],
+    "weak_against": [
+      "draven",
+      "tristana",
+      "jhin",
+      "caitlyn",
+      "vayne",
+      "samira"
+    ]
+  },
+  "ziggs": {
+    "strong_against": [
+      "orianna",
+      "kayle",
+      "kennen",
+      "zed",
+      "caitlyn",
+      "twisted-fate"
+    ],
+    "weak_against": [
+      "yasuo",
+      "zed",
+      "brand",
+      "draven",
+      "ashe",
+      "blitzcrank",
+      "lucian"
+    ]
+  },
+  "zilean": {
+    "strong_against": [
+      "seraphine",
+      "brand",
+      "blitzcrank",
+      "nautilus",
+      "sona",
+      "alistar"
+    ],
+    "weak_against": [
+      "yuumi",
+      "maokai",
+      "lulu",
+      "leona",
+      "karma",
+      "pyke"
+    ]
+  },
+  "zoe": {
+    "strong_against": [
+      "akshan",
+      "irelia",
+      "orianna",
+      "fizz",
+      "lux",
+      "yasuo"
+    ],
+    "weak_against": [
+      "veigar",
+      "ahri",
+      "kassadin",
+      "twisted-fate",
+      "akali",
+      "zed"
+    ]
+  },
+  "zyra": {
+    "strong_against": [
+      "ashe",
+      "yuumi",
+      "seraphine",
+      "soraka",
+      "senna",
+      "karma"
+    ],
+    "weak_against": [
+      "janna",
+      "blitzcrank",
+      "lulu",
+      "sona",
+      "alistar",
+      "thresh"
+    ]
   }
 }
